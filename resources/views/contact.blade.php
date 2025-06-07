@@ -50,8 +50,8 @@
                     </div>
                     <h3 class="text-xl font-bold mb-2 text-[#0f2d49]">{{ __('contact.email_label') }}</h3>
                     <p class="text-gray-600">
-                        <a href="mailto:info@quantica.com" class="hover:text-[#0f2d49] transition-colors">
-                            info@quantica.com
+                        <a href="mailto:comercializacion@aquantica.com.mx" class="hover:text-[#0f2d49] transition-colors">
+                            comercializacion@aquantica.com.mx
                         </a>
                     </p>
                 </div>
@@ -76,8 +76,8 @@
                     </div>
                     <h3 class="text-xl font-bold mb-2 text-[#0f2d49]">{{ __('contact.phone_label') }}</h3>
                     <p class="text-gray-600">
-                        <a href="tel:+15555555555" class="hover:text-[#0f2d49] transition-colors">
-                            +1 (555) 555-5555
+                        <a href="tel:+529982097694" class="hover:text-[#0f2d49] transition-colors">
+                            +52 998 209 7694
                         </a>
                     </p>
                 </div>
