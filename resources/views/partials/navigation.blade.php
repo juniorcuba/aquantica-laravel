@@ -16,7 +16,7 @@
             <a href="/" class="relative w-40 h-12 block">
                 <img 
                     src="{{ asset('images/logo.png') }}" 
-                    alt="Quantica Logo" 
+                    alt="Aquantica Logo" 
                     class="w-full h-full object-contain" 
                     loading="lazy"
                 >
@@ -24,19 +24,16 @@
 
             {{-- Desktop Navigation --}}
             <nav class="hidden md:flex items-center justify-center flex-1">
-                <a href="" class="text-white font-medium hover:text-[#f5b027] transition-colors mx-4">
+                <a href="{{ __('navigation.home') }}" class="text-white font-medium hover:text-[#f5b027] transition-colors mx-4">
                     {{ __('navbar.nav_home') }}
                 </a>
-                <a href="" class="text-white font-medium hover:text-[#f5b027] transition-colors mx-4">
+                <a href="{{ __('navigation.coastal_services') }}" class="text-white font-medium hover:text-[#f5b027] transition-colors mx-4">
                     {{ __('navbar.nav_coastal_services') }}
                 </a>
-                <a href="" class="text-white font-medium hover:text-[#f5b027] transition-colors mx-4">
+                <a href="{{ __('navigation.offshore_services') }}" class="text-white font-medium hover:text-[#f5b027] transition-colors mx-4">
                     {{ __('navbar.nav_offshore_services') }}
                 </a>
-                <a href="" class="text-white font-medium hover:text-[#f5b027] transition-colors mx-4">
-                    {{ __('navbar.nav_work_vessels') }}
-                </a>
-                <a href="" class="text-white font-medium hover:text-[#f5b027] transition-colors mx-4">
+                <a href="{{ __('navigation.contact') }}" class="text-white font-medium hover:text-[#f5b027] transition-colors mx-4">
                     {{ __('navbar.nav_contact') }}
                 </a>
             </nav>
@@ -64,19 +61,16 @@
         <div x-show="isOpen" class="md:hidden bg-[#121921] mt-3 rounded-lg py-4 px-2" x-transition>
             <nav class="flex flex-col space-y-4">
                 <a href="" class="text-white font-medium hover:text-[#f5b027] transition-colors px-4 py-2" @click="isOpen = false">
-                    {{ __('navbar.nav_home') }}
+                    {{ __('navegation.home') }}
                 </a>
                 <a href="" class="text-white font-medium hover:text-[#f5b027] transition-colors px-4 py-2" @click="isOpen = false">
-                    {{ __('navbar.nav_coastal_services') }}
+                    {{ __('navegation.coastal_services') }}
                 </a>
                 <a href="" class="text-white font-medium hover:text-[#f5b027] transition-colors px-4 py-2" @click="isOpen = false">
-                    {{ __('navbar.nav_offshore_services') }}
+                    {{ __('navegation.offshore_services') }}
                 </a>
                 <a href="" class="text-white font-medium hover:text-[#f5b027] transition-colors px-4 py-2" @click="isOpen = false">
-                    {{ __('navbar.nav_work_vessels') }}
-                </a>
-                <a href="" class="text-white font-medium hover:text-[#f5b027] transition-colors px-4 py-2" @click="isOpen = false">
-                    {{ __('navbar.nav_contact') }}
+                    {{ __('navegation.contact') }}
                 </a>
             </nav>
         </div>

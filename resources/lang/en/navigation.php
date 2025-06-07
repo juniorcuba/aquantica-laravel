@@ -1,8 +1,8 @@
 <?php
 
 return [
-    'home' => 'Home',
-    'coastal_services' => 'Coastal Services',
-    'offshore_services' => 'Offshore Services',
-    'contact' => 'Contact',
-]; 
+    'home' => '/',
+    'coastal_services' => '/coastal-services',
+    'offshore_services' => '/offshore-services',
+    'contact' => '/contact',
+];
