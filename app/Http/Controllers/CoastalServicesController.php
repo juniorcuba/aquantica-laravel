@@ -67,6 +67,7 @@ class CoastalServicesController extends Controller
             // 🔑 Always use the file prefix: coastal_services.<key>
             $title       = __('coastal_services.' . $raw['title_key']);
             $description = __('coastal_services.' . $raw['description_key']);
+            $prefix = app()->getLocale() === 'en' ? 'coastal-services' : 'servicios-costeros';
     
             return [
                 'title'       => $title,
@@ -75,6 +76,7 @@ class CoastalServicesController extends Controller
                 'features'    => $raw['features'],
                 'gallery'     => $raw['gallery_images'],
                 'slug'        => \Illuminate\Support\Str::slug($title),
+                'prefix'      => $prefix,
             ];
         });
     }
