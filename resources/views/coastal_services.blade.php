@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-    <meta charset="utf-8">
-    <title>{{ __('coastal_services.coastal_services_title') }}</title>
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-</head>
-<body class="antialiased text-gray-800">
+@extends('partials.app')
+
+@section('content')
 
     {{-- Hero --}}
     <section class="relative bg-cover bg-center py-32 md:py-48 text-white"
@@ -26,11 +21,10 @@
         <div class="container mx-auto px-4">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 @foreach ($services as $service)
-                    @include('partials.service-item-details', ['service' => $service])
+                    @include('components.service-item-details', ['service' => $service])
                 @endforeach
             </div>
         </div>
     </section>
 
-</body>
-</html>
+@endsection

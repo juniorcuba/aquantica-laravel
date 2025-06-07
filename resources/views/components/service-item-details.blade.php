@@ -1,6 +1,3 @@
-@php
-    $prefix = app()->getLocale() === 'en' ? 'coastal-services' : 'servicios-costeros';
-@endphp
 
 <div class="flex flex-col h-full bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105">
     <div class="relative w-full h-48">
@@ -15,7 +12,7 @@
         </p>
 
         <div class="mt-auto pt-4 border-t border-gray-200">
-            <a href="{{ url($prefix.'/'.$service['slug']) }}"
+            <a href="{{ url($service['prefix'].'/'.$service['slug']) }}"
                class="text-sm font-semibold text-[#f5b027] hover:text-[#0f2d49] transition-colors duration-200">
                 {{ app()->getLocale() === 'en' ? 'Learn More' : 'Saber Más' }}
                 <span aria-hidden="true"> &rarr;</span>
