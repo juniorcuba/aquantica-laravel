@@ -1,9 +1,9 @@
 <?php
 
 return [
-    "nav_home" => "Inicio",
-  "nav_coastal_services" => "Servicios Costeros",
-  "nav_offshore_services" => "Servicios Offshore",
-  "nav_work_vessels" => "Embarcaciones",
-  "nav_contact" => "Contacto"
-]; 
+  "nav_home" => "Home",
+  "nav_coastal_services" => "Coastal Services",
+  "nav_offshore_services" => "Offshore Services",
+  "nav_work_vessels" => "Vessels",
+  "nav_contact" => "Contact"
+];
