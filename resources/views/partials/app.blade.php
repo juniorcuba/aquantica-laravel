@@ -12,6 +12,15 @@
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
     <script src="//unpkg.com/alpinejs" defer></script>
 
+    <!-- Favicon and touch icons  -->
+    <link href="/images/ico/apple-touch-icon-48-precomposed.png" rel="apple-touch-icon-precomposed">
+    <link href="/images/ico/apple-touch-icon-32-precomposed.png" rel="apple-touch-icon-precomposed">
+    <link href="/images/ico/favicon.png" rel="shortcut icon">
+
+   <link rel="icon" href="/images/ico/cropped-logo-aquantica-32x32.png" sizes="32x32" />
+    <link rel="icon" href="h/images/ico/cropped-logo-aquantica-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/images/ico/cropped-logo-aquantica-180x180.png" />
+
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
