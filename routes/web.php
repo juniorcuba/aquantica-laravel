@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\CoastalServicesController;
 use App\Http\Controllers\OffshoreServicesController;
+use App\Http\Controllers\LegalController;
 
 Route::get('/', function () {
     App::setLocale(session('locale', config('app.locale'))); // <-- forzado aquí también
@@ -64,3 +65,15 @@ Route::post('/language-switch', function () {
 Route::fallback(function () {
     abort(404);
 });
+
+/* ── Terms & Conditions ───────────────────────────────────────── */
+Route::get('/terms-and-conditions',         [LegalController::class, 'terms_en'])
+      ->name('legal.terms.en');
+Route::get('/terminos-y-condiciones',       [LegalController::class, 'terms_es'])
+      ->name('legal.terms.es');
+
+/* ── Privacy Policy ───────────────────────────────────────────── */
+Route::get('/privacy-policy',               [LegalController::class, 'privacy_en'])
+      ->name('legal.privacy.en');
+Route::get('/politica-de-privacidad',       [LegalController::class, 'privacy_es'])
+      ->name('legal.privacy.es');
