@@ -55,12 +55,8 @@ Route::get('/search', function () {
     return view('search-results', compact('query'));
 })->name('search');
 
-Route::post('/language-switch', function () {
-    $lang = request('language');
-    session(['locale' => $lang]);
-    app()->setLocale($lang);
-    return redirect()->route('home'); // redirige siempre a home
-})->name('language.switch');
+Route::post('/language-switch', [LanguageController::class, 'switch'])
+      ->name('language.switch');
 
 Route::fallback(function () {
     abort(404);
