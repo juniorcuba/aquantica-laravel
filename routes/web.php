@@ -48,8 +48,6 @@ Route::get('/servicios-costa-afuera/{slug}', [OffshoreServicesController::class,
 Route::get('/offshore-services/{slug}', [OffshoreServicesController::class, 'show_en'])
       ->name('offshore.services.show.en');
 
-
-
 Route::get('/search', function () {
     $query = request('q');
     // lógica de búsqueda aquí...
@@ -62,3 +60,7 @@ Route::post('/language-switch', function () {
     app()->setLocale($lang);
     return redirect()->route('home'); // redirige siempre a home
 })->name('language.switch');
+
+Route::fallback(function () {
+    abort(404);
+});
