@@ -21,10 +21,10 @@
     {{-- Contact Info --}}
     <section class="bg-white py-16">
         <div class="container mx-auto px-4">
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 lg:gap-8 md:gap-4">
 
                 {{-- Address --}}
-                <div class="bg-gray-100 p-8 rounded-lg text-center hover:shadow-lg transition-shadow">
+                <div class="bg-gray-100 lg:p-8 md:p-1 rounded-lg text-center hover:shadow-lg transition-shadow">
                     <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#0f2d49] text-white mb-4">
                         {{-- MapPin icon --}}
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -33,14 +33,14 @@
                         </svg>
                     </div>
                     <h3 class="text-xl font-bold mb-2 text-[#0f2d49]">{{ __('contact.address_label') }}</h3>
-                    <p class="text-gray-600">
+                    <p class="text-gray-600 xl:text-base lg:text-sm md:text-xs">
                         {{ __('contact.address.line1') }}, {{ __('contact.address.line2') }} <br>
                         {{ __('contact.address.line3') }}
                     </p>
                 </div>
 
                 {{-- Email --}}
-                <div class="bg-gray-100 p-8 rounded-lg text-center hover:shadow-lg transition-shadow">
+                <div class="bg-gray-100 lg:p-8 md:p-1 rounded-lg text-center hover:shadow-lg transition-shadow">
                     <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#0f2d49] text-white mb-4">
                         {{-- Mail icon --}}
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -49,7 +49,7 @@
                         </svg>
                     </div>
                     <h3 class="text-xl font-bold mb-2 text-[#0f2d49]">{{ __('contact.email_label') }}</h3>
-                    <p class="text-gray-600">
+                    <p class="text-gray-600 xl:text-base lg:text-sm md:text-xs">
                         <a href="mailto:comercializacion@aquantica.com.mx" class="hover:text-[#0f2d49] transition-colors">
                             comercializacion@aquantica.com.mx
                         </a>
@@ -57,7 +57,7 @@
                 </div>
 
                 {{-- Phone --}}
-                <div class="bg-gray-100 p-8 rounded-lg text-center hover:shadow-lg transition-shadow">
+                <div class="bg-gray-100 lg:p-8 md:p-1 rounded-lg text-center hover:shadow-lg transition-shadow">
                     <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-[#0f2d49] text-white mb-4">
                         {{-- Phone icon --}}
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -75,7 +75,7 @@
                         </svg>
                     </div>
                     <h3 class="text-xl font-bold mb-2 text-[#0f2d49]">{{ __('contact.phone_label') }}</h3>
-                    <p class="text-gray-600">
+                    <p class="text-gray-600 xl:text-base lg:text-sm md:text-xs">
                         <a href="tel:+529987058146" class="hover:text-[#0f2d49] transition-colors">
                             +52 998 705 8146
                         </a>

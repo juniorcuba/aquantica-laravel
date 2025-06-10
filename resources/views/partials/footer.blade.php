@@ -11,13 +11,13 @@
                         loading="lazy"
                     >
                 </a>
-                <p class="text-gray-300 mb-4">
+                <p class="text-gray-300 md:mb-4">
                     {{ Str::limit(__('footer.about'), 120, '...') }}
                 </p>
             </div>
 
             {{-- Quick Links --}}
-            <div class="text-left fit-content mx-auto w-fit">
+            <div class="text-left fit-content md:mx-auto w-fit">
                 <h3 class="text-xl font-bold mb-4">{{ __('footer.services') }}</h3>
                 <ul class="space-y-2">
                     <li>
@@ -71,10 +71,10 @@
                 © {{ date('Y') }} Aquantica. {{ __('footer.rights') }}
             </p>
             <div class="flex space-x-4 mt-4 md:mt-0">
-                <a href="/privacy-policy" class="text-gray-400 text-sm hover:text-[#f5b027] transition-colors">
+                <a href="{{ __('navigation.privacy') }}" class="text-gray-400 text-sm hover:text-[#f5b027] transition-colors">
                     {{ __('footer.privacy') }}
                 </a>
-                <a href="/terms-of-service" class="text-gray-400 text-sm hover:text-[#f5b027] transition-colors">
+                <a href="{{ __('navigation.terms') }}" class="text-gray-400 text-sm hover:text-[#f5b027] transition-colors">
                     {{ __('footer.terms') }}
                 </a>
             </div>

@@ -60,17 +60,17 @@
         {{-- Mobile Navigation Menu --}}
         <div x-show="isOpen" class="md:hidden bg-[#121921] mt-3 rounded-lg py-4 px-2" x-transition>
             <nav class="flex flex-col space-y-4">
-                <a href="" class="text-white font-medium hover:text-[#f5b027] transition-colors px-4 py-2" @click="isOpen = false">
-                    {{ __('navegation.home') }}
+                <a href="{{ __('navigation.home') }}" class="text-white font-medium hover:text-[#f5b027] transition-colors px-4 py-2" @click="isOpen = false">
+                    {{ __('navbar.nav_home') }}
                 </a>
-                <a href="" class="text-white font-medium hover:text-[#f5b027] transition-colors px-4 py-2" @click="isOpen = false">
-                    {{ __('navegation.coastal_services') }}
+                <a href="{{ __('navigation.coastal_services') }}" class="text-white font-medium hover:text-[#f5b027] transition-colors px-4 py-2" @click="isOpen = false">
+                    {{ __('navbar.nav_coastal_services') }}
                 </a>
-                <a href="" class="text-white font-medium hover:text-[#f5b027] transition-colors px-4 py-2" @click="isOpen = false">
-                    {{ __('navegation.offshore_services') }}
+                <a href="{{ __('navigation.offshore_services') }}" class="text-white font-medium hover:text-[#f5b027] transition-colors px-4 py-2" @click="isOpen = false">
+                    {{ __('navbar.nav_offshore_services') }}
                 </a>
-                <a href="" class="text-white font-medium hover:text-[#f5b027] transition-colors px-4 py-2" @click="isOpen = false">
-                    {{ __('navegation.contact') }}
+                <a href="{{ __('navigation.contact') }}" class="text-white font-medium hover:text-[#f5b027] transition-colors px-4 py-2" @click="isOpen = false">
+                    {{ __('navbar.nav_contact') }}
                 </a>
             </nav>
         </div>
