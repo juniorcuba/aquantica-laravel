@@ -39,6 +39,7 @@
         </main>
 
         @include('partials.footer')
+        @include('components.whatsapp-button')
     </div>
 </body>
 </html> 

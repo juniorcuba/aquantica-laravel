@@ -17,4 +17,6 @@ return [
     'blog' => 'Blog',
     'blog_description' => 'Stay updated with our latest news and insights.',
     'visit_blog' => 'Visit Our Blog',
+    'whats' => 'Hello, I would like to know more about your services.',
+    'whats_label' => 'Contact us on WhatsApp',
 ]; 
