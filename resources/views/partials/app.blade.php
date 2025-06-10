@@ -25,16 +25,16 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="font-sans antialiased">
-    <div id="preloader" class="fixed inset-0 z-50 flex items-center justify-center bg-white transition-opacity duration-300">
+    <div id="preloader" class="fixed inset-0 z-50 flex items-center justify-center bg-primary-foreground transition-opacity duration-300">
         <div class="w-16 h-16 border-4 border-[#0f2d49] border-t-transparent rounded-full animate-spin"></div>
     </div>
     
     @include('components.topbar')
-    <div class="min-h-screen bg-gray-900">
+    <div class="min-h-screen bg-primary-foreground">
         @include('partials.navigation')
 
         <!-- Page Content -->
-        <main>
+        <main class="{{ request()->routeIs('home') ? '' : 'pt-16' }}">
             @yield('content')
         </main>
 

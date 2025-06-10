@@ -73,3 +73,14 @@ Route::get('/privacy-policy',               [LegalController::class, 'privacy_en
       ->name('legal.privacy.en');
 Route::get('/politica-de-privacidad',       [LegalController::class, 'privacy_es'])
       ->name('legal.privacy.es');
+
+
+Route::get('/gracias', function () {
+      App::setLocale('es');
+      return view('thankyou');
+      })->name('thankyou_es');
+
+Route::get('/thank-you', function () {
+      App::setLocale('en');
+      return view('thankyou');
+      })->name('thankyou_en');

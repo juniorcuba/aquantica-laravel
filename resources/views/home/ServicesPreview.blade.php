@@ -1,17 +1,134 @@
-<section class="bg-[#f2f2f2] py-20" x-data="{ language: '{{ app()->getLocale() }}' }">
-  <div class="container mx-auto px-4">
-    <div class="text-center mb-16">
-      <h2 class="text-3xl md:text-4xl font-bold mb-4 text-[#0f2d49]">
-        {{ __('home.services.title') }}
-      </h2>
-      <p class="text-lg text-gray-600">
-        {{ __('home.services.subtitle') }}
-      </p>
-      <div class="w-20 h-1 bg-[#f5b027] mx-auto mt-6"></div>
-    </div>
+<section class="bg-[#f2f2f2] py-20">
+    @php
+        $lang = app()->getLocale();
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      
+        $projects = [
+            [
+                'title' => $lang === 'en' ? 'Coastal Services' : 'Servicios Costeros',
+                'description' => $lang === 'en'
+                    ? 'Comprehensive solutions for coastal infrastructure, including port facilities, breakwaters, and coastal protection structures.'
+                    : 'Soluciones integrales para infraestructura costera, incluyendo instalaciones portuarias, rompeolas y estructuras de protección costera.',
+                'image' => 'https://images.pexels.com/photos/1254892/pexels-photo-1254892.jpeg?auto=compress&cs=tinysrgb&w=1280',
+                'link'  => $lang === 'en' ? '/coastal-services' : '/servicios-costeros',
+                'tags'  => [
+                    'Port Construction',
+                    'Coastal Protection',
+                    'Beach Restoration',
+                    'Marina Development',
+                    'Environmental Studies',
+                ],
+            ],
+            [
+                'title' => $lang === 'en' ? 'Offshore Services' : 'Servicios Costa Afuera',
+                'description' => $lang === 'en'
+                    ? 'Specialized offshore engineering and maintenance services for oil & gas platforms, wind farms, and underwater structures.'
+                    : 'Servicios especializados de ingeniería y mantenimiento costa afuera para plataformas petroleras, parques eólicos y estructuras submarinas.',
+                'image' => 'https://images.pexels.com/photos/2144326/pexels-photo-2144326.jpeg?auto=compress&cs=tinysrgb&w=1280',
+                'link'  => $lang === 'en' ? '/offshore-services' : '/servicios-costa-afuera',
+                'tags'  => [
+                    'Platform Maintenance',
+                    'Subsea Installation',
+                    [
+                        'name'        => 'ROV Operations',
+                        'highlighted' => true,
+                        'description' => $lang === 'en'
+                            ? 'Advanced ROV inspection services with state-of-the-art equipment and real-time 3D mapping capabilities'
+                            : 'Servicios avanzados de inspección ROV con equipos de última generación y capacidades de mapeo 3D en tiempo real',
+                        'features'    => $lang === 'en'
+                            ? ['HD Video Surveys', '3D Mapping', 'Real-time Monitoring']
+                            : ['Inspecciones HD', 'Mapeo 3D', 'Monitoreo en Tiempo Real'],
+                    ],
+                    'Pipeline Services',
+                    'Offshore Surveys',
+                ],
+            ],
+        ];
+    @endphp
+
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 text-[#0f2d49]">
+                {{ __('home.services.title') }}
+            </h2>
+            <p class="text-lg text-gray-600">
+                {{ __('home.services.subtitle') }}
+            </p>
+            <div class="w-20 h-1 bg-[#f5b027] mx-auto mt-6"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            @foreach ($projects as $service)
+                <div
+                    class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 group relative"
+                    x-data
+                >
+                    {{-- Banner image with gradient --}}
+                    <div class="h-48 bg-cover bg-center relative"
+                         style="background-image:url('{{ $service['image'] }}')">
+                        <div class="absolute inset-0 bg-gradient-to-t from-[#0f2d49] via-[#0f2d49]/70 to-transparent flex items-end">
+                            <h3 class="px-6 pb-6 text-2xl font-bold text-white">
+                                {{ $service['title'] }}
+                            </h3>
+                        </div>
+                    </div>
+
+                    {{-- Card body --}}
+                    <div class="p-6 flex flex-col relative min-h-[220px]">
+                        <p class="text-gray-600 mb-6">
+                            {{ $service['description'] }}
+                        </p>
+
+                        {{-- Tags --}}
+                        <div class="flex flex-wrap gap-2 mb-12">
+                            @foreach ($service['tags'] as $tag)
+                                @if (is_string($tag))
+                                    <span class="bg-gray-100 text-[#0f2d49] text-xs px-2 py-1 rounded-full">
+                                        {{ $tag }}
+                                    </span>
+                                @else
+                                    {{-- Highlighted tag with tooltip --}}
+                                    <div class="relative group/tag">
+                                        <span class="bg-[#f5b027] text-[#0f2d49] text-xs px-3 py-1.5 rounded-full font-medium flex items-center gap-1">
+                                            <span class="relative">
+                                                {{ $tag['name'] }}
+                                                <span class="absolute -top-1 -right-1 w-2 h-2 bg-red-500 rounded-full animate-pulse"></span>
+                                            </span>
+                                        </span>
+                                        <div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-64
+                                                    bg-[#0f2d49] text-white p-3 rounded-lg shadow-lg
+                                                    opacity-0 group-hover/tag:opacity-100
+                                                    transition-opacity duration-200 pointer-events-none z-10">
+                                            <p class="text-sm mb-2">{{ $tag['description'] }}</p>
+                                            <div class="flex flex-wrap gap-1 mt-2">
+                                                @foreach ($tag['features'] as $feat)
+                                                    <span class="text-xs bg-[#f5b027] text-[#0f2d49] px-2 py-0.5 rounded-full">
+                                                        {{ $feat }}
+                                                    </span>
+                                                @endforeach
+                                            </div>
+                                        </div>
+                                    </div>
+                                @endif
+                            @endforeach
+                        </div>
+
+                        {{-- Learn More --}}
+                        <div class="absolute bottom-6 left-6">
+                            <a href="{{ $service['link'] }}"
+                               class="text-[#0f2d49] font-medium inline-flex items-center
+                                      hover:text-[#f5b027] transition group/link">
+                                {{ $lang === 'en' ? 'Learn More' : 'Más Información' }}
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     class="ml-2 h-4 w-4 transition-transform group-hover/link:translate-x-1"
+                                     fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 18l6-6-6-6" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
+        </div>
     </div>
-  </div>
 </section>
