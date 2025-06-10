@@ -76,8 +76,8 @@
                     </div>
                     <h3 class="text-xl font-bold mb-2 text-[#0f2d49]">{{ __('contact.phone_label') }}</h3>
                     <p class="text-gray-600">
-                        <a href="tel:+529982097694" class="hover:text-[#0f2d49] transition-colors">
-                            +52 998 209 7694
+                        <a href="tel:+529987058146" class="hover:text-[#0f2d49] transition-colors">
+                            +52 998 705 8146
                         </a>
                     </p>
                 </div>

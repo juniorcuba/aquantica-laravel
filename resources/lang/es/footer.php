@@ -10,7 +10,7 @@ return [
     'contact' => 'Contáctanos',
     'location' => 'Cancún, Quintana Roo, México',
     'email' => 'comercializacion@aquantica.com.mx',
-    'phone' => '+52 998 209 7694',
+    'phone' => '+52 998 705 8146',
     'rights' => 'Todos los derechos reservados.',
     'privacy' => 'Política de Privacidad',
     'terms' => 'Términos de Servicio',
