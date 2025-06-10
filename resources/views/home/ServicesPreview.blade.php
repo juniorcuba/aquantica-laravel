@@ -59,7 +59,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             @foreach ($projects as $service)
                 <div
-                    class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-all duration-300 group relative"
+                    class="bg-white rounded-lg shadow-md overflow-visible hover:shadow-lg transition-all duration-300 group relative"
                     x-data
                 >
                     {{-- Banner image with gradient --}}
@@ -73,7 +73,7 @@
                     </div>
 
                     {{-- Card body --}}
-                    <div class="p-6 flex flex-col relative min-h-[220px]">
+                    <div class="p-6 flex flex-col relative min-h-[220px] overflow-visible">
                         <p class="text-gray-600 mb-6">
                             {{ $service['description'] }}
                         </p>
@@ -87,26 +87,51 @@
                                     </span>
                                 @else
                                     {{-- Highlighted tag with tooltip --}}
-                                    <div class="relative group/tag">
+                                    <div class="relative group/tag" 
+                                         x-data="{
+                                            showTooltip: false,
+                                            tooltipX: 0,
+                                            tooltipY: 0,
+                                            isMobile: window.innerWidth < 768
+                                         }"
+                                         x-init="
+                                            window.addEventListener('resize', () => {
+                                                isMobile = window.innerWidth < 768;
+                                            });
+                                         "
+                                         @mouseover="
+                                            showTooltip = true;
+                                            const rect = $el.getBoundingClientRect();
+                                            isMobile = window.innerWidth < 768;
+                                            tooltipX = rect.left + rect.width/2;
+                                            tooltipY = rect.top - 10;
+                                         "
+                                         @mouseleave="showTooltip = false">
                                         <span class="bg-[#f5b027] text-[#0f2d49] text-xs px-3 py-1.5 rounded-full font-medium flex items-center gap-1">
                                             <span class="relative">
                                                 {{ $tag['name'] }}
                                                 <span class="absolute -top-1 -right-1 w-2 h-2 bg-red-500 rounded-full animate-pulse"></span>
                                             </span>
                                         </span>
-                                        <div class="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 w-64
-                                                    bg-[#0f2d49] text-white p-3 rounded-lg shadow-lg
-                                                    opacity-0 group-hover/tag:opacity-100
-                                                    transition-opacity duration-200 pointer-events-none z-10">
-                                            <p class="text-sm mb-2">{{ $tag['description'] }}</p>
-                                            <div class="flex flex-wrap gap-1 mt-2">
-                                                @foreach ($tag['features'] as $feat)
-                                                    <span class="text-xs bg-[#f5b027] text-[#0f2d49] px-2 py-0.5 rounded-full">
-                                                        {{ $feat }}
-                                                    </span>
-                                                @endforeach
+                                        <template x-if="!isMobile">
+                                            <div x-show="showTooltip" 
+                                                x-cloak
+                                                class="fixed w-64 bg-[#0f2d49] text-white p-3 rounded-lg shadow-2xl z-[9999]"
+                                                :style="`left: ${tooltipX}px; top: ${tooltipY - 160}px; transform: translateX(-50%);`">
+                                                <p class="text-sm mb-2">{{ $tag['description'] }}</p>
+                                                <div class="flex flex-wrap gap-1 mt-2">
+                                                    @foreach ($tag['features'] as $feat)
+                                                        <span class="text-xs bg-[#f5b027] text-[#0f2d49] px-2 py-0.5 rounded-full">
+                                                            {{ $feat }}
+                                                        </span>
+                                                    @endforeach
+                                                </div>
+                                                <div class="absolute top-full left-1/2 -translate-x-1/2 w-0 h-0 
+                                                        border-l-[8px] border-l-transparent
+                                                        border-r-[8px] border-r-transparent
+                                                        border-t-[8px] border-t-[#0f2d49]"></div>
                                             </div>
-                                        </div>
+                                        </template>
                                     </div>
                                 @endif
                             @endforeach
