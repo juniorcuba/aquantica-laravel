@@ -56,7 +56,7 @@
             <div class="w-20 h-1 bg-[#f5b027] mx-auto mt-6"></div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 2xl:max-w-screen-xl xl:max-w-screen-lg mx-auto">
             @foreach ($projects as $service)
                 <div
                     class="bg-white rounded-lg shadow-md overflow-visible hover:shadow-lg transition-all duration-300 group relative"

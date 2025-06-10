@@ -11,13 +11,13 @@
                         loading="lazy"
                     >
                 </a>
-                <p class="text-gray-300 mb-4">
+                <p class="text-gray-300 md:mb-4">
                     {{ Str::limit(__('footer.about'), 120, '...') }}
                 </p>
             </div>
 
             {{-- Quick Links --}}
-            <div class="text-left fit-content mx-auto w-fit">
+            <div class="text-left fit-content md:mx-auto w-fit">
                 <h3 class="text-xl font-bold mb-4">{{ __('footer.services') }}</h3>
                 <ul class="space-y-2">
                     <li>
@@ -57,7 +57,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" class="mr-2 h-5 w-5 text-[#f5b027]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                             <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.08 4.18 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.72 12.05 12.05 0 0 0 .57 2.57 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.51-1.51a2 2 0 0 1 2.11-.45 12.05 12.05 0 0 0 2.57.57A2 2 0 0 1 22 16.92z"/>
                         </svg>
-                        <a href="tel:+529982097694" class="text-gray-300 hover:text-[#f5b027] transition-colors">
+                        <a href="tel:+529987058146" class="text-gray-300 hover:text-[#f5b027] transition-colors">
                             {{ __('footer.phone') }}
                         </a>
                     </li>
@@ -71,10 +71,10 @@
                 © {{ date('Y') }} Aquantica. {{ __('footer.rights') }}
             </p>
             <div class="flex space-x-4 mt-4 md:mt-0">
-                <a href="/privacy-policy" class="text-gray-400 text-sm hover:text-[#f5b027] transition-colors">
+                <a href="{{ __('navigation.privacy') }}" class="text-gray-400 text-sm hover:text-[#f5b027] transition-colors">
                     {{ __('footer.privacy') }}
                 </a>
-                <a href="/terms-of-service" class="text-gray-400 text-sm hover:text-[#f5b027] transition-colors">
+                <a href="{{ __('navigation.terms') }}" class="text-gray-400 text-sm hover:text-[#f5b027] transition-colors">
                     {{ __('footer.terms') }}
                 </a>
             </div>

@@ -10,7 +10,7 @@
                 subtitle_es: 'Buceo comercial experto e ingeniería marítima para sectores marino, portuario, petrolero y científico',
                 cta_en: 'Discover Our Services',
                 cta_es: 'Descubrir Nuestros Servicios',
-                cta_link: '/services'
+                cta_link: '{{ __('navigation.coastal_services') }}'
             },
             {
                 image: 'https://images.pexels.com/photos/1098365/pexels-photo-1098365.jpeg?auto=compress&cs=tinysrgb&w=1920',
@@ -21,7 +21,7 @@
                 subtitle_es: 'Precisión y seguridad en proyectos de ingeniería submarina.',
                 cta_en: 'Learn More',
                 cta_es: 'Aprende Más',
-                cta_link: '/services'
+                cta_link: '{{ __('navigation.offshore_services') }}'
             },
             {
                 image: 'https://images.pexels.com/photos/70512/pexels-photo-70512.jpeg?auto=compress&cs=tinysrgb&w=1920',
@@ -32,7 +32,7 @@
                 subtitle_es: 'Soporte integral para operaciones científicas, petroleras y portuarias.',
                 cta_en: 'Our Expertise',
                 cta_es: 'Nuestra Experiencia',
-                cta_link: '/services'
+                cta_link: '{{ __('navigation.contact') }}'
             }
         ],
         currentSlide: 0,
