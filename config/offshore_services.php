@@ -37,7 +37,11 @@ return [
             'Integrity monitoring',
             'Emergency repairs',
         ],
-        'gallery_images'  => [],
+        'gallery_images'  => [
+            'https://images.pexels.com/photos/1254892/pexels-photo-1254892.jpeg?auto=compress&cs=tinysrgb&w=1280',
+            'https://images.pexels.com/photos/2144326/pexels-photo-2144326.jpeg?auto=compress&cs=tinysrgb&w=1280',
+            'https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&w=1280',
+        ],
     ],
     [
         'title_key'       => 'service_subsea_installation',
@@ -51,6 +55,10 @@ return [
             'Subsea connections',
             'Testing & commissioning',
         ],
-        'gallery_images'  => [],
+        'gallery_images'  => [
+            'https://images.pexels.com/photos/1254892/pexels-photo-1254892.jpeg?auto=compress&cs=tinysrgb&w=1280',
+            'https://images.pexels.com/photos/2144326/pexels-photo-2144326.jpeg?auto=compress&cs=tinysrgb&w=1280',
+            'https://images.pexels.com/photos/1008155/pexels-photo-1008155.jpeg?auto=compress&cs=tinysrgb&w=1280',
+        ],
     ],
 ];
