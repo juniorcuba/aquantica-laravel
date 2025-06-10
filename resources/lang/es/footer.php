@@ -17,4 +17,6 @@ return [
     'blog' => 'Blog',
     'blog_description' => 'Mantente al día con nuestras últimas noticias y actualizaciones.',
     'visit_blog' => 'Visita nuestro Blog',
+    'whats' => 'Hola, me gustaría saber más sobre sus servicios.',
+    'whats_label' => 'Contáctenos por WhatsApp',
 ]; 
