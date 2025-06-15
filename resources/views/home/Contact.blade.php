@@ -28,7 +28,7 @@
             </p>
           </div>
         @else
-          <form method="POST" action="">
+          <form method="POST" action="{{ route('contact.store') }}">
             @csrf
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
               <div>
@@ -36,7 +36,9 @@
                   {{ __('home.contact.name') }}
                 </label>
                 <input type="text" name="name" id="name" required value="{{ old('name') }}"
-                  class="w-full px-4 py-3 bg-white border border-gray-300 rounded-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#f5b027]">
+                  class="w-full px-4 py-3 bg-white border border-gray-300 rounded-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#f5b027]"
+                  placeholder="{{ __('home.contact.name_placeholder') }}"
+                  autocomplete="name">
                 @error('name') <span class="text-sm text-red-500">{{ $message }}</span> @enderror
               </div>
               <div>
@@ -44,7 +46,9 @@
                   {{ __('home.contact.email') }}
                 </label>
                 <input type="email" name="email" id="email" required value="{{ old('email') }}"
-                  class="w-full px-4 py-3 bg-white border border-gray-300 rounded-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#f5b027]">
+                  class="w-full px-4 py-3 bg-white border border-gray-300 rounded-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#f5b027]"
+                  placeholder="{{ __('home.contact.email_placeholder') }}"
+                  autocomplete="email">
                 @error('email') <span class="text-sm text-red-500">{{ $message }}</span> @enderror
               </div>
             </div>
@@ -54,7 +58,9 @@
                 {{ __('home.contact.phone') }}
               </label>
               <input type="tel" name="phone" id="phone" value="{{ old('phone') }}"
-                class="w-full px-4 py-3 bg-white border border-gray-300 rounded-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#f5b027]">
+                class="w-full px-4 py-3 bg-white border border-gray-300 rounded-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#f5b027]"
+                placeholder="{{ __('home.contact.phone_placeholder') }}"
+                autocomplete="tel">
               @error('phone') <span class="text-sm text-red-500">{{ $message }}</span> @enderror
             </div>
 
@@ -66,7 +72,7 @@
                 class="w-full px-4 py-3 bg-white border border-gray-300 rounded-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-[#f5b027]">{{ old('message') }}</textarea>
               @error('message') <span class="text-sm text-red-500">{{ $message }}</span> @enderror
             </div>
-
+            <input type="hidden" name="lang" value="{{ __('home.contact.lang') }}" require>
             <div class="text-center">
               <button type="submit"
                 class="inline-flex items-center bg-[#f5b027] text-[#0f2d49] px-6 py-3 rounded-md font-medium hover:bg-[#d99c22] transition-colors">
@@ -80,3 +86,55 @@
     </div>
   </div>
 </section>
+<script>
+window.addEventListener('load', function () {
+
+  const nameInput = document.getElementById('name');
+    const phoneInput = document.getElementById('phone');
+
+    // Validación del nombre
+    nameInput.addEventListener('input', function(e) {
+        // Eliminar cualquier carácter que no sea letra o espacio
+        this.value = this.value.replace(/[^a-zA-ZÀ-ÿ\s]/g, '');
+    });
+
+    // Validación del teléfono
+    phoneInput.addEventListener('input', function(e) {
+        // Eliminar cualquier carácter que no sea número, +, -, espacio o paréntesis
+        this.value = this.value.replace(/[^0-9+\-\s()]/g, '');
+    });
+
+    // Prevenir pegado de caracteres no permitidos
+    nameInput.addEventListener('paste', function(e) {
+        e.preventDefault();
+        const pastedText = (e.clipboardData || window.clipboardData).getData('text');
+        const cleanText = pastedText.replace(/[^a-zA-ZÀ-ÿ\s]/g, '');
+        this.value = cleanText;
+    });
+
+    phoneInput.addEventListener('paste', function(e) {
+        e.preventDefault();
+        const pastedText = (e.clipboardData || window.clipboardData).getData('text');
+        const cleanText = pastedText.replace(/[^0-9+\-\s()]/g, '');
+        this.value = cleanText;
+    });
+
+    // Prevenir teclas no permitidas
+    nameInput.addEventListener('keypress', function(e) {
+        const char = String.fromCharCode(e.which);
+        if (!/[a-zA-ZÀ-ÿ\s]/.test(char)) {
+            e.preventDefault();
+        }
+    });
+
+    phoneInput.addEventListener('keypress', function(e) {
+        const char = String.fromCharCode(e.which);
+        if (!/[0-9+\-\s()]/.test(char)) {
+            e.preventDefault();
+        }
+    });
+  });
+</script>
+
+@push('scripts')
+@endpush

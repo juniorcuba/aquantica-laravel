@@ -33,5 +33,12 @@ return [
         'submit' => 'Enviar mensaje',
         'sent' => '¡Mensaje enviado!',
         'thank_you' => 'Gracias por contactarnos. Te responderemos pronto.',
+        'name_validation' => 'El nombre solo puede contener letras y espacios.',
+        'phone_validation' => 'El teléfono solo puede contener números, +, -, espacios y paréntesis.',
+        'name_placeholder' => 'Ingresa tu nombre completo',
+        'email_placeholder' => 'ejemplo@correo.com',
+        'phone_placeholder' => '+52 (123) 456-7890',
+        'message_placeholder' => 'Escribe tu mensaje aquí...'
+        'lang' => 'es',
     ],
 ];

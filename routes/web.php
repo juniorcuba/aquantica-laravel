@@ -5,6 +5,7 @@ use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\CoastalServicesController;
 use App\Http\Controllers\OffshoreServicesController;
 use App\Http\Controllers\LegalController;
+use App\Http\Controllers\ContactController;
 
 Route::get('/', function () {
     App::setLocale(session('locale', config('app.locale'))); // <-- forzado aquí también
@@ -57,6 +58,8 @@ Route::get('/search', function () {
 
 Route::post('/language-switch', [LanguageController::class, 'switch'])
       ->name('language.switch');
+
+Route::post('/contact-send', [ContactController::class, 'store'])->name('contact.store');
 
 Route::fallback(function () {
     abort(404);
