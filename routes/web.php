@@ -51,9 +51,8 @@ Route::get('/offshore-services/{slug}', [OffshoreServicesController::class, 'sho
       ->name('offshore.services.show.en');
 
 Route::get('/search', function () {
-    $query = request('q');
-    // lógica de búsqueda aquí...
-    return view('search-results', compact('query'));
+$query = trim(request('q', ''));
+return view('search-results', compact('query'));
 })->name('search');
 
 Route::post('/language-switch', [LanguageController::class, 'switch'])

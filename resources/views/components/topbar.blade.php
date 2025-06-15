@@ -16,20 +16,8 @@
 
       {{-- Buscador --}}
       <div class="flex-1 mx-4 max-w-md">
-        <form action="{{ route('search') }}" method="GET" class="relative">
-          <input 
-            type="search"
-            name="q"
-            placeholder="{{ app()->getLocale() === 'en' ? 'Search...' : 'Buscar...' }}"
-            class="w-full bg-[#1a3655] text-white placeholder-gray-400 text-sm rounded-full py-1 px-4 pr-10 focus:outline-none focus:ring-2 focus:ring-[#f5b027]"
-          />
-          <button type="submit" class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-400 hover:text-[#f5b027]">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M10 18a8 8 0 100-16 8 8 0 000 16z" />
-            </svg>
-          </button>
-        </form>
-      </div>
+    <x-service-search />
+</div>
 
       {{-- Language Switcher --}}
       <form method="POST" action="{{ route('language.switch') }}">
