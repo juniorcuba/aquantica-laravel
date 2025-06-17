@@ -67,6 +67,7 @@ class CoastalServicesController extends Controller
             // 🔑 Always use the file prefix: coastal_services.<key>
             $title       = __('coastal_services.' . $raw['title_key']);
             $description = __('coastal_services.' . $raw['description_key']);
+            $description_footer = isset($raw['description_footer_key']) ? __('coastal_services.' . $raw['description_footer_key']) : null;
             $prefix = app()->getLocale() === 'en' ? 'coastal-services' : 'servicios-costeros';
             
             // Get feature keys from language file and translate them
@@ -74,12 +75,20 @@ class CoastalServicesController extends Controller
             $features = collect($featureKeys)->map(function ($featureKey) {
                 return __('coastal_services.' . $featureKey);
             })->toArray();
+            
+            // Get feature descriptions
+            $feature_descriptions = collect($featureKeys)->map(function ($featureKey) {
+                $descKey = $featureKey . '_desc';
+                return __('coastal_services.' . $descKey);
+            })->toArray();
     
             return [
                 'title'       => $title,
                 'description' => $description,
+                'description_footer' => $description_footer,
                 'image'       => $raw['image'],
                 'features'    => $features,
+                'feature_descriptions' => $feature_descriptions,
                 'gallery'     => $raw['gallery_images'],
                 'slug'        => \Illuminate\Support\Str::slug($title),
                 'prefix'      => $prefix,
