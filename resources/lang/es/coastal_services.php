@@ -20,6 +20,20 @@ return [
     'service_coastal_dunes_footer' =>
         'Combinamos ingeniería avanzada y conservación ambiental para crear dunas funcionales, estéticas y adaptadas a las necesidades de cada proyecto. Protegemos su inversión y el patrimonio natural, asegurando costas más seguras y sostenibles para las generaciones futuras.',
     
+    // Geotube Installation Service
+    'service_geotubes' => 'Instalación de Geotubos',
+    'service_geotubes_desc' =>
+        'Desplegamos estructuras geotextiles rellenas de material sedimentario para control de erosión costera, creación de barreras temporales y protección de líneas de costa en proyectos de bajo impacto ambiental. En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS implementamos geotubos, estructuras modulares fabricadas con geotextiles de alta resistencia, diseñadas para proyectos de protección costera e ingeniería hidráulica. Estos elementos versátiles ofrecen una solución rentable, ecológica y altamente eficaz para diversas aplicaciones marinas.',
+    'service_geotubes_footer' =>
+        'Nuestra solución destaca por su sostenibilidad ambiental, al emplear materiales locales como arena de dragado e implementar procesos que minimizan el impacto ecológico. Ofrecemos una excelente relación costo-beneficio, siendo una alternativa más económica que los métodos tradicionales, con igual o mayor eficacia. Además, garantizamos un alto desempeño estructural, con resistencia comprobada ante marejadas y condiciones extremas, estabilidad superior gracias a su elevado peso específico, y una capacidad de filtración que previene la pérdida de sedimentos. Complementamos estas ventajas con flexibilidad constructiva, permitiendo adaptar el sistema a múltiples configuraciones y entornos, asegurando soluciones personalizadas y eficientes para cada proyecto.',
+    
+    // Breakwaters Service
+    'service_breakwaters' => 'Escolleras y Rompeolas',
+    'service_breakwaters_desc' =>
+        'Diseñamos y construimos estructuras rígidas y dinámicas para disipación de energía oleaje, protección portuaria y defensa costera, utilizando materiales de alta durabilidad y diseños adaptados a condiciones locales. En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, diseñamos e implementamos soluciones de protección costera mediante diversos tipos de estructuras y sistemas de escolleras, adaptados a las necesidades específicas de cada proyecto. Nuestros métodos de instalación y componentes estructurales garantizan durabilidad, eficiencia y protección óptima contra el oleaje.',
+    'service_breakwaters_footer' =>
+        'Ofrecemos soluciones costeras integrales que combinan innovación y eficacia, destacando por su diseño personalizado adaptado a las características específicas de cada entorno. Utilizamos materiales de alta resistencia y durabilidad, garantizando una protección costera de larga vida útil. Nuestros diseños incorporan optimización hidrodinámica para maximizar la eficiencia estructural y funcional en condiciones marinas. Además, todas nuestras soluciones cumplen rigurosamente con estándares internacionales, asegurando no solo resultados óptimos sino también el cumplimiento normativo en cada proyecto. Estas ventajas nos permiten ofrecer protecciones costeras efectivas, sostenibles y adaptadas a las necesidades particulares de cada cliente.',
+    
     // Port Engineering Service
     'service_port_engineering' => 'Ingeniería Portuaria e Infraestructura Marítima',
     'service_port_engineering_desc' =>
@@ -47,6 +61,19 @@ return [
         'feature_custom_design',
         'feature_sustainable_construction',
         'feature_maintenance_monitoring',
+    ],
+    
+    'service_geotubes_features' => [
+        'feature_custom_geotubes',
+        'feature_efficient_installation',
+        'feature_key_applications',
+    ],
+    
+    'service_breakwaters_features' => [
+        'feature_custom_design_breakwaters',
+        'feature_material_quality',
+        'feature_hydrodynamic_optimization',
+        'feature_international_standards',
     ],
     
     'service_port_engineering_features' => [
@@ -86,6 +113,28 @@ return [
     'feature_custom_design_desc' => 'Diseño personalizado según las condiciones geográficas, hidrodinámicas y ecológicas del área.',
     'feature_sustainable_construction_desc' => 'Construcción con técnicas sostenibles, como el uso de vegetación autóctona (plantación de especies estabilizadoras) y sistemas de contención natural.',
     'feature_maintenance_monitoring_desc' => 'Mantenimiento y monitoreo para garantizar su efectividad a largo plazo.',
+    
+    // Geotube Features
+    'feature_custom_geotubes' => 'Diseño Personalizado',
+    'feature_efficient_installation' => 'Instalación Eficiente',
+    'feature_key_applications' => 'Aplicaciones Clave',
+    
+    // Feature Descriptions for Geotubes
+    'feature_custom_geotubes_desc' => 'Diámetro y longitud adaptables a los requerimientos específicos de cada proyecto.',
+    'feature_efficient_installation_desc' => 'Llenado in situ mediante bombeo hidráulico de arena, permitiendo una rápida implementación incluso en condiciones adversas.',
+    'feature_key_applications_desc' => 'Núcleos para dunas costeras y humedales, estructuras de protección (escolleras, diques, espigones), recuperación de terrenos y creación de islas artificiales, estabilización de fondos marinos.',
+    
+    // Breakwater Features
+    'feature_custom_design_breakwaters' => 'Diseño Personalizado',
+    'feature_material_quality' => 'Materiales de Alta Calidad',
+    'feature_hydrodynamic_optimization' => 'Optimización Hidrodinámica',
+    'feature_international_standards' => 'Cumplimiento de Estándares Internacionales',
+    
+    // Feature Descriptions for Breakwaters
+    'feature_custom_design_breakwaters_desc' => 'Diseño adaptado a las características específicas de cada entorno.',
+    'feature_material_quality_desc' => 'Uso de materiales de alta resistencia y durabilidad, garantizando una protección costera de larga vida útil.',
+    'feature_hydrodynamic_optimization_desc' => 'Diseños que incorporan optimización hidrodinámica para maximizar la eficiencia estructural y funcional en condiciones marinas.',
+    'feature_international_standards_desc' => 'Todas nuestras soluciones cumplen rigurosamente con estándares internacionales, asegurando resultados óptimos y cumplimiento normativo.',
     
     // Port Engineering Features
     'feature_port_design' => 'Diseño y Planificación Portuaria',

@@ -20,6 +20,20 @@ return [
     'service_coastal_dunes_footer' =>
         'We combine advanced engineering and environmental conservation to create functional, aesthetic dunes adapted to the needs of each project. We protect your investment and natural heritage, ensuring safer and more sustainable coasts for future generations.',
     
+    // Geotube Installation Service
+    'service_geotubes' => 'Geotube Installation',
+    'service_geotubes_desc' =>
+        'We deploy geotextile structures filled with sedimentary material for coastal erosion control, creation of temporary barriers, and protection of shorelines in low environmental impact projects. At AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, we implement geotubes, modular structures made with high-resistance geotextiles, designed for coastal protection and hydraulic engineering projects. These versatile elements offer a cost-effective, ecological, and highly efficient solution for various marine applications.',
+    'service_geotubes_footer' =>
+        'Our solution stands out for its environmental sustainability, using local materials such as dredged sand and implementing processes that minimize ecological impact. We offer an excellent cost-benefit ratio, being a more economical alternative than traditional methods, with equal or greater effectiveness. Additionally, we guarantee high structural performance, with proven resistance to storm surges and extreme conditions, superior stability thanks to its high specific weight, and filtration capacity that prevents sediment loss. We complement these advantages with constructive flexibility, allowing the system to be adapted to multiple configurations and environments, ensuring customized and efficient solutions for each project.',
+    
+    // Breakwaters Service
+    'service_breakwaters' => 'Breakwaters and Seawalls',
+    'service_breakwaters_desc' =>
+        'We design and build rigid and dynamic structures for wave energy dissipation, port protection, and coastal defense, using high-durability materials and designs adapted to local conditions. At AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, we design and implement coastal protection solutions through various types of structures and breakwater systems, adapted to the specific needs of each project. Our installation methods and structural components guarantee durability, efficiency, and optimal protection against wave action.',
+    'service_breakwaters_footer' =>
+        'We offer comprehensive coastal solutions that combine innovation and effectiveness, standing out for their customized design adapted to the specific characteristics of each environment. We use high-resistance and durable materials, guaranteeing long-lasting coastal protection. Our designs incorporate hydrodynamic optimization to maximize structural and functional efficiency in marine conditions. Additionally, all our solutions rigorously comply with international standards, ensuring not only optimal results but also regulatory compliance in each project. These advantages allow us to offer effective, sustainable coastal protections tailored to the particular needs of each client.',
+    
     // Port Engineering Service
     'service_port_engineering' => 'Port Engineering and Maritime Infrastructure',
     'service_port_engineering_desc' =>
@@ -47,6 +61,19 @@ return [
         'feature_custom_design',
         'feature_sustainable_construction',
         'feature_maintenance_monitoring',
+    ],
+    
+    'service_geotubes_features' => [
+        'feature_custom_geotubes',
+        'feature_efficient_installation',
+        'feature_key_applications',
+    ],
+    
+    'service_breakwaters_features' => [
+        'feature_custom_design_breakwaters',
+        'feature_material_quality',
+        'feature_hydrodynamic_optimization',
+        'feature_international_standards',
     ],
     
     'service_port_engineering_features' => [
@@ -86,6 +113,28 @@ return [
     'feature_custom_design_desc' => 'Customized design according to the geographical, hydrodynamic, and ecological conditions of the area.',
     'feature_sustainable_construction_desc' => 'Construction with sustainable techniques, such as the use of native vegetation (planting stabilizing species) and natural containment systems.',
     'feature_maintenance_monitoring_desc' => 'Maintenance and monitoring to ensure long-term effectiveness.',
+    
+    // Geotube Features
+    'feature_custom_geotubes' => 'Customized Design',
+    'feature_efficient_installation' => 'Efficient Installation',
+    'feature_key_applications' => 'Key Applications',
+    
+    // Feature Descriptions for Geotubes
+    'feature_custom_geotubes_desc' => 'Diameter and length adaptable to the specific requirements of each project.',
+    'feature_efficient_installation_desc' => 'On-site filling through hydraulic sand pumping, allowing rapid implementation even in adverse conditions.',
+    'feature_key_applications_desc' => 'Cores for coastal dunes and wetlands, protection structures (breakwaters, dikes, groins), land reclamation and artificial island creation, seabed stabilization.',
+    
+    // Breakwater Features
+    'feature_custom_design_breakwaters' => 'Customized Design',
+    'feature_material_quality' => 'High-Quality Materials',
+    'feature_hydrodynamic_optimization' => 'Hydrodynamic Optimization',
+    'feature_international_standards' => 'International Standards Compliance',
+    
+    // Feature Descriptions for Breakwaters
+    'feature_custom_design_breakwaters_desc' => 'Tailored design adapted to the specific characteristics of each environment.',
+    'feature_material_quality_desc' => 'Use of high-resistance and durable materials, guaranteeing long-lasting coastal protection.',
+    'feature_hydrodynamic_optimization_desc' => 'Designs that incorporate hydrodynamic optimization to maximize structural and functional efficiency in marine conditions.',
+    'feature_international_standards_desc' => 'All our solutions rigorously comply with international standards, ensuring optimal results and regulatory compliance.',
     
     // Port Engineering Features
     'feature_port_design' => 'Port Design and Planning',
