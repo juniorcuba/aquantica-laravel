@@ -34,6 +34,20 @@ return [
     'service_breakwaters_footer' =>
         'Ofrecemos soluciones costeras integrales que combinan innovación y eficacia, destacando por su diseño personalizado adaptado a las características específicas de cada entorno. Utilizamos materiales de alta resistencia y durabilidad, garantizando una protección costera de larga vida útil. Nuestros diseños incorporan optimización hidrodinámica para maximizar la eficiencia estructural y funcional en condiciones marinas. Además, todas nuestras soluciones cumplen rigurosamente con estándares internacionales, asegurando no solo resultados óptimos sino también el cumplimiento normativo en cada proyecto. Estas ventajas nos permiten ofrecer protecciones costeras efectivas, sostenibles y adaptadas a las necesidades particulares de cada cliente.',
     
+    // Retaining Walls Service
+    'service_retaining_walls' => 'Diseño y Construcción de Muros de Contención',
+    'service_retaining_walls_desc' =>
+        'Desarrollamos muros especializados para estabilización de taludes costeros, prevención de inundaciones y soporte de infraestructuras litorales. En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, nos especializamos en el diseño y construcción de muros de contención marinos de alto desempeño. Nuestras estructuras, fabricadas con mampostería y concreto de alta resistencia, ofrecen una protección robusta y duradera contra las fuerzas horizontales generadas por diversos fenómenos costeros, incluyendo el impacto del oleaje y corrientes marinas, la presión de tierras y empujes hidrostáticos, la erosión costera y aludes, así como las fuerzas eólicas en zonas litorales. Cada proyecto es desarrollado con ingeniería de precisión para garantizar estabilidad, seguridad y resistencia en entornos marinos desafiantes, protegiendo infraestructuras y ecosistemas con soluciones técnicas adaptadas a las necesidades específicas de cada ubicación.',
+    'service_retaining_walls_footer' =>
+        'Estas estructuras se instalan paralelas al litoral, funcionando como una barrera física estratégica entre la tierra y el agua. Esta solución es ideal para proteger vías de comunicación costeras, infraestructura portuaria crítica, zonas residenciales y turísticas, así como áreas susceptibles a erosión. Diseñadas para resistir las fuerzas marinas, ofrecen protección duradera mientras preservan el valor estético y funcional del entorno costero.',
+    
+    // Artificial Reefs Service
+    'service_artificial_reefs' => 'Instalación de Arrecifes Artificiales',
+    'service_artificial_reefs_desc' =>
+        'Implementamos módulos de arrecifes sumergidos para rehabilitación ecológica, protección costera contra oleaje y fomento de biodiversidad marina, con diseños certificados ambientalmente. En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, diseñamos e implementamos arrecifes artificiales como una solución innovadora para la protección costera, la rehabilitación de ecosistemas marinos y el desarrollo sostenible de zonas litorales. Estas estructuras, estratégicamente ubicadas, no solo mitigan la erosión y protegen la infraestructura marina, sino que también promueven la biodiversidad y ofrecen oportunidades recreativas.',
+    'service_artificial_reefs_footer' =>
+        'En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, diseñamos e implementamos arrecifes artificiales como una solución innovadora para la protección costera, la rehabilitación de ecosistemas marinos y el desarrollo sostenible de zonas litorales. Estas estructuras, estratégicamente ubicadas, no solo mitigan la erosión y protegen la infraestructura marina, sino que también promueven la biodiversidad y ofrecen oportunidades recreativas.',
+    
     // Port Engineering Service
     'service_port_engineering' => 'Ingeniería Portuaria e Infraestructura Marítima',
     'service_port_engineering_desc' =>
@@ -74,6 +88,19 @@ return [
         'feature_material_quality',
         'feature_hydrodynamic_optimization',
         'feature_international_standards',
+    ],
+    
+    'service_retaining_walls_features' => [
+        'feature_resource_optimization',
+        'feature_structural_strength',
+        'feature_efficient_construction',
+        'feature_proven_durability',
+    ],
+    
+    'service_artificial_reefs_features' => [
+        'feature_ecological_restoration',
+        'feature_coastal_protection_reefs',
+        'feature_recreational_economic',
     ],
     
     'service_port_engineering_features' => [
@@ -135,6 +162,28 @@ return [
     'feature_material_quality_desc' => 'Uso de materiales de alta resistencia y durabilidad, garantizando una protección costera de larga vida útil.',
     'feature_hydrodynamic_optimization_desc' => 'Diseños que incorporan optimización hidrodinámica para maximizar la eficiencia estructural y funcional en condiciones marinas.',
     'feature_international_standards_desc' => 'Todas nuestras soluciones cumplen rigurosamente con estándares internacionales, asegurando resultados óptimos y cumplimiento normativo.',
+    
+    // Retaining Wall Features
+    'feature_resource_optimization' => 'Optimización de Recursos Naturales',
+    'feature_structural_strength' => 'Alta Resistencia Estructural',
+    'feature_efficient_construction' => 'Proceso Constructivo Eficiente',
+    'feature_proven_durability' => 'Durabilidad Comprobada',
+    
+    // Feature Descriptions for Retaining Walls
+    'feature_resource_optimization_desc' => 'Nuestro enfoque innovador aprovecha la capacidad portante del terreno existente como elemento estructural principal, reduciendo sustancialmente el requerimiento de materiales adicionales.',
+    'feature_structural_strength_desc' => 'Nuestros muros de contención ofrecen máxima resistencia ante las condiciones más exigentes, soportando fuertes presiones horizontales, alturas variables de relleno y diferentes tipos de sobrecargas.',
+    'feature_efficient_construction_desc' => 'Nuestra ejecución de arriba hacia abajo optimiza cada fase del proyecto mediante la reutilización inteligente de materiales excavados, eliminando rellenos artificiales y reduciendo tiempos de ejecución.',
+    'feature_proven_durability_desc' => 'Empleamos materiales de primera calidad y técnicas especializadas que garantizan una excepcional resistencia a la corrosión marina, requieren mínimo mantenimiento y ofrecen una vida útil prolongada.',
+    
+    // Artificial Reef Features
+    'feature_ecological_restoration' => 'Restauración Ecológica',
+    'feature_coastal_protection_reefs' => 'Protección Costera',
+    'feature_recreational_economic' => 'Usos Recreativos y Económicos',
+    
+    // Feature Descriptions for Artificial Reefs
+    'feature_ecological_restoration_desc' => 'Nuestros arrecifes artificiales regeneran ecosistemas marinos, proporcionando hábitats para especies amenazadas y sustratos para corales y moluscos, recuperando la biodiversidad en zonas degradadas.',
+    'feature_coastal_protection_reefs_desc' => 'Reducen eficazmente la erosión costera al disipar la energía del oleaje, protegiendo infraestructuras marinas y estabilizando fondos arenosos con barreras naturales.',
+    'feature_recreational_economic_desc' => 'Crean atractivos turísticos para buceo y pesca deportiva, ofrecen zonas de fondeo seguras y diversifican actividades náuticas de forma sostenible.',
     
     // Port Engineering Features
     'feature_port_design' => 'Diseño y Planificación Portuaria',

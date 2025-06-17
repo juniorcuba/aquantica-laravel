@@ -45,4 +45,26 @@ return [
             'https://images.pexels.com/photos/127673/pexels-photo-127673.jpeg?auto=compress&cs=tinysrgb&w=1280',
         ],
     ],
+    [
+        'title_key'       => 'service_retaining_walls',
+        'description_key' => 'service_retaining_walls_desc',
+        'description_footer_key' => 'service_retaining_walls_footer',
+        'image'           => 'https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=1280',
+        'gallery_images'  => [
+            'https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=1280',
+            'https://images.pexels.com/photos/2775196/pexels-photo-2775196.jpeg?auto=compress&cs=tinysrgb&w=1280',
+            'https://images.pexels.com/photos/2480828/pexels-photo-2480828.jpeg?auto=compress&cs=tinysrgb&w=1280',
+        ],
+    ],
+    [
+        'title_key'       => 'service_artificial_reefs',
+        'description_key' => 'service_artificial_reefs_desc',
+        'description_footer_key' => 'service_artificial_reefs_footer',
+        'image'           => 'https://images.pexels.com/photos/3894857/pexels-photo-3894857.jpeg?auto=compress&cs=tinysrgb&w=1280',
+        'gallery_images'  => [
+            'https://images.pexels.com/photos/3894857/pexels-photo-3894857.jpeg?auto=compress&cs=tinysrgb&w=1280',
+            'https://images.pexels.com/photos/3329292/pexels-photo-3329292.jpeg?auto=compress&cs=tinysrgb&w=1280',
+            'https://images.pexels.com/photos/3331094/pexels-photo-3331094.jpeg?auto=compress&cs=tinysrgb&w=1280',
+        ],
+    ],
 ];
