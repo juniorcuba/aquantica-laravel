@@ -38,7 +38,7 @@ return [
         'name_placeholder' => 'Ingresa tu nombre completo',
         'email_placeholder' => 'ejemplo@correo.com',
         'phone_placeholder' => '+52 (123) 456-7890',
-        'message_placeholder' => 'Escribe tu mensaje aquí...'
+        'message_placeholder' => 'Escribe tu mensaje aquí...',
         'lang' => 'es',
     ],
 ];
