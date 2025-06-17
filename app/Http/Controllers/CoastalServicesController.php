@@ -68,12 +68,18 @@ class CoastalServicesController extends Controller
             $title       = __('coastal_services.' . $raw['title_key']);
             $description = __('coastal_services.' . $raw['description_key']);
             $prefix = app()->getLocale() === 'en' ? 'coastal-services' : 'servicios-costeros';
+            
+            // Get feature keys from language file and translate them
+            $featureKeys = __('coastal_services.' . $raw['title_key'] . '_features');
+            $features = collect($featureKeys)->map(function ($featureKey) {
+                return __('coastal_services.' . $featureKey);
+            })->toArray();
     
             return [
                 'title'       => $title,
                 'description' => $description,
                 'image'       => $raw['image'],
-                'features'    => $raw['features'],
+                'features'    => $features,
                 'gallery'     => $raw['gallery_images'],
                 'slug'        => \Illuminate\Support\Str::slug($title),
                 'prefix'      => $prefix,
