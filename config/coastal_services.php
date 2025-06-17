@@ -12,4 +12,15 @@ return [
             'https://images.pexels.com/photos/4009175/pexels-photo-4009175.jpeg?auto=compress&cs=tinysrgb&w=1280',
         ],
     ],
+    [
+        'title_key'       => 'service_coastal_dunes',
+        'description_key' => 'service_coastal_dunes_desc',
+        'description_footer_key' => 'service_coastal_dunes_footer',
+        'image'           => 'https://images.pexels.com/photos/635279/pexels-photo-635279.jpeg?auto=compress&cs=tinysrgb&w=1280',
+        'gallery_images'  => [
+            'https://images.pexels.com/photos/635279/pexels-photo-635279.jpeg?auto=compress&cs=tinysrgb&w=1280',
+            'https://images.pexels.com/photos/1590247/pexels-photo-1590247.jpeg?auto=compress&cs=tinysrgb&w=1280',
+            'https://images.pexels.com/photos/1705254/pexels-photo-1705254.jpeg?auto=compress&cs=tinysrgb&w=1280',
+        ],
+    ],
 ];

@@ -13,6 +13,13 @@ return [
     'service_beach_recovery_footer' =>
         'Our solutions offer an increase in the coastal profile, reinforcing its resistance to natural phenomena such as hurricanes and storm surges. We implement eco-friendly techniques for effective protection against erosion, preserving environmental balance. Additionally, we provide specialized maintenance for both natural and artificial beaches, ensuring their long-term conservation. We optimize recreational spaces under sustainability criteria, combining functionality and ecosystem care, and use cutting-edge technology, including electric, submersible, and low acoustic impact equipment, guaranteeing efficient operations that respect the marine environment.',
     
+    // Coastal Dunes Service
+    'service_coastal_dunes' => 'Design and Construction of Coastal Dunes',
+    'service_coastal_dunes_desc' =>
+        'We protect and rehabilitate coastal areas through the design and construction of artificial dunes, using sustainable techniques that mitigate erosion, preserve ecosystems, and provide natural barriers against extreme weather events. We specialize in the design, construction, and rehabilitation of coastal dunes, a natural and sustainable solution for protecting coastal areas against erosion, climate change, and extreme weather phenomena. Our team of engineers and experts develops artificial dunes and reinforces existing ones through innovative techniques, using ecosystem-compatible materials and bioengineering strategies. These structures not only act as natural barriers against flooding and storms but also preserve biodiversity and improve coastal resilience.',
+    'service_coastal_dunes_footer' =>
+        'We combine advanced engineering and environmental conservation to create functional, aesthetic dunes adapted to the needs of each project. We protect your investment and natural heritage, ensuring safer and more sustainable coasts for future generations.',
+    
     // Port Engineering Service
     'service_port_engineering' => 'Port Engineering and Maritime Infrastructure',
     'service_port_engineering_desc' =>
@@ -33,6 +40,13 @@ return [
         'feature_erosion_protection',
         'feature_beach_recovery',
         'feature_multidisciplinary_advisory',
+    ],
+    
+    'service_coastal_dunes_features' => [
+        'feature_technical_studies',
+        'feature_custom_design',
+        'feature_sustainable_construction',
+        'feature_maintenance_monitoring',
     ],
     
     'service_port_engineering_features' => [
@@ -60,6 +74,18 @@ return [
     'feature_erosion_protection_desc' => 'We implement soft structures (breakwaters) designed to dissipate wave energy, reduce erosive impact, and preserve the beach profile naturally.',
     'feature_beach_recovery_desc' => 'We execute sand pumping with electric and soundproof submersible equipment, ensuring efficient and environmentally respectful operation.',
     'feature_multidisciplinary_advisory_desc' => 'Our team of engineers, ecologists, and legal experts analyzes each project from multiple perspectives, providing technical, sustainable solutions tailored to client needs.',
+    
+    // Coastal Dunes Features
+    'feature_technical_studies' => 'Technical Studies and Environmental Modeling',
+    'feature_custom_design' => 'Customized Design',
+    'feature_sustainable_construction' => 'Sustainable Construction',
+    'feature_maintenance_monitoring' => 'Maintenance and Monitoring',
+    
+    // Feature Descriptions for Coastal Dunes
+    'feature_technical_studies_desc' => 'Technical studies and environmental modeling to assess the viability and impact of dunes.',
+    'feature_custom_design_desc' => 'Customized design according to the geographical, hydrodynamic, and ecological conditions of the area.',
+    'feature_sustainable_construction_desc' => 'Construction with sustainable techniques, such as the use of native vegetation (planting stabilizing species) and natural containment systems.',
+    'feature_maintenance_monitoring_desc' => 'Maintenance and monitoring to ensure long-term effectiveness.',
     
     // Port Engineering Features
     'feature_port_design' => 'Port Design and Planning',

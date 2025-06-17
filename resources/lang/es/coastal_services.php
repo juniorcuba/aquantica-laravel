@@ -13,6 +13,13 @@ return [
     'service_beach_recovery_footer' =>
         'Nuestras soluciones ofrecen un aumento del perfil costero, reforzando su resistencia ante fenómenos naturales como huracanes y marejadas. Implementamos técnicas ecoamigables para una protección efectiva contra la erosión, preservando el equilibrio ambiental. Además, brindamos mantenimiento especializado tanto en playas naturales como artificiales, asegurando su conservación a largo plazo. Optimizamos espacios recreativos bajo criterios de sostenibilidad, combinando funcionalidad y cuidado del ecosistema y utilizamos tecnología de punta, incluyendo equipos eléctricos, sumergibles y de bajo impacto acústico, garantizando operaciones eficientes y respetuosas con el entorno marino.',
     
+    // Coastal Dunes Service
+    'service_coastal_dunes' => 'Diseño y Construcción de Dunas Costeras',
+    'service_coastal_dunes_desc' =>
+        'Protegemos y rehabilitamos zonas costeras mediante el diseño y construcción de dunas artificiales, utilizando técnicas sostenibles que mitigan la erosión, preservan los ecosistemas y brindan barreras naturales contra eventos climáticos extremos. Somos especialistas en el diseño, construcción y rehabilitación de dunas costeras, una solución natural y sostenible para la protección de zonas litorales frente a la erosión, el cambio climático y los fenómenos meteorológicos extremos. Nuestro equipo de ingenieros y expertos desarrolla dunas artificiales y refuerza las existentes mediante técnicas innovadoras, utilizando materiales compatibles con el ecosistema y estrategias de bioingeniería. Estas estructuras no solo actúan como barreras naturales contra inundaciones y tormentas, sino que también preservan la biodiversidad y mejoran la resiliencia de las costas.',
+    'service_coastal_dunes_footer' =>
+        'Combinamos ingeniería avanzada y conservación ambiental para crear dunas funcionales, estéticas y adaptadas a las necesidades de cada proyecto. Protegemos su inversión y el patrimonio natural, asegurando costas más seguras y sostenibles para las generaciones futuras.',
+    
     // Port Engineering Service
     'service_port_engineering' => 'Ingeniería Portuaria e Infraestructura Marítima',
     'service_port_engineering_desc' =>
@@ -33,6 +40,13 @@ return [
         'feature_erosion_protection',
         'feature_beach_recovery',
         'feature_multidisciplinary_advisory',
+    ],
+    
+    'service_coastal_dunes_features' => [
+        'feature_technical_studies',
+        'feature_custom_design',
+        'feature_sustainable_construction',
+        'feature_maintenance_monitoring',
     ],
     
     'service_port_engineering_features' => [
@@ -60,6 +74,18 @@ return [
     'feature_erosion_protection_desc' => 'Implementamos estructuras blandas (rompeolas) diseñadas para disipar la energía del oleaje, reducir el impacto erosivo y preservar el perfil de la playa de manera natural.',
     'feature_beach_recovery_desc' => 'Ejecutamos bombeo de arena con equipos sumergibles eléctricos e insonoros, asegurando una operación eficiente y respetuosa con el entorno.',
     'feature_multidisciplinary_advisory_desc' => 'Nuestro equipo de ingenieros, ecólogos y expertos legales analiza cada proyecto desde múltiples perspectivas, brindando soluciones técnicas, sostenibles y adaptadas a las necesidades del cliente.',
+    
+    // Coastal Dunes Features
+    'feature_technical_studies' => 'Estudios Técnicos y Modelado Ambiental',
+    'feature_custom_design' => 'Diseño Personalizado',
+    'feature_sustainable_construction' => 'Construcción Sostenible',
+    'feature_maintenance_monitoring' => 'Mantenimiento y Monitoreo',
+    
+    // Feature Descriptions for Coastal Dunes
+    'feature_technical_studies_desc' => 'Estudios técnicos y modelado ambiental para evaluar la viabilidad y el impacto de las dunas.',
+    'feature_custom_design_desc' => 'Diseño personalizado según las condiciones geográficas, hidrodinámicas y ecológicas del área.',
+    'feature_sustainable_construction_desc' => 'Construcción con técnicas sostenibles, como el uso de vegetación autóctona (plantación de especies estabilizadoras) y sistemas de contención natural.',
+    'feature_maintenance_monitoring_desc' => 'Mantenimiento y monitoreo para garantizar su efectividad a largo plazo.',
     
     // Port Engineering Features
     'feature_port_design' => 'Diseño y Planificación Portuaria',
