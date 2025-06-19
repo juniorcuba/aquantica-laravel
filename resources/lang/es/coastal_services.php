@@ -320,4 +320,44 @@ return [
     'feature_vessel_stabilization_desc' => 'Servicios especializados de estabilización de embarcaciones, incluyendo operaciones contra incendios y asistencia en alta mar.',
     'feature_specialized_equipment_desc' => 'Flota de embarcaciones de apoyo y tecnología especializada para garantizar operaciones de salvamento seguras y efectivas.',
     'feature_comprehensive_service_desc' => 'Servicios completos que incluyen reparaciones, mantenimiento correctivo y planes de salvamento personalizados con coordinación logística integral.',
+
+    // Underwater Cutting and Welding Service
+    'service_underwater_welding' => 'Corte y Soldadura Submarina',
+    'service_underwater_welding_desc' =>
+        'Ofrecemos servicios especializados de soldadura y reparación subacuática para estructuras marinas, incluyendo tuberías, componentes metálicos y equipos dañados en embarcaciones, muelles y plataformas. Contamos con personal certificado y tecnología de punta para garantizar reparaciones eficientes, seguras y de alta durabilidad.',
+    
+    // Underwater Inspection Service
+    'service_underwater_inspection' => 'Inspecciones Submarinas',
+    'service_underwater_inspection_desc' =>
+        'Realizamos evaluaciones técnicas subacuáticas mediante buceo profesional y equipos especializados para diagnosticar el estado de estructuras marinas, identificar daños y recomendar acciones correctivas.',
+    'service_underwater_inspection_footer' =>
+        'Entendemos que la integridad de sus estructuras submarinas es vital para la continuidad operacional. Nuestras inspecciones no solo identifican problemas existentes, sino que también proporcionan las bases técnicas para planificar estrategias de mantenimiento proactivo, extendiendo la vida útil de sus instalaciones marinas.',
+    
+    // Underwater Welding Features
+    'feature_specialized_welding' => 'Soldadura Especializada',
+    'feature_certified_team' => 'Equipo Certificado',
+    'feature_component_repair' => 'Reparación de Componentes',
+    'feature_advanced_technology' => 'Tecnología Avanzada',
+    'feature_efficient_solutions' => 'Soluciones Eficientes',
+    
+    // Feature Descriptions for Underwater Welding
+    'feature_specialized_welding_desc' => 'Realizamos trabajos especializados de soldadura y corte subacuático para el mantenimiento, reparación y modificación de estructuras marinas.',
+    'feature_certified_team_desc' => 'Contamos con un equipo de profesionales altamente capacitados para garantizar que cada proyecto se ejecute con la máxima eficiencia, precisión y seguridad.',
+    'feature_component_repair_desc' => 'Servicios de sustitución y reparación de tuberías, placas vortex, bridas, bombas, escaleras marinas, flotadores y otros componentes.',
+    'feature_advanced_technology_desc' => 'Utilizamos tecnología de vanguardia para garantizar reparaciones duraderas y de alta calidad en ambientes submarinos.',
+    'feature_efficient_solutions_desc' => 'Ofrecemos soluciones confiables y adaptadas a las necesidades específicas de cada instalación marina, minimizando tiempos de inactividad.',
+    
+    // Underwater Inspection Features
+    'feature_professional_diving' => 'Buceo Profesional',
+    'feature_advanced_diagnostics' => 'Diagnóstico Avanzado',
+    'feature_comprehensive_evaluation' => 'Evaluación Exhaustiva',
+    'feature_preventive_maintenance' => 'Mantenimiento Preventivo',
+    'feature_detailed_reporting' => 'Informes Detallados',
+    
+    // Feature Descriptions for Underwater Inspection
+    'feature_professional_diving_desc' => 'Equipo de buzos y técnicos especializados que utilizan metodologías estandarizadas para inspecciones submarinas profesionales.',
+    'feature_advanced_diagnostics_desc' => 'Utilizamos tecnologías avanzadas como videografía submarina HD y equipos de ultrasonido para medición de espesores.',
+    'feature_comprehensive_evaluation_desc' => 'Realizamos evaluaciones visuales y táctiles exhaustivas para identificar problemas como corrosión, fisuras y daños por impacto.',
+    'feature_preventive_maintenance_desc' => 'La detección temprana de anomalías permite implementar acciones correctivas oportunas, evitando fallos estructurales mayores.',
+    'feature_detailed_reporting_desc' => 'Proporcionamos informes detallados con documentación gráfica, análisis de daños y recomendaciones técnicas priorizadas.',
 ];

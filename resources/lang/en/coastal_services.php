@@ -344,4 +344,44 @@ return [
     'feature_vessel_stabilization_desc' => 'Specialized vessel stabilization services, including firefighting operations and offshore assistance.',
     'feature_specialized_equipment_desc' => 'Fleet of support vessels and specialized technology to ensure safe and effective salvage operations.',
     'feature_comprehensive_service_desc' => 'Complete services including repairs, corrective maintenance, and customized salvage plans with comprehensive logistics coordination.',
+
+    // Underwater Cutting and Welding Service
+    'service_underwater_welding' => 'Underwater Cutting and Welding',
+    'service_underwater_welding_desc' =>
+        'We offer specialized underwater welding and repair services for marine structures, including pipes, metal components, and damaged equipment on vessels, docks, and platforms. We have certified personnel and cutting-edge technology to ensure efficient, safe, and highly durable repairs.',
+    
+    // Underwater Inspection Service
+    'service_underwater_inspection' => 'Underwater Inspections',
+    'service_underwater_inspection_desc' =>
+        'We perform underwater technical assessments through professional diving and specialized equipment to diagnose the condition of marine structures, identify damage, and recommend corrective actions.',
+    'service_underwater_inspection_footer' =>
+        'We understand that the integrity of your underwater structures is vital for operational continuity. Our inspections not only identify existing problems but also provide the technical basis for planning proactive maintenance strategies, extending the useful life of your marine facilities.',
+    
+    // Underwater Welding Features
+    'feature_specialized_welding' => 'Specialized Welding',
+    'feature_certified_team' => 'Certified Team',
+    'feature_component_repair' => 'Component Repair',
+    'feature_advanced_technology' => 'Advanced Technology',
+    'feature_efficient_solutions' => 'Efficient Solutions',
+    
+    // Feature Descriptions for Underwater Welding
+    'feature_specialized_welding_desc' => 'We perform specialized underwater welding and cutting work for the maintenance, repair, and modification of marine structures.',
+    'feature_certified_team_desc' => 'We have a team of highly trained professionals to ensure that each project is executed with maximum efficiency, precision, and safety.',
+    'feature_component_repair_desc' => 'Replacement and repair services for pipes, vortex plates, flanges, pumps, marine ladders, floats, and other components.',
+    'feature_advanced_technology_desc' => 'We use cutting-edge technology to ensure lasting and high-quality repairs in underwater environments.',
+    'feature_efficient_solutions_desc' => 'We offer reliable solutions adapted to the specific needs of each marine installation, minimizing downtime.',
+    
+    // Underwater Inspection Features
+    'feature_professional_diving' => 'Professional Diving',
+    'feature_advanced_diagnostics' => 'Advanced Diagnostics',
+    'feature_comprehensive_evaluation' => 'Comprehensive Evaluation',
+    'feature_preventive_maintenance' => 'Preventive Maintenance',
+    'feature_detailed_reporting' => 'Detailed Reporting',
+    
+    // Feature Descriptions for Underwater Inspection
+    'feature_professional_diving_desc' => 'Team of specialized divers and technicians using standardized methodologies for professional underwater inspections.',
+    'feature_advanced_diagnostics_desc' => 'We use advanced technologies such as HD underwater videography and ultrasound equipment for thickness measurements.',
+    'feature_comprehensive_evaluation_desc' => 'We perform thorough visual and tactile evaluations to identify problems such as corrosion, cracks, and impact damage.',
+    'feature_preventive_maintenance_desc' => 'Early detection of anomalies allows for timely corrective actions, preventing major structural failures.',
+    'feature_detailed_reporting_desc' => 'We provide detailed reports with graphic documentation, damage analysis, and prioritized technical recommendations.',
 ];

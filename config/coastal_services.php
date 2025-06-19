@@ -169,4 +169,28 @@ return [
         ],
         'show_features'   => true,
     ],
+    [
+        'title_key'       => 'service_underwater_welding',
+        'description_key' => 'service_underwater_welding_desc',
+        'description_footer_key' => null,
+        'image'           => 'https://images.pexels.com/photos/2156881/pexels-photo-2156881.jpeg?auto=compress&cs=tinysrgb&w=1280',
+        'gallery_images'  => [
+            'https://images.pexels.com/photos/2156881/pexels-photo-2156881.jpeg?auto=compress&cs=tinysrgb&w=1280',
+            'https://images.pexels.com/photos/2156881/pexels-photo-2156881.jpeg?auto=compress&cs=tinysrgb&w=1280',
+            'https://images.pexels.com/photos/2156881/pexels-photo-2156881.jpeg?auto=compress&cs=tinysrgb&w=1280',
+        ],
+        'show_features'   => true,
+    ],
+    [
+        'title_key'       => 'service_underwater_inspection',
+        'description_key' => 'service_underwater_inspection_desc',
+        'description_footer_key' => 'service_underwater_inspection_footer',
+        'image'           => 'https://images.pexels.com/photos/3894168/pexels-photo-3894168.jpeg?auto=compress&cs=tinysrgb&w=1280',
+        'gallery_images'  => [
+            'https://images.pexels.com/photos/3894168/pexels-photo-3894168.jpeg?auto=compress&cs=tinysrgb&w=1280',
+            'https://images.pexels.com/photos/3894168/pexels-photo-3894168.jpeg?auto=compress&cs=tinysrgb&w=1280',
+            'https://images.pexels.com/photos/3894168/pexels-photo-3894168.jpeg?auto=compress&cs=tinysrgb&w=1280',
+        ],
+        'show_features'   => true,
+    ],
 ];
