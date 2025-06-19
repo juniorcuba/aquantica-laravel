@@ -48,19 +48,26 @@ return [
     'service_artificial_reefs_footer' =>
         'En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, diseñamos e implementamos arrecifes artificiales como una solución innovadora para la protección costera, la rehabilitación de ecosistemas marinos y el desarrollo sostenible de zonas litorales. Estas estructuras, estratégicamente ubicadas, no solo mitigan la erosión y protegen la infraestructura marina, sino que también promueven la biodiversidad y ofrecen oportunidades recreativas.',
     
-    // Port Engineering Service
-    'service_port_engineering' => 'Ingeniería Portuaria e Infraestructura Marítima',
-    'service_port_engineering_desc' =>
-        'Diseñamos, desarrollamos y optimizamos instalaciones portuarias e infraestructura marítima con un enfoque integrado que combina excelencia técnica, eficiencia operativa y sostenibilidad ambiental. Nuestro equipo especializado proporciona soluciones integrales para la construcción, ampliación y modernización de puertos, muelles y terminales marítimas.',
-    'service_port_engineering_footer' =>
-        'Nuestros servicios de ingeniería portuaria incluyen estudios de factibilidad, planificación maestra, diseño detallado y supervisión de construcción. Integramos tecnologías de vanguardia y prácticas sostenibles para crear infraestructura marítima resiliente que satisfaga las necesidades operativas actuales y futuras, minimizando el impacto ambiental. Nuestras soluciones optimizan el manejo de carga, el tráfico de embarcaciones y las operaciones portuarias, mejorando la eficiencia y seguridad en los sistemas de transporte marítimo.',
+    // Docks Service
+    'service_docks' => 'Muelles: Diseño, Construcción y Mantenimiento',
+    'service_docks_desc' =>
+        'Ofrecemos servicios integrales para infraestructuras portuarias, desde ingeniería conceptual hasta mantenimiento de muelles comerciales, turísticos o industriales, asegurando cumplimiento de normas. En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS desarrollamos muelles fijos y flotantes diseñados para ofrecer soluciones integrales y duraderas. Nuestras estructuras garantizan un atraque seguro para embarcaciones, facilitando operaciones logísticas eficientes de carga y descarga, circulación peatonal protegida, actividades portuarias especializadas y uso recreativo-turístico.',
+    'service_docks_footer' =>
+        'En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS desarrollamos muelles fijos y flotantes diseñados para ofrecer soluciones integrales y duraderas. Nuestras estructuras garantizan un atraque seguro para embarcaciones, facilitando operaciones logísticas eficientes de carga y descarga, circulación peatonal protegida, actividades portuarias especializadas y uso recreativo-turístico.',
     
-    // Coastal Protection Service
-    'service_coastal_protection' => 'Protección Costera y Control de Erosión',
-    'service_coastal_protection_desc' =>
-        'Desarrollamos e implementamos estrategias integrales para la protección costera, combinando soluciones naturales e ingenieriles para mitigar la erosión, prevenir inundaciones y mejorar la resiliencia costera. Nuestro enfoque integra consideraciones ambientales con innovación técnica para crear medidas protectoras sostenibles para comunidades e infraestructura costera.',
-    'service_coastal_protection_footer' =>
-        'Nuestros servicios de protección costera incluyen evaluaciones de vulnerabilidad, mapeo de riesgos y diseño de sistemas de defensa integrados. Implementamos soluciones basadas en la naturaleza como costas vivas junto con estructuras de ingeniería tradicionales como muros marinos y rompeolas, creando protección multicapa que se adapta a las cambiantes condiciones ambientales. Nuestros diseños priorizan la preservación del ecosistema mientras garantizan una protección eficaz contra tormentas, aumento del nivel del mar y erosión costera.',
+    // Beaconing Systems Service
+    'service_beaconing' => 'Instalación de Sistemas de Balizamiento',
+    'service_beaconing_desc' =>
+        'Implementamos sistemas de señalización náutica para garantizar la seguridad en la navegación, la delimitación de canales y la protección de infraestructuras marinas, cumpliendo con normativas internacionales. Nuestros servicios incluyen diseño e instalación de sistemas de balizas luminosas y reflectivas (flotantes, fijas o sobre estructuras) para señalización diurna y nocturna, balizamiento de canales de navegación, áreas restringidas y obstáculos submarinos, sistemas de boyado especializado para demarcación de zonas de obras marinas, parques eólicos offshore o áreas protegidas, y tecnología avanzada y cumplimiento normativo en materiales, colores y patrones de señalización.',
+    'service_beaconing_footer' =>
+        'Proporcionamos soluciones integrales de balizamiento marítimo y costero, diseñadas para garantizar la seguridad náutica, la delimitación de áreas críticas y la orientación en canales de navegación. Nuestros sistemas cumplen con los estándares internacionales y se adaptan a las necesidades específicas de cada proyecto, ya sea en puertos, zonas costeras, plataformas offshore o rutas marítimas. Nuestros sistemas de balizamiento ofrecen múltiples beneficios, garantizando mayor seguridad para embarcaciones y operaciones marítimas, así como una significativa reducción de riesgos de colisiones y accidentes. Gracias a su diseño robusto, proporcionan durabilidad y resistencia frente a condiciones marinas adversas, incluyendo oleaje intenso, corrosión y bioincrustaciones. Además, cada solución es personalizable para adaptarse a los requerimientos ambientales, logísticos y operativos específicos de cada proyecto, asegurando un desempeño óptimo en cualquier escenario.',
+    
+    // Buoy Lines Service
+    'service_buoy_lines' => 'Instalación de Líneas de Boyado',
+    'service_buoy_lines_desc' =>
+        'Desplegamos sistemas de boyas de demarcación para delimitación de áreas navegables, zonas protegidas o señalización de obstáculos submarinos, con materiales UV-resistentes y de alta visibilidad. En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, implementamos sistemas de balizamiento IALA/AISM (International Association of Lighthouse Authorities/Asociación Internacional de Señalización Marítima), el estándar global para garantizar una navegación segura y eficiente. Nuestras soluciones de señalización marítima permiten identificar peligros y obstáculos en zonas navegables, delimitar canales de navegación estratégicos, optimizar rutas marítimas comerciales y recreativas, así como cumplir con regulaciones internacionales de seguridad.',
+    'service_buoy_lines_footer' =>
+        'En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, implementamos sistemas de balizamiento IALA/AISM (International Association of Lighthouse Authorities/Asociación Internacional de Señalización Marítima), el estándar global para garantizar una navegación segura y eficiente. Nuestras soluciones de señalización marítima permiten identificar peligros y obstáculos en zonas navegables, delimitar canales de navegación estratégicos, optimizar rutas marítimas comerciales y recreativas, así como cumplir con regulaciones internacionales de seguridad.',
     
     // Service Feature Arrays
     'service_beach_recovery_features' => [
@@ -103,20 +110,22 @@ return [
         'feature_recreational_economic',
     ],
     
-    'service_port_engineering_features' => [
-        'feature_port_design',
-        'feature_maritime_terminals',
-        'feature_navigation_channels',
-        'feature_coastal_structures',
+    'service_docks_features' => [
+        'feature_custom_design_docks',
+        'feature_environment_analysis',
+        'feature_resource_optimization_docks',
+        'feature_structural_strength_docks',
+        'feature_efficient_construction_docks',
+        'feature_proven_durability_docks',
     ],
     
-    'service_coastal_protection_features' => [
-        'feature_erosion_control',
-        'feature_flood_protection',
-        'feature_shoreline_stabilization',
-        'feature_environmental_integration',
+    'service_beaconing_features' => [
+        'feature_beacon_design',
+        'feature_channel_beaconing',
+        'feature_specialized_buoys',
+        'feature_advanced_tech',
     ],
-
+    
     // Beach Recovery Features
     'feature_studies_diagnosis' => 'Estudios y Diagnóstico Integral',
     'feature_erosion_protection' => 'Protección contra la Erosión Costera',
@@ -185,27 +194,31 @@ return [
     'feature_coastal_protection_reefs_desc' => 'Reducen eficazmente la erosión costera al disipar la energía del oleaje, protegiendo infraestructuras marinas y estabilizando fondos arenosos con barreras naturales.',
     'feature_recreational_economic_desc' => 'Crean atractivos turísticos para buceo y pesca deportiva, ofrecen zonas de fondeo seguras y diversifican actividades náuticas de forma sostenible.',
     
-    // Port Engineering Features
-    'feature_port_design' => 'Diseño y Planificación Portuaria',
-    'feature_maritime_terminals' => 'Terminales Marítimas y Muelles',
-    'feature_navigation_channels' => 'Canales de Navegación y Acceso',
-    'feature_coastal_structures' => 'Estructuras y Facilidades Costeras',
+    // Dock Features
+    'feature_custom_design_docks' => 'Diseño Personalizado',
+    'feature_environment_analysis' => 'Análisis Integral del Entorno',
+    'feature_resource_optimization_docks' => 'Optimización de Recursos Naturales',
+    'feature_structural_strength_docks' => 'Alta Resistencia Estructural',
+    'feature_efficient_construction_docks' => 'Proceso Constructivo Eficiente',
+    'feature_proven_durability_docks' => 'Durabilidad Garantizada',
     
-    // Feature Descriptions for Port Engineering
-    'feature_port_design_desc' => 'Servicios integrales de planificación y diseño portuario incluyendo planes maestros, estudios de factibilidad y optimización operativa.',
-    'feature_maritime_terminals_desc' => 'Diseño y construcción de terminales especializadas para manejo de carga, transporte de pasajeros y operaciones marinas.',
-    'feature_navigation_channels_desc' => 'Desarrollo y mantenimiento de canales de navegación, incluyendo operaciones de dragado y gestión de profundidad.',
-    'feature_coastal_structures_desc' => 'Ingeniería de rompeolas, espigones y otras estructuras costeras para proteger la infraestructura portuaria.',
+    // Feature Descriptions for Docks
+    'feature_custom_design_docks_desc' => 'Cada muelle se desarrolla bajo estándares de excelencia, considerando normativas nacionales e internacionales, requerimientos específicos del cliente y las condiciones geográficas únicas del sitio de instalación.',
+    'feature_environment_analysis_desc' => 'Realizamos evaluaciones técnicas exhaustivas que incluyen: patrones de oleaje y mareas, fuerzas de viento predominantes, empuje lateral de embarcaciones y características geotécnicas del suelo.',
+    'feature_resource_optimization_docks_desc' => 'Aprovecha al máximo la capacidad portante del suelo existente, transformándolo en un elemento estructural clave.',
+    'feature_structural_strength_docks_desc' => 'Desarrollamos infraestructuras capaces de soportar las condiciones más exigentes, incluyendo grandes presiones horizontales, alturas considerables de relleno y sobrecargas variables.',
+    'feature_efficient_construction_docks_desc' => 'Nuestra ejecución de arriba hacia abajo optimiza cada fase del proyecto mediante la reutilización inteligente de materiales excavados, eliminando rellenos artificiales y reduciendo tiempos de ejecución.',
+    'feature_proven_durability_docks_desc' => 'Seleccionamos materiales premium específicamente formulados para resistir la corrosión marina, impactos de embarcaciones y condiciones ambientales extremas.',
     
-    // Coastal Protection Features
-    'feature_erosion_control' => 'Sistemas de Control de Erosión',
-    'feature_flood_protection' => 'Medidas de Protección contra Inundaciones',
-    'feature_shoreline_stabilization' => 'Estabilización de Costas',
-    'feature_environmental_integration' => 'Integración Ambiental',
+    // Beaconing Features
+    'feature_beacon_design' => 'Diseño e Instalación de Sistemas de Balizas',
+    'feature_channel_beaconing' => 'Balizamiento de Canales de Navegación',
+    'feature_specialized_buoys' => 'Sistemas de Boyado Especializado',
+    'feature_advanced_tech' => 'Tecnología Avanzada y Cumplimiento Normativo',
     
-    // Feature Descriptions for Coastal Protection
-    'feature_erosion_control_desc' => 'Implementación de sistemas ingenieriles y naturales para prevenir la erosión costera y proteger las líneas de costa.',
-    'feature_flood_protection_desc' => 'Diseño de barreras contra inundaciones, muros marinos y sistemas de drenaje para proteger comunidades costeras contra marejadas e inundaciones.',
-    'feature_shoreline_stabilization_desc' => 'Aplicación de técnicas para estabilizar costas utilizando tanto estructuras duras como soluciones basadas en la naturaleza.',
-    'feature_environmental_integration_desc' => 'Integración de consideraciones ambientales en todas las medidas de protección costera para preservar ecosistemas y biodiversidad.',
+    // Feature Descriptions for Beaconing
+    'feature_beacon_design_desc' => 'Diseño e instalación de sistemas de balizas luminosas y reflectivas (flotantes, fijas o sobre estructuras) para señalización diurna y nocturna.',
+    'feature_channel_beaconing_desc' => 'Balizamiento de canales de navegación, áreas restringidas y obstáculos submarinos.',
+    'feature_specialized_buoys_desc' => 'Sistemas de boyado especializado para demarcación de zonas de obras marinas, parques eólicos offshore o áreas protegidas.',
+    'feature_advanced_tech_desc' => 'Tecnología avanzada y cumplimiento normativo en materiales, colores y patrones de señalización.',
 ];

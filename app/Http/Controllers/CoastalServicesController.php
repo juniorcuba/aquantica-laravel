@@ -71,7 +71,7 @@ class CoastalServicesController extends Controller
             $prefix = app()->getLocale() === 'en' ? 'coastal-services' : 'servicios-costeros';
             
             // Get feature keys from language file and translate them
-            $featureKeys = __('coastal_services.' . $raw['title_key'] . '_features');
+            $featureKeys = isset($raw['show_features']) && $raw['show_features'] ? __('coastal_services.' . $raw['title_key'] . '_features') : [];
             $features = collect($featureKeys)->map(function ($featureKey) {
                 return __('coastal_services.' . $featureKey);
             })->toArray();
@@ -92,6 +92,7 @@ class CoastalServicesController extends Controller
                 'gallery'     => $raw['gallery_images'],
                 'slug'        => \Illuminate\Support\Str::slug($title),
                 'prefix'      => $prefix,
+                'show_features' => $raw['show_features'] ?? true,
             ];
         });
     }

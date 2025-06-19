@@ -43,6 +43,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
 
         {{-- Key features --}}
+        @if(isset($service['show_features']) && $service['show_features'])
         <section>
             <h2 class="text-2xl md:text-3xl font-semibold text-[#0f2d49] mb-6">
                 {{ __('coastal_services.key_features') }}
@@ -68,6 +69,7 @@
                 @endforeach
             </ul>
         </section>
+        @endif
 
         @if (!empty($service['gallery']))
             <section class="h-[400px]">
