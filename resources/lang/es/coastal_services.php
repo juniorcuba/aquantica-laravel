@@ -126,6 +126,62 @@ return [
         'feature_advanced_tech',
     ],
     
+    'service_pile_inspection_features' => [
+        'feature_technical_evaluation',
+        'feature_preventive_maintenance',
+        'feature_rehabilitation_services',
+        'feature_minimal_intervention',
+        'feature_multidisciplinary_team',
+    ],
+    
+    'service_dredging_features' => [
+        'feature_channel_maintenance',
+        'feature_environmental_supervision',
+        'feature_selective_dredging',
+        'feature_responsible_material_management',
+        'feature_environmental_monitoring',
+    ],
+    
+    'service_submarine_pipelines_features' => [
+        'feature_precision_engineering',
+        'feature_certified_materials',
+        'feature_specialized_installation',
+        'feature_quality_testing',
+        'feature_maintenance_services',
+    ],
+    
+    'service_submarine_cables_features' => [
+        'feature_route_selection',
+        'feature_regulatory_compliance',
+        'feature_cable_design',
+        'feature_deployment_security',
+        'feature_final_inspection',
+    ],
+    
+    'service_salvage_features' => [
+        'feature_emergency_response',
+        'feature_professional_diving',
+        'feature_vessel_stabilization',
+        'feature_specialized_equipment',
+        'feature_comprehensive_service',
+    ],
+    
+    'service_underwater_welding_features' => [
+        'feature_specialized_welding',
+        'feature_certified_team',
+        'feature_component_repair',
+        'feature_advanced_technology',
+        'feature_efficient_solutions',
+    ],
+    
+    'service_underwater_inspection_features' => [
+        'feature_professional_diving',
+        'feature_advanced_diagnostics',
+        'feature_comprehensive_evaluation',
+        'feature_preventive_maintenance',
+        'feature_detailed_reporting',
+    ],
+    
     // Beach Recovery Features
     'feature_studies_diagnosis' => 'Estudios y Diagnóstico Integral',
     'feature_erosion_protection' => 'Protección contra la Erosión Costera',
