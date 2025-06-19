@@ -69,6 +69,23 @@ return [
     'service_buoy_lines_footer' =>
         'At AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, we implement IALA/AISM (International Association of Lighthouse Authorities) beaconing systems, the global standard for ensuring safe and efficient navigation. Our maritime signaling solutions allow the identification of dangers and obstacles in navigable areas, delimitation of strategic navigation channels, optimization of commercial and recreational maritime routes, as well as compliance with international safety regulations.',
     
+    // Pile Inspection Service
+    'service_pile_inspection' => 'Inspection, Maintenance and Rehabilitation of Piles',
+    'service_pile_inspection_desc' =>
+        'We perform diagnosis and repair of piles in bridges, docks, and stilt houses using different techniques, extending their useful life. At AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, we offer specialized services for the maintenance and rehabilitation of stilt structures that, due to their location in marine and coastal environments, are exposed to extreme conditions of humidity, salinity, and mechanical action of waves. Our services are designed to preserve and recover the structural integrity of these constructions, guaranteeing their safety and long-term functionality.',
+    'service_pile_inspection_footer' =>
+        'We have a multidisciplinary team of coastal engineers, materials specialists, and marine biologists who work together to guarantee optimal technical solutions that also preserve the ecological balance of the environment. All our work complies with the highest safety standards and applicable environmental regulations.',
+    
+    // Dredging Service
+    'service_dredging' => 'Dredging and Desilting',
+    'service_dredging_desc' =>
+        'We execute mechanical or hydraulic dredging operations for maintenance of navigable channels, port deepening, and sediment removal, with responsible management of dredged materials. At AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, we perform professional dredging operations for the maintenance of navigable channels, ports, and waterways. Our services include controlled removal of sediments (sands and muds) to guarantee optimal depths, improving nautical safety and avoiding grounding risks.',
+    
+    // Submarine Pipelines Service
+    'service_submarine_pipelines' => 'Installation of Submarine Pipelines',
+    'service_submarine_pipelines_desc' =>
+        'We lead the implementation of submarine pipelines for transportation of hydrocarbons, water, or outfalls, using methods that guarantee precision and minimal environmental disturbance. At AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, we execute submarine pipeline installations for transportation of hydrocarbons and industrial fluids. Our process guarantees safe and efficient projects, meeting the highest industry standards.',
+    
     // Service Feature Arrays
     'service_beach_recovery_features' => [
         'feature_studies_diagnosis',
@@ -124,6 +141,30 @@ return [
         'feature_channel_beaconing',
         'feature_specialized_buoys',
         'feature_advanced_tech',
+    ],
+    
+    'service_pile_inspection_features' => [
+        'feature_technical_evaluation',
+        'feature_preventive_maintenance',
+        'feature_rehabilitation_services',
+        'feature_minimal_intervention',
+        'feature_multidisciplinary_team',
+    ],
+    
+    'service_dredging_features' => [
+        'feature_channel_maintenance',
+        'feature_environmental_supervision',
+        'feature_selective_dredging',
+        'feature_responsible_material_management',
+        'feature_environmental_monitoring',
+    ],
+    
+    'service_submarine_pipelines_features' => [
+        'feature_precision_engineering',
+        'feature_certified_materials',
+        'feature_specialized_installation',
+        'feature_quality_testing',
+        'feature_maintenance_services',
     ],
     
     // Beach Recovery Features
@@ -221,4 +262,46 @@ return [
     'feature_channel_beaconing_desc' => 'Beaconing of navigation channels, restricted areas, and underwater obstacles.',
     'feature_specialized_buoys_desc' => 'Specialized buoy systems for marking marine work areas, offshore wind farms, or protected areas.',
     'feature_advanced_tech_desc' => 'Advanced technology and regulatory compliance in materials, colors, and signaling patterns.',
+    
+    // Pile Inspection Features
+    'feature_technical_evaluation' => 'Comprehensive Technical Evaluation',
+    'feature_preventive_maintenance' => 'Preventive Maintenance Program',
+    'feature_rehabilitation_services' => 'Integral Rehabilitation Services',
+    'feature_minimal_intervention' => 'Minimal Intervention Approach',
+    'feature_multidisciplinary_team' => 'Multidisciplinary Expert Team',
+    
+    // Feature Descriptions for Pile Inspection
+    'feature_technical_evaluation_desc' => 'We conduct exhaustive technical evaluations that include diagnosis of pile condition (both wood and concrete), analysis of the upper platform, and review of all structural elements.',
+    'feature_preventive_maintenance_desc' => 'Our preventive maintenance program includes protective treatments for piles, professional cleaning of submerged components, and reinforcement of critical connections.',
+    'feature_rehabilitation_services_desc' => 'For cases of advanced deterioration, we offer integral rehabilitation services that may include partial pile replacement, reconstruction of damaged sections, and foundation stabilization.',
+    'feature_minimal_intervention_desc' => 'A key aspect of our work is the minimal intervention approach, where we prioritize techniques that respect the original structure and reduce environmental impact.',
+    'feature_multidisciplinary_team_desc' => 'Each project is developed with a personalized plan that considers the specific site conditions, current uses of the structure, and future client requirements.',
+    
+    // Dredging Features
+    'feature_channel_maintenance' => 'Navigable Channel Maintenance',
+    'feature_environmental_supervision' => 'Environmental Expert Supervision',
+    'feature_selective_dredging' => 'Selective Dredging Techniques',
+    'feature_responsible_material_management' => 'Responsible Material Management',
+    'feature_environmental_monitoring' => 'Rigorous Environmental Monitoring',
+    
+    // Feature Descriptions for Dredging
+    'feature_channel_maintenance_desc' => 'We perform professional dredging operations for the maintenance of navigable channels, ports, and waterways, including controlled removal of sediments to guarantee optimal depths.',
+    'feature_environmental_supervision_desc' => 'Aware of the potential environmental impact, we have coastal engineering and marine biology specialists who supervise each project.',
+    'feature_selective_dredging_desc' => 'Our comprehensive approach combines a prior technical assessment to precisely determine the volume and type of sediments to be removed, with selective dredging techniques specially designed to preserve the natural balance of the seabed or riverbed.',
+    'feature_responsible_material_management_desc' => 'We implement responsible management of extracted materials, offering reuse solutions when possible or safe disposal when required, always under the highest environmental standards.',
+    'feature_environmental_monitoring_desc' => 'We complement this process with rigorous continuous environmental monitoring, both during and after operations, to guarantee minimal impact on surrounding ecosystems and compliance with all applicable regulations.',
+    
+    // Submarine Pipelines Features
+    'feature_precision_engineering' => 'Precision Design and Engineering',
+    'feature_certified_materials' => 'Certified Materials Supply',
+    'feature_specialized_installation' => 'Specialized Equipment Installation',
+    'feature_quality_testing' => 'Rigorous Quality Testing',
+    'feature_maintenance_services' => 'Post-Installation Maintenance',
+    
+    // Feature Descriptions for Submarine Pipelines
+    'feature_precision_engineering_desc' => 'We develop each project through proven methodologies: from detailed planning and engineering calculations to ensure optimized projects.',
+    'feature_certified_materials_desc' => 'We supply steel pipes and materials that meet the highest quality standards for your submarine pipeline projects.',
+    'feature_specialized_installation_desc' => 'Installation with specialized equipment to ensure safe and efficient implementations, including professional divers for critical component placement.',
+    'feature_quality_testing_desc' => 'We perform hydrostatic tests and rigorous quality checks to verify the integrity of each installation.',
+    'feature_maintenance_services_desc' => 'We provide post-installation maintenance services to ensure maximum performance and durability of your marine projects.',
 ];

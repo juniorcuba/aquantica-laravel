@@ -221,4 +221,63 @@ return [
     'feature_channel_beaconing_desc' => 'Balizamiento de canales de navegación, áreas restringidas y obstáculos submarinos.',
     'feature_specialized_buoys_desc' => 'Sistemas de boyado especializado para demarcación de zonas de obras marinas, parques eólicos offshore o áreas protegidas.',
     'feature_advanced_tech_desc' => 'Tecnología avanzada y cumplimiento normativo en materiales, colores y patrones de señalización.',
+
+    // Pile Inspection Service
+    'service_pile_inspection' => 'Inspección, Mantenimiento y Rehabilitación de Pilotes',
+    'service_pile_inspection_desc' =>
+        'Realizamos diagnóstico y reparación de pilotes en puentes, muelles y palafitos mediante diferentes técnicas, extendiendo su vida útil. En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS ofrecemos servicios especializados para el mantenimiento y rehabilitación de palafitos, estructuras elevadas que por su ubicación en ambientes marinos y costeros están expuestas a condiciones extremas de humedad, salinidad y acción mecánica del oleaje. Nuestros servicios están diseñados para preservar y recuperar la integridad estructural de estas construcciones, garantizando su seguridad y funcionalidad a largo plazo.',
+    'service_pile_inspection_footer' =>
+        'Contamos con un equipo multidisciplinario de ingenieros costeros, especialistas en materiales y biólogos marinos que trabajan en conjunto para garantizar soluciones técnicas óptimas que además preservan el equilibrio ecológico del entorno. Todos nuestros trabajos cumplen con los más altos estándares de seguridad y las normativas ambientales aplicables.',
+    
+    // Dredging Service
+    'service_dredging' => 'Dragados y Desazolves',
+    'service_dredging_desc' =>
+        'Ejecutamos operaciones de dragado mecánico o hidráulico para mantenimiento de canales navegables, profundización portuaria y retiro de sedimentos, con manejo responsable de materiales dragados. En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS realizamos operaciones de dragado profesional para el mantenimiento de canales navegables, puertos y vías fluviales. Nuestros servicios incluyen la remoción controlada de sedimentos (arenas y lodos) para garantizar profundidades óptimas, mejorando la seguridad náutica y evitando riesgos de encallamiento.',
+    
+    // Submarine Pipelines Service
+    'service_submarine_pipelines' => 'Instalación de Tuberías Submarinas',
+    'service_submarine_pipelines_desc' =>
+        'Lideramos la implementación de ductos submarinos para transporte de hidrocarburos, agua o emisarios, utilizando métodos que garantizan precisión y mínima perturbación ambiental. En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS ejecutamos instalaciones de tuberías submarinas para transporte de hidrocarburos y fluidos industriales. Nuestro proceso garantiza proyectos seguros y eficientes, cumpliendo los más altos estándares de la industria.',
+    
+    // Pile Inspection Features
+    'feature_technical_evaluation' => 'Evaluación Técnica Exhaustiva',
+    'feature_preventive_maintenance' => 'Programa de Mantenimiento Preventivo',
+    'feature_rehabilitation_services' => 'Servicios de Rehabilitación Integral',
+    'feature_minimal_intervention' => 'Enfoque de Mínima Intervención',
+    'feature_multidisciplinary_team' => 'Equipo Multidisciplinario',
+    
+    // Feature Descriptions for Pile Inspection
+    'feature_technical_evaluation_desc' => 'Realizamos evaluaciones técnicas exhaustivas que incluyen diagnóstico del estado de pilotes (tanto de madera como de concreto), análisis de la plataforma superior y revisión de todos los elementos estructurales.',
+    'feature_preventive_maintenance_desc' => 'Nuestro programa de mantenimiento preventivo abarca tratamientos protectores para pilotes, limpieza profesional de componentes sumergidos y refuerzo de conexiones críticas.',
+    'feature_rehabilitation_services_desc' => 'Para casos de deterioro avanzado, ofrecemos servicios de rehabilitación integral que pueden incluir reemplazo parcial de pilotes, reconstrucción de secciones dañadas y estabilización de cimentaciones.',
+    'feature_minimal_intervention_desc' => 'Un aspecto clave de nuestro trabajo es el enfoque de mínima intervención, donde priorizamos técnicas que respetan la estructura original y reducen el impacto ambiental.',
+    'feature_multidisciplinary_team_desc' => 'Cada proyecto se desarrolla con un plan personalizado que considera las condiciones específicas del sitio, los usos actuales de la estructura y los requerimientos futuros del cliente.',
+    
+    // Dredging Features
+    'feature_channel_maintenance' => 'Mantenimiento de Canales Navegables',
+    'feature_environmental_supervision' => 'Supervisión de Expertos Ambientales',
+    'feature_selective_dredging' => 'Técnicas de Dragado Selectivo',
+    'feature_responsible_material_management' => 'Gestión Responsable de Materiales',
+    'feature_environmental_monitoring' => 'Monitoreo Ambiental Riguroso',
+    
+    // Feature Descriptions for Dredging
+    'feature_channel_maintenance_desc' => 'Realizamos operaciones de dragado profesional para el mantenimiento de canales navegables, puertos y vías fluviales, incluyendo remoción controlada de sedimentos para garantizar profundidades óptimas.',
+    'feature_environmental_supervision_desc' => 'Conscientes del impacto ambiental potencial, contamos con especialistas en ingeniería costera y biología marina que supervisan cada proyecto.',
+    'feature_selective_dredging_desc' => 'Nuestro enfoque integral combina una evaluación técnica previa para determinar con precisión el volumen y tipo de sedimentos a remover, con técnicas de dragado selectivo especialmente diseñadas para preservar el equilibrio natural.',
+    'feature_responsible_material_management_desc' => 'Implementamos un manejo responsable de los materiales extraídos, ofreciendo soluciones de reutilización cuando es posible o disposición segura cuando se requiere, siempre bajo los más altos estándares ambientales.',
+    'feature_environmental_monitoring_desc' => 'Complementamos este proceso con un riguroso monitoreo ambiental continuo, tanto durante como después de las operaciones, para garantizar la mínima afectación a los ecosistemas circundantes.',
+    
+    // Submarine Pipelines Features
+    'feature_precision_engineering' => 'Diseño e Ingeniería de Precisión',
+    'feature_certified_materials' => 'Suministro de Materiales Certificados',
+    'feature_specialized_installation' => 'Instalación con Equipos Especializados',
+    'feature_quality_testing' => 'Pruebas Rigurosas de Calidad',
+    'feature_maintenance_services' => 'Servicios de Mantenimiento Post-instalación',
+    
+    // Feature Descriptions for Submarine Pipelines
+    'feature_precision_engineering_desc' => 'Desarrollamos cada proyecto mediante metodologías probadas: desde la planificación detallada y cálculos de ingeniería para garantizar proyectos optimizados.',
+    'feature_certified_materials_desc' => 'Suministramos tuberías de acero y materiales que cumplen con los más altos estándares de calidad para sus proyectos de ductos submarinos.',
+    'feature_specialized_installation_desc' => 'Instalación con equipos especializados para asegurar implementaciones seguras y eficientes, incluyendo buzos profesionales para colocación de componentes críticos.',
+    'feature_quality_testing_desc' => 'Realizamos pruebas hidrostáticas y verificaciones rigurosas de calidad para verificar la integridad de cada instalación.',
+    'feature_maintenance_services_desc' => 'Brindamos servicios de mantenimiento post-instalación para garantizar el máximo rendimiento y durabilidad de sus proyectos marinos.',
 ];

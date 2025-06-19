@@ -109,4 +109,40 @@ return [
         ],
         'show_features'   => false,
     ],
+    [
+        'title_key'       => 'service_pile_inspection',
+        'description_key' => 'service_pile_inspection_desc',
+        'description_footer_key' => 'service_pile_inspection_footer',
+        'image'           => 'https://images.pexels.com/photos/2132126/pexels-photo-2132126.jpeg?auto=compress&cs=tinysrgb&w=1280',
+        'gallery_images'  => [
+            'https://images.pexels.com/photos/2132126/pexels-photo-2132126.jpeg?auto=compress&cs=tinysrgb&w=1280',
+            'https://images.pexels.com/photos/2132126/pexels-photo-2132126.jpeg?auto=compress&cs=tinysrgb&w=1280',
+            'https://images.pexels.com/photos/2132126/pexels-photo-2132126.jpeg?auto=compress&cs=tinysrgb&w=1280',
+        ],
+        'show_features'   => true,
+    ],
+    [
+        'title_key'       => 'service_dredging',
+        'description_key' => 'service_dredging_desc',
+        'description_footer_key' => null,
+        'image'           => 'https://images.pexels.com/photos/753619/pexels-photo-753619.jpeg?auto=compress&cs=tinysrgb&w=1280',
+        'gallery_images'  => [
+            'https://images.pexels.com/photos/753619/pexels-photo-753619.jpeg?auto=compress&cs=tinysrgb&w=1280',
+            'https://images.pexels.com/photos/753619/pexels-photo-753619.jpeg?auto=compress&cs=tinysrgb&w=1280',
+            'https://images.pexels.com/photos/753619/pexels-photo-753619.jpeg?auto=compress&cs=tinysrgb&w=1280',
+        ],
+        'show_features'   => true,
+    ],
+    [
+        'title_key'       => 'service_submarine_pipelines',
+        'description_key' => 'service_submarine_pipelines_desc',
+        'description_footer_key' => null,
+        'image'           => 'https://images.pexels.com/photos/2086621/pexels-photo-2086621.jpeg?auto=compress&cs=tinysrgb&w=1280',
+        'gallery_images'  => [
+            'https://images.pexels.com/photos/2086621/pexels-photo-2086621.jpeg?auto=compress&cs=tinysrgb&w=1280',
+            'https://images.pexels.com/photos/2086621/pexels-photo-2086621.jpeg?auto=compress&cs=tinysrgb&w=1280',
+            'https://images.pexels.com/photos/2086621/pexels-photo-2086621.jpeg?auto=compress&cs=tinysrgb&w=1280',
+        ],
+        'show_features'   => true,
+    ],
 ];
