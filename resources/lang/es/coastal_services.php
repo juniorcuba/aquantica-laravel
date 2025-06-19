@@ -48,19 +48,26 @@ return [
     'service_artificial_reefs_footer' =>
         'En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, diseñamos e implementamos arrecifes artificiales como una solución innovadora para la protección costera, la rehabilitación de ecosistemas marinos y el desarrollo sostenible de zonas litorales. Estas estructuras, estratégicamente ubicadas, no solo mitigan la erosión y protegen la infraestructura marina, sino que también promueven la biodiversidad y ofrecen oportunidades recreativas.',
     
-    // Port Engineering Service
-    'service_port_engineering' => 'Ingeniería Portuaria e Infraestructura Marítima',
-    'service_port_engineering_desc' =>
-        'Diseñamos, desarrollamos y optimizamos instalaciones portuarias e infraestructura marítima con un enfoque integrado que combina excelencia técnica, eficiencia operativa y sostenibilidad ambiental. Nuestro equipo especializado proporciona soluciones integrales para la construcción, ampliación y modernización de puertos, muelles y terminales marítimas.',
-    'service_port_engineering_footer' =>
-        'Nuestros servicios de ingeniería portuaria incluyen estudios de factibilidad, planificación maestra, diseño detallado y supervisión de construcción. Integramos tecnologías de vanguardia y prácticas sostenibles para crear infraestructura marítima resiliente que satisfaga las necesidades operativas actuales y futuras, minimizando el impacto ambiental. Nuestras soluciones optimizan el manejo de carga, el tráfico de embarcaciones y las operaciones portuarias, mejorando la eficiencia y seguridad en los sistemas de transporte marítimo.',
+    // Docks Service
+    'service_docks' => 'Muelles: Diseño, Construcción y Mantenimiento',
+    'service_docks_desc' =>
+        'Ofrecemos servicios integrales para infraestructuras portuarias, desde ingeniería conceptual hasta mantenimiento de muelles comerciales, turísticos o industriales, asegurando cumplimiento de normas. En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS desarrollamos muelles fijos y flotantes diseñados para ofrecer soluciones integrales y duraderas. Nuestras estructuras garantizan un atraque seguro para embarcaciones, facilitando operaciones logísticas eficientes de carga y descarga, circulación peatonal protegida, actividades portuarias especializadas y uso recreativo-turístico.',
+    'service_docks_footer' =>
+        'En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS desarrollamos muelles fijos y flotantes diseñados para ofrecer soluciones integrales y duraderas. Nuestras estructuras garantizan un atraque seguro para embarcaciones, facilitando operaciones logísticas eficientes de carga y descarga, circulación peatonal protegida, actividades portuarias especializadas y uso recreativo-turístico.',
     
-    // Coastal Protection Service
-    'service_coastal_protection' => 'Protección Costera y Control de Erosión',
-    'service_coastal_protection_desc' =>
-        'Desarrollamos e implementamos estrategias integrales para la protección costera, combinando soluciones naturales e ingenieriles para mitigar la erosión, prevenir inundaciones y mejorar la resiliencia costera. Nuestro enfoque integra consideraciones ambientales con innovación técnica para crear medidas protectoras sostenibles para comunidades e infraestructura costera.',
-    'service_coastal_protection_footer' =>
-        'Nuestros servicios de protección costera incluyen evaluaciones de vulnerabilidad, mapeo de riesgos y diseño de sistemas de defensa integrados. Implementamos soluciones basadas en la naturaleza como costas vivas junto con estructuras de ingeniería tradicionales como muros marinos y rompeolas, creando protección multicapa que se adapta a las cambiantes condiciones ambientales. Nuestros diseños priorizan la preservación del ecosistema mientras garantizan una protección eficaz contra tormentas, aumento del nivel del mar y erosión costera.',
+    // Beaconing Systems Service
+    'service_beaconing' => 'Instalación de Sistemas de Balizamiento',
+    'service_beaconing_desc' =>
+        'Implementamos sistemas de señalización náutica para garantizar la seguridad en la navegación, la delimitación de canales y la protección de infraestructuras marinas, cumpliendo con normativas internacionales. Nuestros servicios incluyen diseño e instalación de sistemas de balizas luminosas y reflectivas (flotantes, fijas o sobre estructuras) para señalización diurna y nocturna, balizamiento de canales de navegación, áreas restringidas y obstáculos submarinos, sistemas de boyado especializado para demarcación de zonas de obras marinas, parques eólicos offshore o áreas protegidas, y tecnología avanzada y cumplimiento normativo en materiales, colores y patrones de señalización.',
+    'service_beaconing_footer' =>
+        'Proporcionamos soluciones integrales de balizamiento marítimo y costero, diseñadas para garantizar la seguridad náutica, la delimitación de áreas críticas y la orientación en canales de navegación. Nuestros sistemas cumplen con los estándares internacionales y se adaptan a las necesidades específicas de cada proyecto, ya sea en puertos, zonas costeras, plataformas offshore o rutas marítimas. Nuestros sistemas de balizamiento ofrecen múltiples beneficios, garantizando mayor seguridad para embarcaciones y operaciones marítimas, así como una significativa reducción de riesgos de colisiones y accidentes. Gracias a su diseño robusto, proporcionan durabilidad y resistencia frente a condiciones marinas adversas, incluyendo oleaje intenso, corrosión y bioincrustaciones. Además, cada solución es personalizable para adaptarse a los requerimientos ambientales, logísticos y operativos específicos de cada proyecto, asegurando un desempeño óptimo en cualquier escenario.',
+    
+    // Buoy Lines Service
+    'service_buoy_lines' => 'Instalación de Líneas de Boyado',
+    'service_buoy_lines_desc' =>
+        'Desplegamos sistemas de boyas de demarcación para delimitación de áreas navegables, zonas protegidas o señalización de obstáculos submarinos, con materiales UV-resistentes y de alta visibilidad. En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, implementamos sistemas de balizamiento IALA/AISM (International Association of Lighthouse Authorities/Asociación Internacional de Señalización Marítima), el estándar global para garantizar una navegación segura y eficiente. Nuestras soluciones de señalización marítima permiten identificar peligros y obstáculos en zonas navegables, delimitar canales de navegación estratégicos, optimizar rutas marítimas comerciales y recreativas, así como cumplir con regulaciones internacionales de seguridad.',
+    'service_buoy_lines_footer' =>
+        'En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, implementamos sistemas de balizamiento IALA/AISM (International Association of Lighthouse Authorities/Asociación Internacional de Señalización Marítima), el estándar global para garantizar una navegación segura y eficiente. Nuestras soluciones de señalización marítima permiten identificar peligros y obstáculos en zonas navegables, delimitar canales de navegación estratégicos, optimizar rutas marítimas comerciales y recreativas, así como cumplir con regulaciones internacionales de seguridad.',
     
     // Service Feature Arrays
     'service_beach_recovery_features' => [
@@ -103,20 +110,78 @@ return [
         'feature_recreational_economic',
     ],
     
-    'service_port_engineering_features' => [
-        'feature_port_design',
-        'feature_maritime_terminals',
-        'feature_navigation_channels',
-        'feature_coastal_structures',
+    'service_docks_features' => [
+        'feature_custom_design_docks',
+        'feature_environment_analysis',
+        'feature_resource_optimization_docks',
+        'feature_structural_strength_docks',
+        'feature_efficient_construction_docks',
+        'feature_proven_durability_docks',
     ],
     
-    'service_coastal_protection_features' => [
-        'feature_erosion_control',
-        'feature_flood_protection',
-        'feature_shoreline_stabilization',
-        'feature_environmental_integration',
+    'service_beaconing_features' => [
+        'feature_beacon_design',
+        'feature_channel_beaconing',
+        'feature_specialized_buoys',
+        'feature_advanced_tech',
     ],
-
+    
+    'service_pile_inspection_features' => [
+        'feature_technical_evaluation',
+        'feature_preventive_maintenance',
+        'feature_rehabilitation_services',
+        'feature_minimal_intervention',
+        'feature_multidisciplinary_team',
+    ],
+    
+    'service_dredging_features' => [
+        'feature_channel_maintenance',
+        'feature_environmental_supervision',
+        'feature_selective_dredging',
+        'feature_responsible_material_management',
+        'feature_environmental_monitoring',
+    ],
+    
+    'service_submarine_pipelines_features' => [
+        'feature_precision_engineering',
+        'feature_certified_materials',
+        'feature_specialized_installation',
+        'feature_quality_testing',
+        'feature_maintenance_services',
+    ],
+    
+    'service_submarine_cables_features' => [
+        'feature_route_selection',
+        'feature_regulatory_compliance',
+        'feature_cable_design',
+        'feature_deployment_security',
+        'feature_final_inspection',
+    ],
+    
+    'service_salvage_features' => [
+        'feature_emergency_response',
+        'feature_professional_diving',
+        'feature_vessel_stabilization',
+        'feature_specialized_equipment',
+        'feature_comprehensive_service',
+    ],
+    
+    'service_underwater_welding_features' => [
+        'feature_specialized_welding',
+        'feature_certified_team',
+        'feature_component_repair',
+        'feature_advanced_technology',
+        'feature_efficient_solutions',
+    ],
+    
+    'service_underwater_inspection_features' => [
+        'feature_professional_diving',
+        'feature_advanced_diagnostics',
+        'feature_comprehensive_evaluation',
+        'feature_preventive_maintenance',
+        'feature_detailed_reporting',
+    ],
+    
     // Beach Recovery Features
     'feature_studies_diagnosis' => 'Estudios y Diagnóstico Integral',
     'feature_erosion_protection' => 'Protección contra la Erosión Costera',
@@ -185,27 +250,170 @@ return [
     'feature_coastal_protection_reefs_desc' => 'Reducen eficazmente la erosión costera al disipar la energía del oleaje, protegiendo infraestructuras marinas y estabilizando fondos arenosos con barreras naturales.',
     'feature_recreational_economic_desc' => 'Crean atractivos turísticos para buceo y pesca deportiva, ofrecen zonas de fondeo seguras y diversifican actividades náuticas de forma sostenible.',
     
-    // Port Engineering Features
-    'feature_port_design' => 'Diseño y Planificación Portuaria',
-    'feature_maritime_terminals' => 'Terminales Marítimas y Muelles',
-    'feature_navigation_channels' => 'Canales de Navegación y Acceso',
-    'feature_coastal_structures' => 'Estructuras y Facilidades Costeras',
+    // Dock Features
+    'feature_custom_design_docks' => 'Diseño Personalizado',
+    'feature_environment_analysis' => 'Análisis Integral del Entorno',
+    'feature_resource_optimization_docks' => 'Optimización de Recursos Naturales',
+    'feature_structural_strength_docks' => 'Alta Resistencia Estructural',
+    'feature_efficient_construction_docks' => 'Proceso Constructivo Eficiente',
+    'feature_proven_durability_docks' => 'Durabilidad Garantizada',
     
-    // Feature Descriptions for Port Engineering
-    'feature_port_design_desc' => 'Servicios integrales de planificación y diseño portuario incluyendo planes maestros, estudios de factibilidad y optimización operativa.',
-    'feature_maritime_terminals_desc' => 'Diseño y construcción de terminales especializadas para manejo de carga, transporte de pasajeros y operaciones marinas.',
-    'feature_navigation_channels_desc' => 'Desarrollo y mantenimiento de canales de navegación, incluyendo operaciones de dragado y gestión de profundidad.',
-    'feature_coastal_structures_desc' => 'Ingeniería de rompeolas, espigones y otras estructuras costeras para proteger la infraestructura portuaria.',
+    // Feature Descriptions for Docks
+    'feature_custom_design_docks_desc' => 'Cada muelle se desarrolla bajo estándares de excelencia, considerando normativas nacionales e internacionales, requerimientos específicos del cliente y las condiciones geográficas únicas del sitio de instalación.',
+    'feature_environment_analysis_desc' => 'Realizamos evaluaciones técnicas exhaustivas que incluyen: patrones de oleaje y mareas, fuerzas de viento predominantes, empuje lateral de embarcaciones y características geotécnicas del suelo.',
+    'feature_resource_optimization_docks_desc' => 'Aprovecha al máximo la capacidad portante del suelo existente, transformándolo en un elemento estructural clave.',
+    'feature_structural_strength_docks_desc' => 'Desarrollamos infraestructuras capaces de soportar las condiciones más exigentes, incluyendo grandes presiones horizontales, alturas considerables de relleno y sobrecargas variables.',
+    'feature_efficient_construction_docks_desc' => 'Nuestra ejecución de arriba hacia abajo optimiza cada fase del proyecto mediante la reutilización inteligente de materiales excavados, eliminando rellenos artificiales y reduciendo tiempos de ejecución.',
+    'feature_proven_durability_docks_desc' => 'Seleccionamos materiales premium específicamente formulados para resistir la corrosión marina, impactos de embarcaciones y condiciones ambientales extremas.',
     
-    // Coastal Protection Features
-    'feature_erosion_control' => 'Sistemas de Control de Erosión',
-    'feature_flood_protection' => 'Medidas de Protección contra Inundaciones',
-    'feature_shoreline_stabilization' => 'Estabilización de Costas',
-    'feature_environmental_integration' => 'Integración Ambiental',
+    // Beaconing Features
+    'feature_beacon_design' => 'Diseño e Instalación de Sistemas de Balizas',
+    'feature_channel_beaconing' => 'Balizamiento de Canales de Navegación',
+    'feature_specialized_buoys' => 'Sistemas de Boyado Especializado',
+    'feature_advanced_tech' => 'Tecnología Avanzada y Cumplimiento Normativo',
     
-    // Feature Descriptions for Coastal Protection
-    'feature_erosion_control_desc' => 'Implementación de sistemas ingenieriles y naturales para prevenir la erosión costera y proteger las líneas de costa.',
-    'feature_flood_protection_desc' => 'Diseño de barreras contra inundaciones, muros marinos y sistemas de drenaje para proteger comunidades costeras contra marejadas e inundaciones.',
-    'feature_shoreline_stabilization_desc' => 'Aplicación de técnicas para estabilizar costas utilizando tanto estructuras duras como soluciones basadas en la naturaleza.',
-    'feature_environmental_integration_desc' => 'Integración de consideraciones ambientales en todas las medidas de protección costera para preservar ecosistemas y biodiversidad.',
+    // Feature Descriptions for Beaconing
+    'feature_beacon_design_desc' => 'Diseño e instalación de sistemas de balizas luminosas y reflectivas (flotantes, fijas o sobre estructuras) para señalización diurna y nocturna.',
+    'feature_channel_beaconing_desc' => 'Balizamiento de canales de navegación, áreas restringidas y obstáculos submarinos.',
+    'feature_specialized_buoys_desc' => 'Sistemas de boyado especializado para demarcación de zonas de obras marinas, parques eólicos offshore o áreas protegidas.',
+    'feature_advanced_tech_desc' => 'Tecnología avanzada y cumplimiento normativo en materiales, colores y patrones de señalización.',
+
+    // Pile Inspection Service
+    'service_pile_inspection' => 'Inspección, Mantenimiento y Rehabilitación de Pilotes',
+    'service_pile_inspection_desc' =>
+        'Realizamos diagnóstico y reparación de pilotes en puentes, muelles y palafitos mediante diferentes técnicas, extendiendo su vida útil. En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS ofrecemos servicios especializados para el mantenimiento y rehabilitación de palafitos, estructuras elevadas que por su ubicación en ambientes marinos y costeros están expuestas a condiciones extremas de humedad, salinidad y acción mecánica del oleaje. Nuestros servicios están diseñados para preservar y recuperar la integridad estructural de estas construcciones, garantizando su seguridad y funcionalidad a largo plazo.',
+    'service_pile_inspection_footer' =>
+        'Contamos con un equipo multidisciplinario de ingenieros costeros, especialistas en materiales y biólogos marinos que trabajan en conjunto para garantizar soluciones técnicas óptimas que además preservan el equilibrio ecológico del entorno. Todos nuestros trabajos cumplen con los más altos estándares de seguridad y las normativas ambientales aplicables.',
+    
+    // Dredging Service
+    'service_dredging' => 'Dragados y Desazolves',
+    'service_dredging_desc' =>
+        'Ejecutamos operaciones de dragado mecánico o hidráulico para mantenimiento de canales navegables, profundización portuaria y retiro de sedimentos, con manejo responsable de materiales dragados. En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS realizamos operaciones de dragado profesional para el mantenimiento de canales navegables, puertos y vías fluviales. Nuestros servicios incluyen la remoción controlada de sedimentos (arenas y lodos) para garantizar profundidades óptimas, mejorando la seguridad náutica y evitando riesgos de encallamiento.',
+    
+    // Submarine Pipelines Service
+    'service_submarine_pipelines' => 'Instalación de Tuberías Submarinas',
+    'service_submarine_pipelines_desc' =>
+        'Lideramos la implementación de ductos submarinos para transporte de hidrocarburos, agua o emisarios, utilizando métodos que garantizan precisión y mínima perturbación ambiental. En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS ejecutamos instalaciones de tuberías submarinas para transporte de hidrocarburos y fluidos industriales. Nuestro proceso garantiza proyectos seguros y eficientes, cumpliendo los más altos estándares de la industria.',
+    
+    // Pile Inspection Features
+    'feature_technical_evaluation' => 'Evaluación Técnica Exhaustiva',
+    'feature_preventive_maintenance' => 'Programa de Mantenimiento Preventivo',
+    'feature_rehabilitation_services' => 'Servicios de Rehabilitación Integral',
+    'feature_minimal_intervention' => 'Enfoque de Mínima Intervención',
+    'feature_multidisciplinary_team' => 'Equipo Multidisciplinario',
+    
+    // Feature Descriptions for Pile Inspection
+    'feature_technical_evaluation_desc' => 'Realizamos evaluaciones técnicas exhaustivas que incluyen diagnóstico del estado de pilotes (tanto de madera como de concreto), análisis de la plataforma superior y revisión de todos los elementos estructurales.',
+    'feature_preventive_maintenance_desc' => 'Nuestro programa de mantenimiento preventivo abarca tratamientos protectores para pilotes, limpieza profesional de componentes sumergidos y refuerzo de conexiones críticas.',
+    'feature_rehabilitation_services_desc' => 'Para casos de deterioro avanzado, ofrecemos servicios de rehabilitación integral que pueden incluir reemplazo parcial de pilotes, reconstrucción de secciones dañadas y estabilización de cimentaciones.',
+    'feature_minimal_intervention_desc' => 'Un aspecto clave de nuestro trabajo es el enfoque de mínima intervención, donde priorizamos técnicas que respetan la estructura original y reducen el impacto ambiental.',
+    'feature_multidisciplinary_team_desc' => 'Cada proyecto se desarrolla con un plan personalizado que considera las condiciones específicas del sitio, los usos actuales de la estructura y los requerimientos futuros del cliente.',
+    
+    // Dredging Features
+    'feature_channel_maintenance' => 'Mantenimiento de Canales Navegables',
+    'feature_environmental_supervision' => 'Supervisión de Expertos Ambientales',
+    'feature_selective_dredging' => 'Técnicas de Dragado Selectivo',
+    'feature_responsible_material_management' => 'Gestión Responsable de Materiales',
+    'feature_environmental_monitoring' => 'Monitoreo Ambiental Riguroso',
+    
+    // Feature Descriptions for Dredging
+    'feature_channel_maintenance_desc' => 'Realizamos operaciones de dragado profesional para el mantenimiento de canales navegables, puertos y vías fluviales, incluyendo remoción controlada de sedimentos para garantizar profundidades óptimas.',
+    'feature_environmental_supervision_desc' => 'Conscientes del impacto ambiental potencial, contamos con especialistas en ingeniería costera y biología marina que supervisan cada proyecto.',
+    'feature_selective_dredging_desc' => 'Nuestro enfoque integral combina una evaluación técnica previa para determinar con precisión el volumen y tipo de sedimentos a remover, con técnicas de dragado selectivo especialmente diseñadas para preservar el equilibrio natural.',
+    'feature_responsible_material_management_desc' => 'Implementamos un manejo responsable de los materiales extraídos, ofreciendo soluciones de reutilización cuando es posible o disposición segura cuando se requiere, siempre bajo los más altos estándares ambientales.',
+    'feature_environmental_monitoring_desc' => 'Complementamos este proceso con un riguroso monitoreo ambiental continuo, tanto durante como después de las operaciones, para garantizar la mínima afectación a los ecosistemas circundantes.',
+    
+    // Submarine Pipelines Features
+    'feature_precision_engineering' => 'Diseño e Ingeniería de Precisión',
+    'feature_certified_materials' => 'Suministro de Materiales Certificados',
+    'feature_specialized_installation' => 'Instalación con Equipos Especializados',
+    'feature_quality_testing' => 'Pruebas Rigurosas de Calidad',
+    'feature_maintenance_services' => 'Servicios de Mantenimiento Post-instalación',
+    
+    // Feature Descriptions for Submarine Pipelines
+    'feature_precision_engineering_desc' => 'Desarrollamos cada proyecto mediante metodologías probadas: desde la planificación detallada y cálculos de ingeniería para garantizar proyectos optimizados.',
+    'feature_certified_materials_desc' => 'Suministramos tuberías de acero y materiales que cumplen con los más altos estándares de calidad para sus proyectos de ductos submarinos.',
+    'feature_specialized_installation_desc' => 'Instalación con equipos especializados para asegurar implementaciones seguras y eficientes, incluyendo buzos profesionales para colocación de componentes críticos.',
+    'feature_quality_testing_desc' => 'Realizamos pruebas hidrostáticas y verificaciones rigurosas de calidad para verificar la integridad de cada instalación.',
+    'feature_maintenance_services_desc' => 'Brindamos servicios de mantenimiento post-instalación para garantizar el máximo rendimiento y durabilidad de sus proyectos marinos.',
+
+    // Submarine Cable Installation Service
+    'service_submarine_cables' => 'Instalación de Cableado Submarino',
+    'service_submarine_cables_desc' =>
+        'Desplegamos cables de fibra óptica o energía submarinos con tecnologías de tendido protegido y monitoreo en tiempo real, asegurando conectividad segura entre plataformas offshore y tierra firme.',
+    'service_submarine_cables_footer' =>
+        'La instalación de cables submarinos es una operación altamente especializada que requiere precisión y coordinación. El proceso comienza con el tendido de uno de los extremos del cable hacia una estación costera, donde un equipo de buzos se encarga de enterrarlo a la profundidad adecuada para garantizar su correcta conexión. Una vez asegurado este extremo, un barco cablero, diseñado específicamente para esta labor, procede a desplegar y enterrar el cable a lo largo de la ruta establecida.',
+    
+    // Salvage Service
+    'service_salvage' => 'Salvatajes',
+    'service_salvage_desc' =>
+        'Brindamos servicios de rescate y reflotamiento de embarcaciones hundidas o varadas, con equipos de respuesta rápida y protocolos para minimizar riesgos ambientales en zonas sensibles. En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS nos especializamos en el rescate y reflotación de embarcaciones en situaciones de emergencia, incluyendo barcos, yates, veleros, lanchas, botes, motos acuáticas y buques, ya sea que se encuentren varados, hundidos o en peligro.',
+    
+    // Submarine Cable Features
+    'feature_route_selection' => 'Selección de Ruta Óptima',
+    'feature_regulatory_compliance' => 'Cumplimiento Normativo',
+    'feature_cable_design' => 'Diseño Especializado de Cable',
+    'feature_deployment_security' => 'Despliegue y Seguridad',
+    'feature_final_inspection' => 'Inspección y Registro Final',
+    
+    // Feature Descriptions for Submarine Cable
+    'feature_route_selection_desc' => 'Selección meticulosa de la ruta óptima, considerando factores geológicos y oceanográficos para garantizar la mejor trayectoria del cable.',
+    'feature_regulatory_compliance_desc' => 'Gestión completa de permisos gubernamentales y estricto cumplimiento de todas las normativas ambientales aplicables.',
+    'feature_cable_design_desc' => 'Diseño multicapa sofisticado que incluye fibras ópticas, protección contra humedad, conducción eléctrica y múltiples capas de protección estructural.',
+    'feature_deployment_security_desc' => 'Proceso especializado de despliegue y entierro en zonas críticas para garantizar la máxima seguridad y durabilidad del cable.',
+    'feature_final_inspection_desc' => 'Inspección exhaustiva final y registro detallado de la posición del cable para futuros mantenimientos y referencias.',
+    
+    // Salvage Features
+    'feature_emergency_response' => 'Respuesta de Emergencia 24/7',
+    'feature_professional_diving' => 'Buceo Profesional Especializado',
+    'feature_vessel_stabilization' => 'Estabilización de Embarcaciones',
+    'feature_specialized_equipment' => 'Equipamiento Especializado',
+    'feature_comprehensive_service' => 'Servicio Integral de Salvamento',
+    
+    // Feature Descriptions for Salvage
+    'feature_emergency_response_desc' => 'Servicio de respuesta inmediata disponible las 24 horas del día, los 7 días de la semana, para atender cualquier emergencia marítima.',
+    'feature_professional_diving_desc' => 'Equipo de buzos profesionales altamente capacitados con experiencia en operaciones de salvamento y rescate marino.',
+    'feature_vessel_stabilization_desc' => 'Servicios especializados de estabilización de embarcaciones, incluyendo operaciones contra incendios y asistencia en alta mar.',
+    'feature_specialized_equipment_desc' => 'Flota de embarcaciones de apoyo y tecnología especializada para garantizar operaciones de salvamento seguras y efectivas.',
+    'feature_comprehensive_service_desc' => 'Servicios completos que incluyen reparaciones, mantenimiento correctivo y planes de salvamento personalizados con coordinación logística integral.',
+
+    // Underwater Cutting and Welding Service
+    'service_underwater_welding' => 'Corte y Soldadura Submarina',
+    'service_underwater_welding_desc' =>
+        'Ofrecemos servicios especializados de soldadura y reparación subacuática para estructuras marinas, incluyendo tuberías, componentes metálicos y equipos dañados en embarcaciones, muelles y plataformas. Contamos con personal certificado y tecnología de punta para garantizar reparaciones eficientes, seguras y de alta durabilidad.',
+    
+    // Underwater Inspection Service
+    'service_underwater_inspection' => 'Inspecciones Submarinas',
+    'service_underwater_inspection_desc' =>
+        'Realizamos evaluaciones técnicas subacuáticas mediante buceo profesional y equipos especializados para diagnosticar el estado de estructuras marinas, identificar daños y recomendar acciones correctivas.',
+    'service_underwater_inspection_footer' =>
+        'Entendemos que la integridad de sus estructuras submarinas es vital para la continuidad operacional. Nuestras inspecciones no solo identifican problemas existentes, sino que también proporcionan las bases técnicas para planificar estrategias de mantenimiento proactivo, extendiendo la vida útil de sus instalaciones marinas.',
+    
+    // Underwater Welding Features
+    'feature_specialized_welding' => 'Soldadura Especializada',
+    'feature_certified_team' => 'Equipo Certificado',
+    'feature_component_repair' => 'Reparación de Componentes',
+    'feature_advanced_technology' => 'Tecnología Avanzada',
+    'feature_efficient_solutions' => 'Soluciones Eficientes',
+    
+    // Feature Descriptions for Underwater Welding
+    'feature_specialized_welding_desc' => 'Realizamos trabajos especializados de soldadura y corte subacuático para el mantenimiento, reparación y modificación de estructuras marinas.',
+    'feature_certified_team_desc' => 'Contamos con un equipo de profesionales altamente capacitados para garantizar que cada proyecto se ejecute con la máxima eficiencia, precisión y seguridad.',
+    'feature_component_repair_desc' => 'Servicios de sustitución y reparación de tuberías, placas vortex, bridas, bombas, escaleras marinas, flotadores y otros componentes.',
+    'feature_advanced_technology_desc' => 'Utilizamos tecnología de vanguardia para garantizar reparaciones duraderas y de alta calidad en ambientes submarinos.',
+    'feature_efficient_solutions_desc' => 'Ofrecemos soluciones confiables y adaptadas a las necesidades específicas de cada instalación marina, minimizando tiempos de inactividad.',
+    
+    // Underwater Inspection Features
+    'feature_professional_diving' => 'Buceo Profesional',
+    'feature_advanced_diagnostics' => 'Diagnóstico Avanzado',
+    'feature_comprehensive_evaluation' => 'Evaluación Exhaustiva',
+    'feature_preventive_maintenance' => 'Mantenimiento Preventivo',
+    'feature_detailed_reporting' => 'Informes Detallados',
+    
+    // Feature Descriptions for Underwater Inspection
+    'feature_professional_diving_desc' => 'Equipo de buzos y técnicos especializados que utilizan metodologías estandarizadas para inspecciones submarinas profesionales.',
+    'feature_advanced_diagnostics_desc' => 'Utilizamos tecnologías avanzadas como videografía submarina HD y equipos de ultrasonido para medición de espesores.',
+    'feature_comprehensive_evaluation_desc' => 'Realizamos evaluaciones visuales y táctiles exhaustivas para identificar problemas como corrosión, fisuras y daños por impacto.',
+    'feature_preventive_maintenance_desc' => 'La detección temprana de anomalías permite implementar acciones correctivas oportunas, evitando fallos estructurales mayores.',
+    'feature_detailed_reporting_desc' => 'Proporcionamos informes detallados con documentación gráfica, análisis de daños y recomendaciones técnicas priorizadas.',
 ];
