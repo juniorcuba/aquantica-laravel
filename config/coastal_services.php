@@ -145,4 +145,28 @@ return [
         ],
         'show_features'   => true,
     ],
+    [
+        'title_key'       => 'service_submarine_cables',
+        'description_key' => 'service_submarine_cables_desc',
+        'description_footer_key' => 'service_submarine_cables_footer',
+        'image'           => 'https://images.pexels.com/photos/1117210/pexels-photo-1117210.jpeg?auto=compress&cs=tinysrgb&w=1280',
+        'gallery_images'  => [
+            'https://images.pexels.com/photos/1117210/pexels-photo-1117210.jpeg?auto=compress&cs=tinysrgb&w=1280',
+            'https://images.pexels.com/photos/1117210/pexels-photo-1117210.jpeg?auto=compress&cs=tinysrgb&w=1280',
+            'https://images.pexels.com/photos/1117210/pexels-photo-1117210.jpeg?auto=compress&cs=tinysrgb&w=1280',
+        ],
+        'show_features'   => true,
+    ],
+    [
+        'title_key'       => 'service_salvage',
+        'description_key' => 'service_salvage_desc',
+        'description_footer_key' => null,
+        'image'           => 'https://images.pexels.com/photos/1295036/pexels-photo-1295036.jpeg?auto=compress&cs=tinysrgb&w=1280',
+        'gallery_images'  => [
+            'https://images.pexels.com/photos/1295036/pexels-photo-1295036.jpeg?auto=compress&cs=tinysrgb&w=1280',
+            'https://images.pexels.com/photos/1295036/pexels-photo-1295036.jpeg?auto=compress&cs=tinysrgb&w=1280',
+            'https://images.pexels.com/photos/1295036/pexels-photo-1295036.jpeg?auto=compress&cs=tinysrgb&w=1280',
+        ],
+        'show_features'   => true,
+    ],
 ];

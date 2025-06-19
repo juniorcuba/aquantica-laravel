@@ -280,4 +280,44 @@ return [
     'feature_specialized_installation_desc' => 'Instalación con equipos especializados para asegurar implementaciones seguras y eficientes, incluyendo buzos profesionales para colocación de componentes críticos.',
     'feature_quality_testing_desc' => 'Realizamos pruebas hidrostáticas y verificaciones rigurosas de calidad para verificar la integridad de cada instalación.',
     'feature_maintenance_services_desc' => 'Brindamos servicios de mantenimiento post-instalación para garantizar el máximo rendimiento y durabilidad de sus proyectos marinos.',
+
+    // Submarine Cable Installation Service
+    'service_submarine_cables' => 'Instalación de Cableado Submarino',
+    'service_submarine_cables_desc' =>
+        'Desplegamos cables de fibra óptica o energía submarinos con tecnologías de tendido protegido y monitoreo en tiempo real, asegurando conectividad segura entre plataformas offshore y tierra firme.',
+    'service_submarine_cables_footer' =>
+        'La instalación de cables submarinos es una operación altamente especializada que requiere precisión y coordinación. El proceso comienza con el tendido de uno de los extremos del cable hacia una estación costera, donde un equipo de buzos se encarga de enterrarlo a la profundidad adecuada para garantizar su correcta conexión. Una vez asegurado este extremo, un barco cablero, diseñado específicamente para esta labor, procede a desplegar y enterrar el cable a lo largo de la ruta establecida.',
+    
+    // Salvage Service
+    'service_salvage' => 'Salvatajes',
+    'service_salvage_desc' =>
+        'Brindamos servicios de rescate y reflotamiento de embarcaciones hundidas o varadas, con equipos de respuesta rápida y protocolos para minimizar riesgos ambientales en zonas sensibles. En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS nos especializamos en el rescate y reflotación de embarcaciones en situaciones de emergencia, incluyendo barcos, yates, veleros, lanchas, botes, motos acuáticas y buques, ya sea que se encuentren varados, hundidos o en peligro.',
+    
+    // Submarine Cable Features
+    'feature_route_selection' => 'Selección de Ruta Óptima',
+    'feature_regulatory_compliance' => 'Cumplimiento Normativo',
+    'feature_cable_design' => 'Diseño Especializado de Cable',
+    'feature_deployment_security' => 'Despliegue y Seguridad',
+    'feature_final_inspection' => 'Inspección y Registro Final',
+    
+    // Feature Descriptions for Submarine Cable
+    'feature_route_selection_desc' => 'Selección meticulosa de la ruta óptima, considerando factores geológicos y oceanográficos para garantizar la mejor trayectoria del cable.',
+    'feature_regulatory_compliance_desc' => 'Gestión completa de permisos gubernamentales y estricto cumplimiento de todas las normativas ambientales aplicables.',
+    'feature_cable_design_desc' => 'Diseño multicapa sofisticado que incluye fibras ópticas, protección contra humedad, conducción eléctrica y múltiples capas de protección estructural.',
+    'feature_deployment_security_desc' => 'Proceso especializado de despliegue y entierro en zonas críticas para garantizar la máxima seguridad y durabilidad del cable.',
+    'feature_final_inspection_desc' => 'Inspección exhaustiva final y registro detallado de la posición del cable para futuros mantenimientos y referencias.',
+    
+    // Salvage Features
+    'feature_emergency_response' => 'Respuesta de Emergencia 24/7',
+    'feature_professional_diving' => 'Buceo Profesional Especializado',
+    'feature_vessel_stabilization' => 'Estabilización de Embarcaciones',
+    'feature_specialized_equipment' => 'Equipamiento Especializado',
+    'feature_comprehensive_service' => 'Servicio Integral de Salvamento',
+    
+    // Feature Descriptions for Salvage
+    'feature_emergency_response_desc' => 'Servicio de respuesta inmediata disponible las 24 horas del día, los 7 días de la semana, para atender cualquier emergencia marítima.',
+    'feature_professional_diving_desc' => 'Equipo de buzos profesionales altamente capacitados con experiencia en operaciones de salvamento y rescate marino.',
+    'feature_vessel_stabilization_desc' => 'Servicios especializados de estabilización de embarcaciones, incluyendo operaciones contra incendios y asistencia en alta mar.',
+    'feature_specialized_equipment_desc' => 'Flota de embarcaciones de apoyo y tecnología especializada para garantizar operaciones de salvamento seguras y efectivas.',
+    'feature_comprehensive_service_desc' => 'Servicios completos que incluyen reparaciones, mantenimiento correctivo y planes de salvamento personalizados con coordinación logística integral.',
 ];

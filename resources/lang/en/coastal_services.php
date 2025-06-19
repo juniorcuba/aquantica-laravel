@@ -86,6 +86,18 @@ return [
     'service_submarine_pipelines_desc' =>
         'We lead the implementation of submarine pipelines for transportation of hydrocarbons, water, or outfalls, using methods that guarantee precision and minimal environmental disturbance. At AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, we execute submarine pipeline installations for transportation of hydrocarbons and industrial fluids. Our process guarantees safe and efficient projects, meeting the highest industry standards.',
     
+    // Submarine Cable Installation Service
+    'service_submarine_cables' => 'Submarine Cable Installation',
+    'service_submarine_cables_desc' =>
+        'We deploy fiber optic or submarine power cables with protected laying technologies and real-time monitoring, ensuring secure connectivity between offshore platforms and mainland. The deployment of submarine cables is a task that only a few companies can perform with the highest quality standards. For this, a detailed route analysis is essential to minimize environmental impact and ensure maximum cable protection.',
+    'service_submarine_cables_footer' =>
+        'Submarine cable installation is a highly specialized operation that requires precision and coordination. The process begins with laying one end of the cable to a coastal station, where a team of divers is responsible for burying it at the appropriate depth to ensure proper connection. Once this end is secured, a cable-laying vessel, specifically designed for this task, proceeds to deploy and bury the cable along the established route.',
+    
+    // Salvage Service
+    'service_salvage' => 'Salvage Operations',
+    'service_salvage_desc' =>
+        'We provide rescue and refloating services for sunken or stranded vessels, with rapid response teams and protocols to minimize environmental risks in sensitive areas. At AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, we specialize in rescuing and refloating vessels in emergency situations, including ships, yachts, sailboats, launches, boats, jet skis, and vessels, whether stranded, sunken, or in danger.',
+    
     // Service Feature Arrays
     'service_beach_recovery_features' => [
         'feature_studies_diagnosis',
@@ -304,4 +316,32 @@ return [
     'feature_specialized_installation_desc' => 'Installation with specialized equipment to ensure safe and efficient implementations, including professional divers for critical component placement.',
     'feature_quality_testing_desc' => 'We perform hydrostatic tests and rigorous quality checks to verify the integrity of each installation.',
     'feature_maintenance_services_desc' => 'We provide post-installation maintenance services to ensure maximum performance and durability of your marine projects.',
+    
+    // Submarine Cable Features
+    'feature_route_selection' => 'Optimal Route Selection',
+    'feature_regulatory_compliance' => 'Regulatory Compliance',
+    'feature_cable_design' => 'Specialized Cable Design',
+    'feature_deployment_security' => 'Deployment and Security',
+    'feature_final_inspection' => 'Final Inspection and Recording',
+    
+    // Feature Descriptions for Submarine Cable
+    'feature_route_selection_desc' => 'Meticulous selection of the optimal route, considering geological and oceanographic factors to ensure the best cable trajectory.',
+    'feature_regulatory_compliance_desc' => 'Complete management of government permits and strict compliance with all applicable environmental regulations.',
+    'feature_cable_design_desc' => 'Sophisticated multilayer design including optical fibers, moisture protection, electrical conduction, and multiple layers of structural protection.',
+    'feature_deployment_security_desc' => 'Specialized deployment and burial process in critical zones to ensure maximum cable safety and durability.',
+    'feature_final_inspection_desc' => 'Comprehensive final inspection and detailed recording of cable position for future maintenance and reference.',
+    
+    // Salvage Features
+    'feature_emergency_response' => '24/7 Emergency Response',
+    'feature_professional_diving' => 'Specialized Professional Diving',
+    'feature_vessel_stabilization' => 'Vessel Stabilization',
+    'feature_specialized_equipment' => 'Specialized Equipment',
+    'feature_comprehensive_service' => 'Comprehensive Salvage Service',
+    
+    // Feature Descriptions for Salvage
+    'feature_emergency_response_desc' => 'Immediate response service available 24 hours a day, 7 days a week, to attend any maritime emergency.',
+    'feature_professional_diving_desc' => 'Team of highly trained professional divers with experience in marine salvage and rescue operations.',
+    'feature_vessel_stabilization_desc' => 'Specialized vessel stabilization services, including firefighting operations and offshore assistance.',
+    'feature_specialized_equipment_desc' => 'Fleet of support vessels and specialized technology to ensure safe and effective salvage operations.',
+    'feature_comprehensive_service_desc' => 'Complete services including repairs, corrective maintenance, and customized salvage plans with comprehensive logistics coordination.',
 ];
