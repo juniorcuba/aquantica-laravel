@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\CoastalServicesController;
 use App\Http\Controllers\OffshoreServicesController;
+use App\Http\Controllers\EnvironmentalServicesController;
 use App\Http\Controllers\LegalController;
 use App\Http\Controllers\ContactController;
 
@@ -49,6 +50,20 @@ Route::get('/servicios-costa-afuera/{slug}', [OffshoreServicesController::class,
 
 Route::get('/offshore-services/{slug}', [OffshoreServicesController::class, 'show_en'])
       ->name('offshore.services.show.en');
+
+/* —————  TRAMITES AMBIENTALES  ————— */
+Route::get('/tramites-ambientales', [EnvironmentalServicesController::class, 'index_es'])
+      ->name('environmental.services.es');
+
+Route::get('/environmental-services', [EnvironmentalServicesController::class, 'index_en'])
+      ->name('environmental.services.en');
+
+/* —————  INTERNA TRAMITES AMBIENTALES  ————— */
+Route::get('/tramites-ambientales/{slug}', [EnvironmentalServicesController::class, 'show_es'])
+      ->name('environmental.services.show.es');
+
+Route::get('/environmental-services/{slug}', [EnvironmentalServicesController::class, 'show_en'])
+      ->name('environmental.services.show.en');
 
 Route::get('/search', function () {
 $query = trim(request('q', ''));

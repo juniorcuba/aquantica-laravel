@@ -42,6 +42,21 @@
                     'Offshore Surveys',
                 ],
             ],
+            [
+                'title' => $lang === 'en' ? 'Environmental Services' : 'Trámites Ambientales',
+                'description' => $lang === 'en'
+                    ? 'Comprehensive environmental procedures and compliance solutions for marine projects, including impact assessments, permits, and monitoring services.'
+                    : 'Soluciones integrales de procedimientos ambientales y cumplimiento normativo para proyectos marinos, incluyendo evaluaciones de impacto, permisos y servicios de monitoreo.',
+                'image' => 'https://images.pexels.com/photos/3617457/pexels-photo-3617457.jpeg?auto=compress&cs=tinysrgb&w=1280',
+                'link'  => $lang === 'en' ? '/environmental-services' : '/tramites-ambientales',
+                'tags'  => [
+                    'Impact Assessment',
+                    'Environmental Permits',
+                    'Compliance Monitoring',
+                    'Regulatory Support',
+                    'Environmental Planning',
+                ],
+            ],
         ];
     @endphp
 
@@ -56,7 +71,7 @@
             <div class="w-20 h-1 bg-[#f5b027] mx-auto mt-6"></div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 2xl:max-w-screen-xl xl:max-w-screen-lg mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 2xl:max-w-screen-xl xl:max-w-screen-lg mx-auto">
             @foreach ($projects as $service)
                 <div
                     class="bg-white rounded-lg shadow-md overflow-visible hover:shadow-lg transition-all duration-300 group relative"

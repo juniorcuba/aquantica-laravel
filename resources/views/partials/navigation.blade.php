@@ -33,6 +33,9 @@
                 <a href="{{ __('navigation.offshore_services') }}" class="text-white font-medium hover:text-[#f5b027] transition-colors mx-4">
                     {{ __('navbar.nav_offshore_services') }}
                 </a>
+                <a href="{{ __('navigation.environmental_services') }}" class="text-white font-medium hover:text-[#f5b027] transition-colors mx-4">
+                    {{ __('navbar.nav_environmental_services') }}
+                </a>
                 <a href="{{ __('navigation.contact') }}" class="text-white font-medium hover:text-[#f5b027] transition-colors mx-4">
                     {{ __('navbar.nav_contact') }}
                 </a>
@@ -68,6 +71,9 @@
                 </a>
                 <a href="{{ __('navigation.offshore_services') }}" class="text-white font-medium hover:text-[#f5b027] transition-colors px-4 py-2" @click="isOpen = false">
                     {{ __('navbar.nav_offshore_services') }}
+                </a>
+                <a href="{{ __('navigation.environmental_services') }}" class="text-white font-medium hover:text-[#f5b027] transition-colors px-4 py-2" @click="isOpen = false">
+                    {{ __('navbar.nav_environmental_services') }}
                 </a>
                 <a href="{{ __('navigation.contact') }}" class="text-white font-medium hover:text-[#f5b027] transition-colors px-4 py-2" @click="isOpen = false">
                     {{ __('navbar.nav_contact') }}

@@ -30,6 +30,11 @@
                             {{ __('navbar.nav_offshore_services') }}
                         </a>
                     </li>
+                    <li>
+                        <a href="{{ __('navigation.environmental_services') }}">
+                            {{ __('navbar.nav_environmental_services') }}
+                        </a>
+                    </li>
                 </ul>
             </div>
 
