@@ -29,7 +29,7 @@ class AppServiceProvider extends ServiceProvider
                 View::composer('*', function ($view) {
             $locale = app()->getLocale();
             $services = Cache::rememberForever('service_index_' . $locale, function () use ($locale) {
-                // pull both configs and tag them with their segment info
+                // pull all configs and tag them with their segment info
                 $coastal  = collect(config('coastal_services'))
                             ->map(fn ($s) => $s + [
                                 'segment_en' => 'coastal-services',
@@ -42,8 +42,20 @@ class AppServiceProvider extends ServiceProvider
                                 'segment_es' => 'servicios-costa-afuera',
                                 'config_key' => 'offshore_services'
                             ]);
+                $environmental = collect(config('environmental_services'))
+                            ->map(fn ($s) => $s + [
+                                'segment_en' => 'environmental-services',
+                                'segment_es' => 'tramites-ambientales',
+                                'config_key' => 'environmental_services'
+                            ]);
+                $oceanographic = collect(config('oceanographic_studies'))
+                            ->map(fn ($s) => $s + [
+                                'segment_en' => 'oceanographic-studies',
+                                'segment_es' => 'estudios-oceanograficos',
+                                'config_key' => 'oceanographic_studies'
+                            ]);
     
-                return $coastal->merge($offshore)->map(function ($s) {
+                return $coastal->merge($offshore)->merge($environmental)->merge($oceanographic)->map(function ($s) {
                     // build labels in BOTH languages using correct translation keys
                     $labelEn = __($s['config_key'] . '.' . $s['title_key'], [], 'en');
                     $labelEs = __($s['config_key'] . '.' . $s['title_key'], [], 'es');

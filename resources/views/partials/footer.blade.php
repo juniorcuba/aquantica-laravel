@@ -35,6 +35,11 @@
                             {{ __('navbar.nav_environmental_services') }}
                         </a>
                     </li>
+                    <li>
+                        <a href="{{ __('navigation.oceanographic_studies') }}">
+                            {{ __('navbar.nav_oceanographic_studies') }}
+                        </a>
+                    </li>
                 </ul>
             </div>
 

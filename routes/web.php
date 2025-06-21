@@ -5,6 +5,7 @@ use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\CoastalServicesController;
 use App\Http\Controllers\OffshoreServicesController;
 use App\Http\Controllers\EnvironmentalServicesController;
+use App\Http\Controllers\OceanographicStudiesController;
 use App\Http\Controllers\LegalController;
 use App\Http\Controllers\ContactController;
 
@@ -64,6 +65,21 @@ Route::get('/tramites-ambientales/{slug}', [EnvironmentalServicesController::cla
 
 Route::get('/environmental-services/{slug}', [EnvironmentalServicesController::class, 'show_en'])
       ->name('environmental.services.show.en');
+
+/* —————  ESTUDIOS OCEANOGRAFICOS  ————— */
+Route::get('/estudios-oceanograficos', [OceanographicStudiesController::class, 'index_es'])
+      ->name('oceanographic.studies.es');
+
+Route::get('/oceanographic-studies', [OceanographicStudiesController::class, 'index_en'])
+      ->name('oceanographic.studies.en');
+
+
+/* —————  INTERNA ESTUDIOS OCEANOGRAFICOS  ————— */
+Route::get('/estudios-oceanograficos/{slug}', [OceanographicStudiesController::class, 'show_es'])
+      ->name('oceanographic.studies.show.es');
+
+Route::get('/oceanographic-studies/{slug}', [OceanographicStudiesController::class, 'show_en'])
+      ->name('oceanographic.studies.show.en');
 
 Route::get('/search', function () {
 $query = trim(request('q', ''));
