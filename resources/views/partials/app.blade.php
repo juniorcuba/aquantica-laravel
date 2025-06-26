@@ -39,7 +39,7 @@
         @include('partials.navigation')
 
         <!-- Page Content -->
-        <main class="{{ request()->routeIs('home') ? '' : 'pt-16' }}">
+        <main class="mt-8 {{ request()->routeIs('home') ? '' : 'pt-16' }}">
             @yield('content')
         </main>
 

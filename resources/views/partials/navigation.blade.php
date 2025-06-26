@@ -13,7 +13,7 @@
 >
     <div class="container mx-auto px-4 py-3">
         <div class="flex items-center justify-between">
-            <a href="/" class="relative w-40 h-12 block">
+            <a href="/" class="relative w-40 h-20 block">
                 <img 
                     src="{{ asset('images/logo.png') }}" 
                     alt="Aquantica Logo" 

@@ -41,4 +41,12 @@ return [
         'message_placeholder' => 'Escribe tu mensaje aquí...',
         'lang' => 'es',
     ],
+
+    'downloads' => [
+        'title' => 'Descarga nuestros recursos para huracanes',
+        'description' => 'Ponemos a tu disposición información clave para la anticipación, preparación y seguimiento de tormentas tropicales, un resumen del plan de emergencia para huracanes y datos sobre nuestra empresa.',
+        'anticipacion' => 'Anticipación, Preparación y Seguimiento',
+        'plan' => 'Resumen del Plan de Emergencia',
+        'empresa' => 'Información sobre la empresa',
+    ],
 ];
