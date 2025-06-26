@@ -6,6 +6,8 @@ return [
     'segments' => [
         'coastal-services'      => 'servicios-costeros',
         'offshore-services'     => 'servicios-costa-afuera',
+        'environmental-services' => 'tramites-ambientales',
+        'oceanographic-studies' => 'estudios-oceanograficos',
         'terms-and-conditions'  => 'terminos-y-condiciones',
         'privacy-policy'        => 'politica-de-privacidad',
         'contact'               => 'contacto',

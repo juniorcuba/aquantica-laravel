@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LanguageController;
 use App\Http\Controllers\CoastalServicesController;
 use App\Http\Controllers\OffshoreServicesController;
+use App\Http\Controllers\EnvironmentalServicesController;
+use App\Http\Controllers\OceanographicStudiesController;
 use App\Http\Controllers\LegalController;
 use App\Http\Controllers\ContactController;
 
@@ -49,6 +51,35 @@ Route::get('/servicios-costa-afuera/{slug}', [OffshoreServicesController::class,
 
 Route::get('/offshore-services/{slug}', [OffshoreServicesController::class, 'show_en'])
       ->name('offshore.services.show.en');
+
+/* —————  TRAMITES AMBIENTALES  ————— */
+Route::get('/tramites-ambientales', [EnvironmentalServicesController::class, 'index_es'])
+      ->name('environmental.services.es');
+
+Route::get('/environmental-services', [EnvironmentalServicesController::class, 'index_en'])
+      ->name('environmental.services.en');
+
+/* —————  INTERNA TRAMITES AMBIENTALES  ————— */
+Route::get('/tramites-ambientales/{slug}', [EnvironmentalServicesController::class, 'show_es'])
+      ->name('environmental.services.show.es');
+
+Route::get('/environmental-services/{slug}', [EnvironmentalServicesController::class, 'show_en'])
+      ->name('environmental.services.show.en');
+
+/* —————  ESTUDIOS OCEANOGRAFICOS  ————— */
+Route::get('/estudios-oceanograficos', [OceanographicStudiesController::class, 'index_es'])
+      ->name('oceanographic.studies.es');
+
+Route::get('/oceanographic-studies', [OceanographicStudiesController::class, 'index_en'])
+      ->name('oceanographic.studies.en');
+
+
+/* —————  INTERNA ESTUDIOS OCEANOGRAFICOS  ————— */
+Route::get('/estudios-oceanograficos/{slug}', [OceanographicStudiesController::class, 'show_es'])
+      ->name('oceanographic.studies.show.es');
+
+Route::get('/oceanographic-studies/{slug}', [OceanographicStudiesController::class, 'show_en'])
+      ->name('oceanographic.studies.show.en');
 
 Route::get('/search', function () {
 $query = trim(request('q', ''));

@@ -42,6 +42,36 @@
                     'Offshore Surveys',
                 ],
             ],
+            [
+                'title' => $lang === 'en' ? 'Environmental Services' : 'Trámites Ambientales',
+                'description' => $lang === 'en'
+                    ? 'Comprehensive environmental procedures and compliance solutions for marine projects, including impact assessments, permits, and monitoring services.'
+                    : 'Soluciones integrales de procedimientos ambientales y cumplimiento normativo para proyectos marinos, incluyendo evaluaciones de impacto, permisos y servicios de monitoreo.',
+                'image' => 'https://images.pexels.com/photos/3617457/pexels-photo-3617457.jpeg?auto=compress&cs=tinysrgb&w=1280',
+                'link'  => $lang === 'en' ? '/environmental-services' : '/tramites-ambientales',
+                'tags'  => [
+                    'Technical Assessment',
+                    'Sargassum Management',
+                    'Executive Projects',
+                    'Environmental Permits',
+                    'Compliance Monitoring',
+                ],
+            ],
+            [
+                'title' => $lang === 'en' ? 'Oceanographic Studies' : 'Estudios Oceanográficos',
+                'description' => $lang === 'en'
+                    ? 'Specialized marine environment research for safe and efficient development of coastal and offshore projects, including bathymetry, drilling, and hydrodynamic modeling.'
+                    : 'Investigaciones especializadas del medio marino para el desarrollo seguro y eficiente de proyectos costeros y offshore, incluyendo batimetrías, sondeos y modelación hidrodinámica.',
+                'image' => 'https://images.pexels.com/photos/3894168/pexels-photo-3894168.jpeg?auto=compress&cs=tinysrgb&w=1280',
+                'link'  => $lang === 'en' ? '/oceanographic-studies' : '/estudios-oceanograficos',
+                'tags'  => [
+                    'Marine Drilling',
+                    'Bathymetry',
+                    'Hydrodynamic Modeling',
+                    'Geotechnical Studies',
+                    'Environmental Data',
+                ],
+            ],
         ];
     @endphp
 
@@ -56,7 +86,7 @@
             <div class="w-20 h-1 bg-[#f5b027] mx-auto mt-6"></div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 2xl:max-w-screen-xl xl:max-w-screen-lg mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 2xl:max-w-screen-2xl xl:max-w-screen-xl mx-auto">
             @foreach ($projects as $service)
                 <div
                     class="bg-white rounded-lg shadow-md overflow-visible hover:shadow-lg transition-all duration-300 group relative"

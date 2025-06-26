@@ -20,14 +20,28 @@ class LanguageController extends Controller
                 return [$en => $es];
             });
 
-            //  ▸ Coastal (si lo tienes)
+            //  ▸ Coastal
             $coastal  = collect(config('coastal_services'))->mapWithKeys(function ($raw) {
                 $en = Str::slug(__('coastal_services.' . $raw['title_key'], locale: 'en'));
                 $es = Str::slug(__('coastal_services.' . $raw['title_key'], locale: 'es'));
                 return [$en => $es];
             });
 
-            return $offshore->merge($coastal)->all();
+            //  ▸ Environmental
+            $environmental = collect(config('environmental_services'))->mapWithKeys(function ($raw) {
+                $en = Str::slug(__('environmental_services.' . $raw['title_key'], locale: 'en'));
+                $es = Str::slug(__('environmental_services.' . $raw['title_key'], locale: 'es'));
+                return [$en => $es];
+            });
+
+            //  ▸ Oceanographic
+            $oceanographic = collect(config('oceanographic_studies'))->mapWithKeys(function ($raw) {
+                $en = Str::slug(__('oceanographic_studies.' . $raw['title_key'], locale: 'en'));
+                $es = Str::slug(__('oceanographic_studies.' . $raw['title_key'], locale: 'es'));
+                return [$en => $es];
+            });
+
+            return $offshore->merge($coastal)->merge($environmental)->merge($oceanographic)->all();
         });
     }
 
