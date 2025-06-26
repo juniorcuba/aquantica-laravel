@@ -8,7 +8,7 @@
         <h3 class="text-xl font-bold text-[#0f2d49] mb-3">{{ $service['title'] }}</h3>
 
         <p class="text-gray-600 text-sm mb-4 flex-grow">
-            {{ \Illuminate\Support\Str::limit($service['description'], 100) }}
+            {{ strlen($service['description']) > 100 ? substr($service['description'], 0, 97) . '...' : $service['description'] }}
         </p>
 
         <div class="mt-auto pt-4 border-t border-gray-200">

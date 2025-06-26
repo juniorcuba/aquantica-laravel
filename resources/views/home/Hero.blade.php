@@ -64,8 +64,8 @@
     </template>
 
     <!-- Content -->
-    <div class="container mx-auto px-4 z-10 text-white text-center md:text-left max-w-5xl relative">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+    <div class="container mx-auto px-4 z-10 text-white text-center md:text-left max-w-5xl relative mt-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mt-8">
             <div class="fade-in-left" style="animation: fadeInLeft 1s ease-out">
                 <h1 class="text-4xl md:text-5xl lg:text-5xl 2xl:text-6xl font-bold mb-4 leading-tight">
                     <span x-text="language === 'en' ? current.title_en : current.title_es"></span>

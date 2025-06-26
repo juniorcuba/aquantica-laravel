@@ -41,4 +41,12 @@ return [
         'message_placeholder' => 'Write your message here...',
         'lang' => 'en',
     ],
+
+    'downloads' => [
+        'title' => 'Download our hurricane resources',
+        'description' => 'We provide you with key information for anticipation, preparation, and monitoring of tropical storms, a summary of the hurricane emergency plan, and data about our company.',
+        'anticipacion' => 'Anticipation, Preparation and Monitoring',
+        'plan' => 'Hurricane Emergency Plan Summary',
+        'empresa' => 'Information about the company',
+    ],
 ];

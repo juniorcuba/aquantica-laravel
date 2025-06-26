@@ -19,7 +19,7 @@ class ContactController extends Controller
             'lang' => 'required|string',
         ]);
 
-        Mail::to('rjr.eh1996@gmail.com')->send(new ContactFormMail($validated));
+        Mail::to('comercializacion@aquantica.com.mx')->bcc('virtessa.contact@gmail.com')->send(new ContactFormMail($validated));
 
         return redirect()->route($validated['lang'] === 'es' ? 'thankyou_es' : 'thankyou_en');
     }
