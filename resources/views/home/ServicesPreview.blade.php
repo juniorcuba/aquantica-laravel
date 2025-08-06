@@ -11,11 +11,11 @@
                 'image' => 'https://images.pexels.com/photos/1254892/pexels-photo-1254892.jpeg?auto=compress&cs=tinysrgb&w=1280',
                 'link'  => $lang === 'en' ? '/coastal-services' : '/servicios-costeros',
                 'tags'  => [
-                    'Port Construction',
-                    'Coastal Protection',
-                    'Beach Restoration',
-                    'Marina Development',
-                    'Environmental Studies',
+                    __('home.services.tags.port_construction'),
+                    __('home.services.tags.coastal_protection'),
+                    __('home.services.tags.beach_restoration'),
+                    __('home.services.tags.marina_development'),
+                    __('home.services.tags.environmental_studies'),
                 ],
             ],
             [
@@ -26,20 +26,22 @@
                 'image' => 'https://images.pexels.com/photos/2144326/pexels-photo-2144326.jpeg?auto=compress&cs=tinysrgb&w=1280',
                 'link'  => $lang === 'en' ? '/offshore-services' : '/servicios-costa-afuera',
                 'tags'  => [
-                    'Platform Maintenance',
-                    'Subsea Installation',
+                    __('home.services.tags.platform_maintenance'),
+                    __('home.services.tags.subsea_installation'),
                     [
-                        'name'        => 'ROV Operations',
+                        'name'        => __('home.services.tags.rov_operations'),
                         'highlighted' => true,
                         'description' => $lang === 'en'
                             ? 'Advanced ROV inspection services with state-of-the-art equipment and real-time 3D mapping capabilities'
                             : 'Servicios avanzados de inspección ROV con equipos de última generación y capacidades de mapeo 3D en tiempo real',
-                        'features'    => $lang === 'en'
-                            ? ['HD Video Surveys', '3D Mapping', 'Real-time Monitoring']
-                            : ['Inspecciones HD', 'Mapeo 3D', 'Monitoreo en Tiempo Real'],
+                        'features'    => [
+                            __('home.services.tags.hd_video_surveys'),
+                            __('home.services.tags.3d_mapping'),
+                            __('home.services.tags.realtime_monitoring')
+                        ],
                     ],
-                    'Pipeline Services',
-                    'Offshore Surveys',
+                    __('home.services.tags.pipeline_services'),
+                    __('home.services.tags.offshore_surveys'),
                 ],
             ],
             [
@@ -50,11 +52,11 @@
                 'image' => 'https://images.pexels.com/photos/3617457/pexels-photo-3617457.jpeg?auto=compress&cs=tinysrgb&w=1280',
                 'link'  => $lang === 'en' ? '/environmental-services' : '/tramites-ambientales',
                 'tags'  => [
-                    'Technical Assessment',
-                    'Sargassum Management',
-                    'Executive Projects',
-                    'Environmental Permits',
-                    'Compliance Monitoring',
+                    __('home.services.tags.technical_assessment'),
+                    __('home.services.tags.sargassum_management'),
+                    __('home.services.tags.executive_projects'),
+                    __('home.services.tags.environmental_permits'),
+                    __('home.services.tags.compliance_monitoring'),
                 ],
             ],
             [
@@ -65,11 +67,26 @@
                 'image' => 'https://images.pexels.com/photos/3894168/pexels-photo-3894168.jpeg?auto=compress&cs=tinysrgb&w=1280',
                 'link'  => $lang === 'en' ? '/oceanographic-studies' : '/estudios-oceanograficos',
                 'tags'  => [
-                    'Marine Drilling',
-                    'Bathymetry',
-                    'Hydrodynamic Modeling',
-                    'Geotechnical Studies',
-                    'Environmental Data',
+                    __('home.services.tags.marine_drilling'),
+                    __('home.services.tags.bathymetry'),
+                    __('home.services.tags.hydrodynamic_modeling'),
+                    __('home.services.tags.geotechnical_studies'),
+                    __('home.services.tags.environmental_data'),
+                ],
+            ],
+            [
+                'title' => $lang === 'en' ? 'Non-Destructive Testing' : 'Pruebas No Destructivas',
+                'description' => $lang === 'en'
+                    ? 'Advanced inspection services to assess structural integrity without affecting functionality. Our methods guarantee early detection of failures, ensuring safety and durability of your infrastructure.'
+                    : 'Servicios avanzados de inspección para evaluar la integridad estructural sin afectar la funcionalidad. Nuestros métodos garantizan la detección temprana de fallas, asegurando la seguridad y durabilidad de sus infraestructuras.',
+                'image' => 'images/services/non-destructive-testing/main-service.jpg',
+                'link'  => $lang === 'en' ? '/non-destructive-testing' : '/pruebas-no-destructivas',
+                'tags'  => [
+                    __('home.services.tags.visual_inspection'),
+                    __('home.services.tags.industrial_ultrasound'),
+                    __('home.services.tags.magnetic_particles'),
+                    __('home.services.tags.liquid_penetrants'),
+                    __('home.services.tags.structural_assessment'),
                 ],
             ],
         ];
@@ -86,7 +103,7 @@
             <div class="w-20 h-1 bg-[#f5b027] mx-auto mt-6"></div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 2xl:max-w-screen-2xl xl:max-w-screen-xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 2xl:max-w-screen-2xl xl:max-w-screen-xl mx-auto">
             @foreach ($projects as $service)
                 <div
                     class="bg-white rounded-lg shadow-md overflow-visible hover:shadow-lg transition-all duration-300 group relative"

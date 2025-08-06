@@ -41,7 +41,14 @@ class LanguageController extends Controller
                 return [$en => $es];
             });
 
-            return $offshore->merge($coastal)->merge($environmental)->merge($oceanographic)->all();
+            //  ▸ Non-Destructive Testing
+            $nonDestructiveTesting = collect(config('non_destructive_testing'))->mapWithKeys(function ($raw) {
+                $en = Str::slug(__('non_destructive_testing.' . $raw['title_key'], locale: 'en'));
+                $es = Str::slug(__('non_destructive_testing.' . $raw['title_key'], locale: 'es'));
+                return [$en => $es];
+            });
+
+            return $offshore->merge($coastal)->merge($environmental)->merge($oceanographic)->merge($nonDestructiveTesting)->all();
         });
     }
 
