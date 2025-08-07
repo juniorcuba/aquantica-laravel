@@ -21,6 +21,45 @@ return [
     'services' => [
         'title' => 'Our Services',
         'subtitle' => 'Comprehensive industrial marine solutions',
+        'tags' => [
+            // Coastal Services tags
+            'port_construction' => 'Port Construction',
+            'coastal_protection' => 'Coastal Protection',
+            'beach_restoration' => 'Beach Restoration',
+            'marina_development' => 'Marina Development',
+            'environmental_studies' => 'Environmental Studies',
+            
+            // Offshore Services tags
+            'platform_maintenance' => 'Platform Maintenance',
+            'subsea_installation' => 'Subsea Installation',
+            'rov_operations' => 'ROV Operations',
+            'pipeline_services' => 'Pipeline Services',
+            'offshore_surveys' => 'Offshore Surveys',
+            'hd_video_surveys' => 'HD Video Surveys',
+            '3d_mapping' => '3D Mapping',
+            'realtime_monitoring' => 'Real-time Monitoring',
+            
+            // Environmental Services tags
+            'technical_assessment' => 'Technical Assessment',
+            'sargassum_management' => 'Sargassum Management',
+            'executive_projects' => 'Executive Projects',
+            'environmental_permits' => 'Environmental Permits',
+            'compliance_monitoring' => 'Compliance Monitoring',
+            
+            // Oceanographic Studies tags
+            'marine_drilling' => 'Marine Drilling',
+            'bathymetry' => 'Bathymetry',
+            'hydrodynamic_modeling' => 'Hydrodynamic Modeling',
+            'geotechnical_studies' => 'Geotechnical Studies',
+            'environmental_data' => 'Environmental Data',
+            
+            // Non-Destructive Testing tags
+            'visual_inspection' => 'Visual Inspection',
+            'industrial_ultrasound' => 'Industrial Ultrasound',
+            'magnetic_particles' => 'Magnetic Particles',
+            'liquid_penetrants' => 'Liquid Penetrants',
+            'structural_assessment' => 'Structural Assessment',
+        ],
     ],
 
     'contact' => [

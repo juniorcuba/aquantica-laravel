@@ -21,6 +21,45 @@ return [
     'services' => [
         'title' => 'Nuestros Servicios',
         'subtitle' => 'Soluciones marinas industriales integrales',
+        'tags' => [
+            // Coastal Services tags
+            'port_construction' => 'Construcción Portuaria',
+            'coastal_protection' => 'Protección Costera',
+            'beach_restoration' => 'Restauración de Playas',
+            'marina_development' => 'Desarrollo de Marinas',
+            'environmental_studies' => 'Estudios Ambientales',
+            
+            // Offshore Services tags
+            'platform_maintenance' => 'Mantenimiento de Plataformas',
+            'subsea_installation' => 'Instalación Submarina',
+            'rov_operations' => 'Operaciones ROV',
+            'pipeline_services' => 'Servicios de Tuberías',
+            'offshore_surveys' => 'Estudios Costa Afuera',
+            'hd_video_surveys' => 'Inspecciones HD',
+            '3d_mapping' => 'Mapeo 3D',
+            'realtime_monitoring' => 'Monitoreo en Tiempo Real',
+            
+            // Environmental Services tags
+            'technical_assessment' => 'Evaluación Técnica',
+            'sargassum_management' => 'Gestión de Sargazo',
+            'executive_projects' => 'Proyectos Ejecutivos',
+            'environmental_permits' => 'Permisos Ambientales',
+            'compliance_monitoring' => 'Monitoreo de Cumplimiento',
+            
+            // Oceanographic Studies tags
+            'marine_drilling' => 'Perforación Marina',
+            'bathymetry' => 'Batimetría',
+            'hydrodynamic_modeling' => 'Modelación Hidrodinámica',
+            'geotechnical_studies' => 'Estudios Geotécnicos',
+            'environmental_data' => 'Datos Ambientales',
+            
+            // Non-Destructive Testing tags
+            'visual_inspection' => 'Inspección Visual',
+            'industrial_ultrasound' => 'Ultrasonido Industrial',
+            'magnetic_particles' => 'Partículas Magnéticas',
+            'liquid_penetrants' => 'Líquidos Penetrantes',
+            'structural_assessment' => 'Evaluación Estructural',
+        ],
     ],
 
     'contact' => [

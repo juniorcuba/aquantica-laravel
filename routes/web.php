@@ -6,6 +6,7 @@ use App\Http\Controllers\CoastalServicesController;
 use App\Http\Controllers\OffshoreServicesController;
 use App\Http\Controllers\EnvironmentalServicesController;
 use App\Http\Controllers\OceanographicStudiesController;
+use App\Http\Controllers\NonDestructiveTestingController;
 use App\Http\Controllers\LegalController;
 use App\Http\Controllers\ContactController;
 
@@ -80,6 +81,13 @@ Route::get('/estudios-oceanograficos/{slug}', [OceanographicStudiesController::c
 
 Route::get('/oceanographic-studies/{slug}', [OceanographicStudiesController::class, 'show_en'])
       ->name('oceanographic.studies.show.en');
+
+/* —————  PRUEBAS NO DESTRUCTIVAS  ————— */
+Route::get('/pruebas-no-destructivas', [NonDestructiveTestingController::class, 'show_es'])
+      ->name('non_destructive_testing.show.es');
+
+Route::get('/non-destructive-testing', [NonDestructiveTestingController::class, 'show_en'])
+      ->name('non_destructive_testing.show.en');
 
 Route::get('/search', function () {
 $query = trim(request('q', ''));

@@ -54,8 +54,14 @@ class AppServiceProvider extends ServiceProvider
                                 'segment_es' => 'estudios-oceanograficos',
                                 'config_key' => 'oceanographic_studies'
                             ]);
+                $nonDestructiveTesting = collect(config('non_destructive_testing'))
+                            ->map(fn ($s) => $s + [
+                                'segment_en' => 'non-destructive-testing',
+                                'segment_es' => 'pruebas-no-destructivas',
+                                'config_key' => 'non_destructive_testing'
+                            ]);
     
-                return $coastal->merge($offshore)->merge($environmental)->merge($oceanographic)->map(function ($s) {
+                return $coastal->merge($offshore)->merge($environmental)->merge($oceanographic)->merge($nonDestructiveTesting)->map(function ($s) {
                     // build labels in BOTH languages using correct translation keys
                     $labelEn = __($s['config_key'] . '.' . $s['title_key'], [], 'en');
                     $labelEs = __($s['config_key'] . '.' . $s['title_key'], [], 'es');

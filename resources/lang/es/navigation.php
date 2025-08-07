@@ -6,6 +6,7 @@ return [
     'offshore_services' => '/servicios-costa-afuera',
     'environmental_services' => '/tramites-ambientales',
     'oceanographic_studies' => '/estudios-oceanograficos',
+    'non_destructive_testing' => '/pruebas-no-destructivas',
     'contact' => '/contacto',
     'privacy' => '/politica-de-privacidad',
     'terms' => '/terminos-y-condiciones',

@@ -6,6 +6,7 @@ return [
   "nav_offshore_services" => "Servicios Offshore",
   "nav_environmental_services" => "Trámites Ambientales",
   "nav_oceanographic_studies" => "Estudios Oceanográficos",
+  "nav_non_destructive_testing" => "Pruebas No Destructivas",
   "nav_work_vessels" => "Embarcaciones",
   "nav_contact" => "Contacto"
 ]; 
