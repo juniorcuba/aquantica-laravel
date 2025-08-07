@@ -11,6 +11,12 @@ return [
             'images/services/non-destructive-testing/gallery/gallery-1.jpg',
             'images/services/non-destructive-testing/gallery/gallery-2.jpg',
             'images/services/non-destructive-testing/gallery/gallery-3.jpg',
+            'images/services/non-destructive-testing/gallery/gallery-4.jpg',
+            'images/services/non-destructive-testing/gallery/gallery-5.jpg',
+            'images/services/non-destructive-testing/gallery/gallery-7.jpg',
+            'images/services/non-destructive-testing/gallery/gallery-8.jpg',
+            'images/services/non-destructive-testing/gallery/gallery-9.jpg',
+            'images/services/non-destructive-testing/gallery/gallery-10.jpg',
         ],
     ],
 ];
