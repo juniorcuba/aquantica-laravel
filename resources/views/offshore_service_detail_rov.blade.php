@@ -5,7 +5,7 @@
     $backUrl = url($service['prefix']);
 @endphp
 
-{{-- ░░░░░  HERO  ░░░░░ --}}
+{{--  HERO  --}}
 <header x-data="{ y: 0 }"
         x-on:scroll.window="y = window.pageYOffset"
         class="relative h-[70vh] overflow-hidden">
@@ -41,7 +41,7 @@
     </div>
 </header>
 
-{{-- ░░░░░  STATS BAR  ░░░░░ --}}
+{{-- STATS BAR  --}}
 @if($service['stats']->isNotEmpty())
 <section class="sticky top-0 z-20 bg-[#0f2d49]/90 backdrop-blur shadow-md">
     <div class="container mx-auto px-4 flex flex-wrap md:grid md:grid-cols-3 text-center divide-x divide-[#f5b027]/30">
@@ -55,7 +55,7 @@
 </section>
 @endif
 
-{{-- ░░░░░  MAIN CONTENT  ░░░░░ --}}
+{{--  MAIN CONTEN --}}
 <section class="relative py-24 bg-gray-100">
     {{-- angled bg accent --}}
     <div class="absolute inset-x-0 top-0 -translate-y-1/2 h-64 bg-gradient-to-r from-[#0f2d49] to-[#0f2d49]/70 rotate-2 origin-top"></div>
@@ -84,14 +84,34 @@
             </div>
 
             {{-- slider --}}
+            @if (!empty($service['gallery']))
             <div class="h-[400px]">
                 @include('components.image-slider', ['images' => $service['gallery']])
             </div>
+            @endif
         </div>
     </div>
 </section>
 
-{{-- ░░░░░  CTA BANNER  ░░░░░ --}}
+{{--  DESCRIPTION FOOTER  --}}
+@if (!empty($service['description_footer']))
+<section class="py-16 bg-white">
+    <div class="container mx-auto px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-2xl md:text-3xl font-bold text-[#0f2d49] mb-8 text-center">
+                {{ app()->getLocale() === 'en' ? 'Additional Information' : 'Información Adicional' }}
+            </h2>
+            <div class="prose prose-lg max-w-none">
+                <p class="text-gray-700 text-lg leading-relaxed">
+                    {{ $service['description_footer'] }}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+@endif
+
+{{-- CTA BANNER --}}
 <section class="relative">
     {{-- animated dots background --}}
     <div class="absolute inset-0 bg-gradient-to-br from-[#0f2d49] to-[#061524] overflow-hidden">

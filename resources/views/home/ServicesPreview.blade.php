@@ -28,18 +28,6 @@
                 'tags'  => [
                     __('home.services.tags.platform_maintenance'),
                     __('home.services.tags.subsea_installation'),
-                    [
-                        'name'        => __('home.services.tags.rov_operations'),
-                        'highlighted' => true,
-                        'description' => $lang === 'en'
-                            ? 'Advanced ROV inspection services with state-of-the-art equipment and real-time 3D mapping capabilities'
-                            : 'Servicios avanzados de inspección ROV con equipos de última generación y capacidades de mapeo 3D en tiempo real',
-                        'features'    => [
-                            __('home.services.tags.hd_video_surveys'),
-                            __('home.services.tags.3d_mapping'),
-                            __('home.services.tags.realtime_monitoring')
-                        ],
-                    ],
                     __('home.services.tags.pipeline_services'),
                     __('home.services.tags.offshore_surveys'),
                 ],

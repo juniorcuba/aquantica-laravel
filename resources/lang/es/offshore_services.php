@@ -11,12 +11,16 @@ return [
     'stat_depth_rating'=> 'Profundidad Máxima',
     'stat_operation'   => 'Operación',
 
-    'service_rov'                       => 'Servicios de Inspección ROV',
-    'service_rov_desc'                  => 'Servicios avanzados de inspección ROV utilizando tecnología de última generación para evaluaciones y monitoreo submarino integral.',
-    'service_platform_maintenance'      => 'Mantenimiento de Plataformas',
-    'service_platform_maintenance_desc' => 'Servicios integrales de mantenimiento para plataformas costa afuera, garantizando la seguridad operacional y la integridad estructural.',
+    // stats labels
+    'stat_compliance'      => 'Cumplimiento',
+    'stat_experience'      => 'Años de Experiencia',
+
+    // individual services
+    'service_platform_maintenance'      => 'Mantenimiento de Plataformas Petroleras en Zonas Marinas',
+    'service_platform_maintenance_desc' => 'Ejecutamos programas de mantenimiento predictivo y correctivo para infraestructuras offshore, garantizando la operatividad y seguridad de plataformas petroleras mediante técnicas de inspección subacuática, limpieza de estructuras y reparaciones especializadas.',
+    'service_platform_maintenance_footer' => 'Las plataformas petroleras están expuestas a condiciones marinas extremas que generan deterioro acelerado en sus estructuras metálicas. En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, ofrecemos soluciones especializadas de mantenimiento correctivo y preventivo para garantizar la integridad, seguridad y operatividad continua de sus instalaciones. Nuestros servicios cumplen con los más altos estándares de la industria y las normativas internacionales de seguridad.',
+
     'service_sacrificial_anodes'        => 'Instalación de Ánodos de Sacrificio',
-    'service_sacrificial_anodes_desc'   => 'Proveemos soluciones especializadas en protección catódica mediante ánodos de sacrificio para sistemas marinos. Nuestros productos están diseñados para prevenir la corrosión galvánica en estructuras metálicas sumergidas, prolongando su vida útil y manteniendo su integridad estructural. Todos nuestros ánodos proporcionan protección galvánica comprobada, con facilidad de instalación y mantenimiento, representando la solución más costo-efectiva para prolongar la vida útil de sus equipos marinos.',
-    'service_ndt'                       => 'Pruebas No Destructivas',
-    'service_ndt_desc'                  => 'Ofrecemos servicios avanzados de inspección para evaluar la integridad estructural de componentes metálicos y soldaduras en entornos marinos e industriales. Nuestros métodos garantizan la detección temprana de fallas sin afectar la funcionalidad de los materiales, asegurando la seguridad y durabilidad de sus infraestructuras. Las Pruebas No Destructivas (PND) son un conjunto de técnicas avanzadas para evaluar la integridad de materiales y estructuras sin alterar sus propiedades físicas o químicas.',
+    'service_sacrificial_anodes_desc'   => 'Proveemos soluciones especializadas en protección catódica mediante ánodos de sacrificio para sistemas marinos. Nuestros productos están diseñados para prevenir la corrosión galvánica en estructuras metálicas sumergidas, prolongando su vida útil y manteniendo su integridad estructural.',
+    'service_sacrificial_anodes_footer' => 'Seleccionamos cuidadosamente los materiales para cada aplicación: el zinc es ideal para agua salada; el aluminio ofrece máximo rendimiento en agua dulce; mientras el magnesio es la solución óptima para medios de baja resistividad como tuberías y sistemas de agua dulce. Todos nuestros ánodos proporcionan protección galvánica comprobada, con facilidad de instalación y mantenimiento, representando la solución más costo-efectiva para prolongar la vida útil de sus equipos marinos.',
 ];
