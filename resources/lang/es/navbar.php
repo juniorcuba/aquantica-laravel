@@ -3,7 +3,7 @@
 return [
     "nav_home" => "Inicio",
   "nav_coastal_services" => "Servicios Costeros",
-  "nav_offshore_services" => "Servicios Offshore",
+  "nav_offshore_services" => "Servicios Costa Afuera",
   "nav_environmental_services" => "Trámites Ambientales",
   "nav_oceanographic_studies" => "Estudios Oceanográficos",
   "nav_non_destructive_testing" => "Pruebas No Destructivas",
