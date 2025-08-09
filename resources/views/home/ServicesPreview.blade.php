@@ -41,7 +41,6 @@
                 'link'  => $lang === 'en' ? '/environmental-services' : '/tramites-ambientales',
                 'tags'  => [
                     __('home.services.tags.technical_assessment'),
-                    __('home.services.tags.sargassum_management'),
                     __('home.services.tags.executive_projects'),
                     __('home.services.tags.environmental_permits'),
                     __('home.services.tags.compliance_monitoring'),

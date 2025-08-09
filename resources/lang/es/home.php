@@ -41,7 +41,7 @@ return [
             
             // Environmental Services tags
             'technical_assessment' => 'Evaluación Técnica',
-            'sargassum_management' => 'Gestión de Sargazo',
+
             'executive_projects' => 'Proyectos Ejecutivos',
             'environmental_permits' => 'Permisos Ambientales',
             'compliance_monitoring' => 'Monitoreo de Cumplimiento',

@@ -39,14 +39,14 @@ Route::get('/servicios-costeros/{slug}', [CoastalServicesController::class, 'sho
 Route::get('/coastal-services/{slug}', [CoastalServicesController::class, 'show_en'])
       ->name('coastal.services.show.en');
 
-/* —————  SERVICIOS OFFSHORE  ————— */
+/* —————  SERVICIOS COSTA AFUERA  ————— */
 Route::get('/servicios-costa-afuera', [OffshoreServicesController::class, 'index_es'])
       ->name('offshore.services.es');
 
 Route::get('/offshore-services', [OffshoreServicesController::class, 'index_en'])
       ->name('offshore.services.en');
 
-/* —————  INTERNA SERVICIOS OFFSHORE  ————— */
+/* —————  INTERNA SERVICIOS COSTA AFUERA  ————— */
 Route::get('/servicios-costa-afuera/{slug}', [OffshoreServicesController::class, 'show_es'])
       ->name('offshore.services.show.es');
 

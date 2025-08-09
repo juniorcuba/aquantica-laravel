@@ -11,11 +11,6 @@ return [
     'service_technical_assessment_desc' =>
         'Emitimos informes técnicos especializados que evalúan la integridad estructural y operativa de muelles, plataformas, tuberías y otras instalaciones marinas, asegurando su cumplimiento con estándares de seguridad y ambientales. En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, brindamos un servicio especializado de dictamen técnico para evaluar integralmente infraestructuras marinas como muelles, plataformas, tuberías submarinas y otras instalaciones costeras. Nuestros informes técnicos cumplen con altos estándares de calidad y normativas aplicables, sirviendo como herramienta clave para trámites ambientales, procesos de certificación y toma de decisiones estratégicas.',
 
-    // Sargassum Management Service
-    'service_sargassum_management' => 'Estrategias para la Atención del Sargazo',
-    'service_sargassum_management_desc' =>
-        'Desarrollamos soluciones integrales para la gestión del sargazo, implementación de infraestructura, protocolos de recolección y disposición, minimizando impactos ambientales y económicos en zonas turísticas y portuarias. Diseñamos soluciones técnicas y ambientales especializadas para la gestión del sargazo, mitigando sus impactos en ecosistemas costeros, infraestructuras turísticas y operaciones portuarias. Nuestro enfoque combina tecnologías innovadoras, conocimiento oceanográfico y protocolos sostenibles, alineados con regulaciones ambientales.',
-
     // Executive Projects Service
     'service_executive_projects' => 'Proyectos Ejecutivos',
     'service_executive_projects_desc' =>
@@ -30,14 +25,6 @@ return [
         'feature_documentation_generation',
         'feature_risk_assessment',
         'feature_maintenance_planning',
-    ],
-
-    'service_sargassum_management_features' => [
-        'feature_intelligent_barriers',
-        'feature_ecosystem_protection',
-        'feature_economic_mitigation',
-        'feature_sustainable_protocols',
-        'feature_regulatory_management',
     ],
 
     'service_executive_projects_features' => [
@@ -61,20 +48,6 @@ return [
     'feature_documentation_generation_desc' => 'Elaboramos documentación especializada para trámites ambientales, incluyendo permisos y autorizaciones requeridas por las autoridades.',
     'feature_risk_assessment_desc' => 'Identificamos riesgos operativos y ambientales, priorizando acciones correctivas para optimizar la seguridad y funcionalidad.',
     'feature_maintenance_planning_desc' => 'Desarrollamos planes de mantenimiento efectivos basados en evaluaciones objetivas y datos técnicos precisos.',
-
-    // Sargassum Management Features
-    'feature_intelligent_barriers' => 'Sistemas de Barreras Flotantes Inteligentes',
-    'feature_ecosystem_protection' => 'Protección de Ecosistemas Costeros',
-    'feature_economic_mitigation' => 'Mitigación de Impactos Económicos',
-    'feature_sustainable_protocols' => 'Protocolos Sostenibles de Recolección',
-    'feature_regulatory_management' => 'Gestión de Tramitología Ambiental',
-
-    // Feature Descriptions for Sargassum Management
-    'feature_intelligent_barriers_desc' => 'Implementamos sistemas de barreras flotantes diseñadas según patrones de corrientes y mareas para contención efectiva del sargazo.',
-    'feature_ecosystem_protection_desc' => 'Protegemos ecosistemas costeros mediante métodos ecológicamente responsables alineados con regulaciones ambientales.',
-    'feature_economic_mitigation_desc' => 'Minimizamos pérdidas económicas en sectores turístico y pesquero a través de soluciones técnicas innovadoras.',
-    'feature_sustainable_protocols_desc' => 'Desarrollamos protocolos de recolección y disposición sostenibles que minimizan impactos ambientales adicionales.',
-    'feature_regulatory_management_desc' => 'Gestionamos toda la tramitología necesaria y ofrecemos asesoría especializada para implementación y mantenimiento.',
 
     // Executive Projects Features
     'feature_detailed_documentation' => 'Documentación Técnica Detallada',
