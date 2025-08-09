@@ -62,24 +62,29 @@ class OffshoreServicesController extends Controller
     private function collectServices(): Collection
     {
         return collect(config('offshore_services'))->map(function ($raw) {
-            $title       = __('offshore_services.' . $raw['title_key']);
-            $description = __('offshore_services.' . $raw['description_key']);
+            $title             = __('offshore_services.' . $raw['title_key']);
+            $description       = __('offshore_services.' . $raw['description_key']);
+            $description_footer = isset($raw['description_footer_key']) 
+                                ? __('offshore_services.' . $raw['description_footer_key']) 
+                                : null;
             $prefix = app()->getLocale() === 'en' ? 'offshore-services' : 'servicios-costa-afuera';
 
             return [
-                'title'       => $title,
-                'description' => $description,
-                'image'       => $raw['image'],
-                'prefix'      => $prefix,
-                'features'    => $raw['features'],
-                'gallery'     => $raw['gallery_images'],
-                'stats'       => collect($raw['stats'] ?? [])
-                                   ->map(fn ($s) => [
-                                       'value' => $s['value'],
-                                       'label' => __('offshore_services.' . $s['label_key']),
-                                   ]),
-                'featured'    => $raw['featured'] ?? false,
-                'slug'        => \Illuminate\Support\Str::slug($title),   // locale-aware slug
+                'title'              => $title,
+                'description'        => $description,
+                'description_footer' => $description_footer,
+                'image'              => $raw['image'],
+                'prefix'             => $prefix,
+                'features'           => $raw['features'],
+                'gallery'            => $raw['gallery_images'],
+                'stats'              => collect($raw['stats'] ?? [])
+                                          ->map(fn ($s) => [
+                                              'value' => $s['value'],
+                                              'label' => __('offshore_services.' . $s['label_key']),
+                                          ]),
+                'featured'           => $raw['featured'] ?? false,
+                'show_features'      => $raw['show_features'] ?? false,
+                'slug'               => \Illuminate\Support\Str::slug($title),   // locale-aware slug
             ];
         });
     }
