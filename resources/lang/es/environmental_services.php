@@ -6,11 +6,6 @@ return [
     'back_to_services' => 'Volver a Servicios',
     'key_features'     => 'Características Principales',
 
-    // Technical Assessment Service
-    'service_technical_assessment'    => 'Dictamen Técnico a Infraestructuras Marinas',
-    'service_technical_assessment_desc' =>
-        'Emitimos informes técnicos especializados que evalúan la integridad estructural y operativa de muelles, plataformas, tuberías y otras instalaciones marinas, asegurando su cumplimiento con estándares de seguridad y ambientales. En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, brindamos un servicio especializado de dictamen técnico para evaluar integralmente infraestructuras marinas como muelles, plataformas, tuberías submarinas y otras instalaciones costeras. Nuestros informes técnicos cumplen con altos estándares de calidad y normativas aplicables, sirviendo como herramienta clave para trámites ambientales, procesos de certificación y toma de decisiones estratégicas.',
-
     // Executive Projects Service
     'service_executive_projects' => 'Proyectos Ejecutivos',
     'service_executive_projects_desc' =>
@@ -19,14 +14,6 @@ return [
         'Nuestros proyectos ejecutivos sirven como hoja de ruta confiable para la construcción de muelles, espigones, terminales portuarios y otras infraestructuras marinas, asegurando ejecuciones eficientes y libres de contingencias.',
 
     // Service Feature Arrays
-    'service_technical_assessment_features' => [
-        'feature_structural_evaluation',
-        'feature_normative_compliance',
-        'feature_documentation_generation',
-        'feature_risk_assessment',
-        'feature_maintenance_planning',
-    ],
-
     'service_executive_projects_features' => [
         'feature_detailed_documentation',
         'feature_technical_viability',
@@ -34,20 +21,6 @@ return [
         'feature_regulatory_compliance',
         'feature_interdisciplinary_coordination',
     ],
-
-    // Technical Assessment Features
-    'feature_structural_evaluation' => 'Evaluación de Integridad Estructural',
-    'feature_normative_compliance' => 'Cumplimiento Normativo',
-    'feature_documentation_generation' => 'Generación de Documentación Especializada',
-    'feature_risk_assessment' => 'Análisis de Riesgos y Priorización',
-    'feature_maintenance_planning' => 'Planificación de Mantenimiento',
-
-    // Feature Descriptions for Technical Assessment
-    'feature_structural_evaluation_desc' => 'Realizamos análisis detallados de integridad estructural, capacidad portante, nivel de corrosión y condiciones hidrodinámicas de infraestructuras marinas.',
-    'feature_normative_compliance_desc' => 'Nuestros informes técnicos cumplen con altos estándares de calidad y normativas aplicables, sirviendo como herramienta clave para trámites ambientales.',
-    'feature_documentation_generation_desc' => 'Elaboramos documentación especializada para trámites ambientales, incluyendo permisos y autorizaciones requeridas por las autoridades.',
-    'feature_risk_assessment_desc' => 'Identificamos riesgos operativos y ambientales, priorizando acciones correctivas para optimizar la seguridad y funcionalidad.',
-    'feature_maintenance_planning_desc' => 'Desarrollamos planes de mantenimiento efectivos basados en evaluaciones objetivas y datos técnicos precisos.',
 
     // Executive Projects Features
     'feature_detailed_documentation' => 'Documentación Técnica Detallada',
@@ -62,4 +35,34 @@ return [
     'feature_time_cost_optimization_desc' => 'Optimizamos tiempos y costos desde la etapa de planeación, maximizando eficiencia en recursos.',
     'feature_regulatory_compliance_desc' => 'Garantizamos cumplimiento con regulaciones locales e internacionales, adaptando soluciones a condiciones específicas del sitio.',
     'feature_interdisciplinary_coordination_desc' => 'Coordinamos equipos interdisciplinarios de especialistas marinos para desarrollar soluciones integrales y eficientes.',
+
+    // Environmental Services Service (same name as category)
+    'service_environmental_services' => 'Trámites Ambientales',
+    'service_environmental_services_desc' =>
+        'En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, elaboramos informes esenciales para la gestión de tramites ambientales y el cumplimiento de la normativa vigente. Nuestro enfoque se centra en evaluar el impacto ecológico de proyectos costeros y marinos, como la construcción o modificación de muelles, plataformas, tuberías submarinas, entre otros. Nuestros informes son el resultado de un análisis riguroso que evalúa la compatibilidad de su proyecto con el medio ambiente.',
+    'service_environmental_services_footer' =>
+        'El objetivo principal de nuestros servicios en materia ambiental, son proporcionar una herramienta técnica solida que garantice la sostenibilidad y viabilidad ambiental de sus proyectos, asegurando que su inversión no solo sea rentable, sino también responsable con el medio ambiente.',
+
+    // Service Feature Arrays for Environmental Services
+    'service_environmental_services_features' => [
+        'feature_impact_assessment',
+        'feature_permit_management',
+        'feature_compliance_monitoring',
+        'feature_stakeholder_consultation',
+        'feature_sustainable_development',
+    ],
+
+    // Environmental Services Features
+    'feature_impact_assessment' => 'Evaluación de Impacto Ambiental',
+    'feature_permit_management' => 'Gestión de Permisos y Licencias',
+    'feature_compliance_monitoring' => 'Monitoreo de Cumplimiento',
+    'feature_stakeholder_consultation' => 'Consulta con Partes Interesadas',
+    'feature_sustainable_development' => 'Desarrollo Sostenible',
+
+    // Feature Descriptions for Environmental Services
+    'feature_impact_assessment_desc' => 'Realizamos estudios detallados de impacto ambiental identificando, evaluando y mitigando posibles efectos en el ecosistema marino.',
+    'feature_permit_management_desc' => 'Gestionamos la obtención de todos los permisos y licencias ambientales requeridos ante las autoridades competentes.',
+    'feature_compliance_monitoring_desc' => 'Implementamos programas de monitoreo continuo para asegurar el cumplimiento de las condiciones ambientales establecidas.',
+    'feature_stakeholder_consultation_desc' => 'Facilitamos procesos de consulta y participación con comunidades locales y partes interesadas del proyecto.',
+    'feature_sustainable_development_desc' => 'Desarrollamos estrategias que equilibran el desarrollo económico con la protección del medio ambiente marino.',
 ]; 

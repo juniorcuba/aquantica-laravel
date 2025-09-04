@@ -6,11 +6,6 @@ return [
     'back_to_services' => 'Back to Services',
     'key_features'     => 'Key Features',
 
-    // Technical Assessment Service
-    'service_technical_assessment'    => 'Technical Assessment of Marine Infrastructure',
-    'service_technical_assessment_desc' =>
-        'We issue specialized technical reports that evaluate the structural and operational integrity of docks, platforms, pipelines, and other marine installations, ensuring compliance with safety and environmental standards. At AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, we provide specialized technical assessment services to comprehensively evaluate marine infrastructure such as docks, platforms, submarine pipelines, and other coastal installations. Our technical reports meet high quality standards and applicable regulations, serving as a key tool for environmental procedures, certification processes, and strategic decision-making.',
-
     // Executive Projects Service
     'service_executive_projects' => 'Executive Projects',
     'service_executive_projects_desc' =>
@@ -19,14 +14,6 @@ return [
         'Our executive projects serve as a reliable roadmap for the construction of docks, breakwaters, port terminals, and other marine infrastructure, ensuring efficient and contingency-free executions.',
 
     // Service Feature Arrays
-    'service_technical_assessment_features' => [
-        'feature_structural_evaluation',
-        'feature_normative_compliance',
-        'feature_documentation_generation',
-        'feature_risk_assessment',
-        'feature_maintenance_planning',
-    ],
-
     'service_executive_projects_features' => [
         'feature_detailed_documentation',
         'feature_technical_viability',
@@ -34,20 +21,6 @@ return [
         'feature_regulatory_compliance',
         'feature_interdisciplinary_coordination',
     ],
-
-    // Technical Assessment Features
-    'feature_structural_evaluation' => 'Structural Integrity Evaluation',
-    'feature_normative_compliance' => 'Regulatory Compliance',
-    'feature_documentation_generation' => 'Specialized Documentation Generation',
-    'feature_risk_assessment' => 'Risk Analysis and Prioritization',
-    'feature_maintenance_planning' => 'Maintenance Planning',
-
-    // Feature Descriptions for Technical Assessment
-    'feature_structural_evaluation_desc' => 'We perform detailed analysis of structural integrity, load capacity, corrosion levels, and hydrodynamic conditions of marine infrastructure.',
-    'feature_normative_compliance_desc' => 'Our technical reports meet high quality standards and applicable regulations, serving as key tools for environmental procedures.',
-    'feature_documentation_generation_desc' => 'We prepare specialized documentation for environmental procedures, including permits and authorizations required by authorities.',
-    'feature_risk_assessment_desc' => 'We identify operational and environmental risks, prioritizing corrective actions to optimize safety and functionality.',
-    'feature_maintenance_planning_desc' => 'We develop effective maintenance plans based on objective evaluations and precise technical data.',
 
     // Executive Projects Features
     'feature_detailed_documentation' => 'Detailed Technical Documentation',
@@ -62,4 +35,34 @@ return [
     'feature_time_cost_optimization_desc' => 'We optimize time and costs from the planning stage, maximizing resource efficiency.',
     'feature_regulatory_compliance_desc' => 'We guarantee compliance with local and international regulations, adapting solutions to specific site conditions.',
     'feature_interdisciplinary_coordination_desc' => 'We coordinate interdisciplinary teams of marine specialists to develop comprehensive and efficient solutions.',
+
+    // Environmental Services Service (same name as category)
+    'service_environmental_services' => 'Environmental Services',
+    'service_environmental_services_desc' =>
+        'At AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, we prepare essential reports for environmental process management and compliance with current regulations. Our approach focuses on evaluating the ecological impact of coastal and marine projects, such as the construction or modification of docks, platforms, submarine pipelines, among others. Our reports are the result of rigorous analysis that evaluates your project\'s compatibility with the environment.',
+    'service_environmental_services_footer' =>
+        'The main objective of our environmental services is to provide a solid technical tool that guarantees the sustainability and environmental viability of your projects, ensuring that your investment is not only profitable, but also environmentally responsible.',
+
+    // Service Feature Arrays for Environmental Services
+    'service_environmental_services_features' => [
+        'feature_impact_assessment',
+        'feature_permit_management',
+        'feature_compliance_monitoring',
+        'feature_stakeholder_consultation',
+        'feature_sustainable_development',
+    ],
+
+    // Environmental Services Features
+    'feature_impact_assessment' => 'Environmental Impact Assessment',
+    'feature_permit_management' => 'Permit and License Management',
+    'feature_compliance_monitoring' => 'Compliance Monitoring',
+    'feature_stakeholder_consultation' => 'Stakeholder Consultation',
+    'feature_sustainable_development' => 'Sustainable Development',
+
+    // Feature Descriptions for Environmental Services
+    'feature_impact_assessment_desc' => 'We conduct detailed environmental impact studies identifying, evaluating, and mitigating potential effects on the marine ecosystem.',
+    'feature_permit_management_desc' => 'We manage the acquisition of all required environmental permits and licenses before competent authorities.',
+    'feature_compliance_monitoring_desc' => 'We implement continuous monitoring programs to ensure compliance with established environmental conditions.',
+    'feature_stakeholder_consultation_desc' => 'We facilitate consultation and participation processes with local communities and project stakeholders.',
+    'feature_sustainable_development_desc' => 'We develop strategies that balance economic development with marine environment protection.',
 ]; 

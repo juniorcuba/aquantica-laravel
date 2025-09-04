@@ -40,6 +40,11 @@
                             {{ __('navbar.nav_oceanographic_studies') }}
                         </a>
                     </li>
+                    <li>
+                        <a href="{{ __('navigation.non_destructive_testing') }}">
+                            {{ __('navbar.nav_non_destructive_testing') }}
+                        </a>
+                    </li>
                 </ul>
             </div>
 

@@ -4,12 +4,12 @@
 
 <div class="container mx-auto px-4 py-12 md:py-20">
 
-    {{-- Back link to home --}}
+    {{-- Back link --}}
     <div class="mb-8">
-        <a href="{{ url('/') }}"
+        <a href="{{ url($prefix) }}"
            class="flex items-center text-[#0f2d49] hover:text-[#f5b027] transition-colors duration-200">
             <span class="mr-2">&larr;</span>
-            {{ __('non_destructive_testing.back_to_home') }}
+            {{ __('non_destructive_testing.back_to_services') }}
         </a>
     </div>
 

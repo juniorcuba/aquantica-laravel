@@ -83,10 +83,17 @@ Route::get('/oceanographic-studies/{slug}', [OceanographicStudiesController::cla
       ->name('oceanographic.studies.show.en');
 
 /* —————  PRUEBAS NO DESTRUCTIVAS  ————— */
-Route::get('/pruebas-no-destructivas', [NonDestructiveTestingController::class, 'show_es'])
+Route::get('/pruebas-no-destructivas', [NonDestructiveTestingController::class, 'index_es'])
+      ->name('non_destructive_testing.index.es');
+
+Route::get('/non-destructive-testing', [NonDestructiveTestingController::class, 'index_en'])
+      ->name('non_destructive_testing.index.en');
+
+/* —————  INTERNA PRUEBAS NO DESTRUCTIVAS  ————— */
+Route::get('/pruebas-no-destructivas/{slug}', [NonDestructiveTestingController::class, 'show_es'])
       ->name('non_destructive_testing.show.es');
 
-Route::get('/non-destructive-testing', [NonDestructiveTestingController::class, 'show_en'])
+Route::get('/non-destructive-testing/{slug}', [NonDestructiveTestingController::class, 'show_en'])
       ->name('non_destructive_testing.show.en');
 
 Route::get('/search', function () {
