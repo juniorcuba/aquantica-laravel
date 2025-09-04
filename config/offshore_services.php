@@ -56,6 +56,7 @@ return [
             '/images/services/offshore/sacrificial-anodes/gallery/gallery-1.jpg',
             '/images/services/offshore/sacrificial-anodes/gallery/gallery-2.jpg',
             '/images/services/offshore/sacrificial-anodes/gallery/gallery-3.jpg',
+            '/images/services/offshore/sacrificial-anodes/main-service.jpg',
         ],
         'show_features'   => true,
     ],

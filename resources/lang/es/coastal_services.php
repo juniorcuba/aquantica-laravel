@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'coastal_services_title'       => 'Servicios Costeros e Ingeniería Marina',
+    'coastal_services_title'       => 'Servicios Costeros e Ingeniería Maritima',
     'coastal_services_subtitle'    => 'Soluciones integrales para playas, puertos e infraestructura costera.',
     'back_to_services' => 'Volver a Servicios',
     'key_features'     => 'Características Principales',
@@ -435,4 +435,31 @@ return [
     'feature_comprehensive_evaluation_desc' => 'Realizamos evaluaciones visuales y táctiles exhaustivas para identificar problemas como corrosión, fisuras y daños por impacto.',
     'feature_preventive_maintenance_desc' => 'La detección temprana de anomalías permite implementar acciones correctivas oportunas, evitando fallos estructurales mayores.',
     'feature_detailed_reporting_desc' => 'Proporcionamos informes detallados con documentación gráfica, análisis de daños y recomendaciones técnicas priorizadas.',
+
+    // Technical Assessment Service
+    'service_technical_assessment'    => 'Dictamen Técnico a Infraestructuras Marinas',
+    'service_technical_assessment_desc' =>
+        'Emitimos informes técnicos especializados que evalúan la integridad estructural y operativa de muelles, plataformas, tuberías y otras instalaciones marinas, asegurando su cumplimiento con estándares de seguridad y ambientales. En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, brindamos un servicio especializado de dictamen técnico para evaluar integralmente infraestructuras marinas como muelles, plataformas, tuberías submarinas y otras instalaciones costeras. Nuestros informes técnicos cumplen con altos estándares de calidad y normativas aplicables, sirviendo como herramienta clave para trámites ambientales, procesos de certificación y toma de decisiones estratégicas.',
+
+    'service_technical_assessment_features' => [
+        'feature_structural_evaluation',
+        'feature_normative_compliance',
+        'feature_documentation_generation',
+        'feature_risk_assessment',
+        'feature_maintenance_planning',
+    ],
+
+    // Technical Assessment Features
+    'feature_structural_evaluation' => 'Evaluación de Integridad Estructural',
+    'feature_normative_compliance' => 'Cumplimiento Normativo',
+    'feature_documentation_generation' => 'Generación de Documentación Especializada',
+    'feature_risk_assessment' => 'Análisis de Riesgos y Priorización',
+    'feature_maintenance_planning' => 'Planificación de Mantenimiento',
+
+    // Feature Descriptions for Technical Assessment
+    'feature_structural_evaluation_desc' => 'Realizamos análisis detallados de integridad estructural, capacidad portante, nivel de corrosión y condiciones hidrodinámicas de infraestructuras marinas.',
+    'feature_normative_compliance_desc' => 'Nuestros informes técnicos cumplen con altos estándares de calidad y normativas aplicables, sirviendo como herramienta clave para trámites ambientales.',
+    'feature_documentation_generation_desc' => 'Elaboramos documentación especializada para trámites ambientales, incluyendo permisos y autorizaciones requeridas por las autoridades.',
+    'feature_risk_assessment_desc' => 'Identificamos riesgos operativos y ambientales, priorizando acciones correctivas para optimizar la seguridad y funcionalidad.',
+    'feature_maintenance_planning_desc' => 'Desarrollamos planes de mantenimiento efectivos basados en evaluaciones objetivas y datos técnicos precisos.',
 ];

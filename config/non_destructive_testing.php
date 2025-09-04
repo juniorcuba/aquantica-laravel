@@ -17,6 +17,7 @@ return [
             'images/services/non-destructive-testing/gallery/gallery-8.jpg',
             'images/services/non-destructive-testing/gallery/gallery-9.jpg',
             'images/services/non-destructive-testing/gallery/gallery-10.jpg',
+            'images/services/non-destructive-testing/main-service.jpg',
         ],
     ],
 ];

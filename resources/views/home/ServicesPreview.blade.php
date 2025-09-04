@@ -8,7 +8,7 @@
                 'description' => $lang === 'en'
                     ? 'Comprehensive solutions for coastal infrastructure, including port facilities, breakwaters, and coastal protection structures.'
                     : 'Soluciones integrales para infraestructura costera, incluyendo instalaciones portuarias, rompeolas y estructuras de protección costera.',
-                'image' => 'https://images.pexels.com/photos/1254892/pexels-photo-1254892.jpeg?auto=compress&cs=tinysrgb&w=1280',
+                'image' => '/images/services/coastal/submarine-pipelines/main-service.jpg',
                 'link'  => $lang === 'en' ? '/coastal-services' : '/servicios-costeros',
                 'tags'  => [
                     __('home.services.tags.port_construction'),
@@ -37,7 +37,7 @@
                 'description' => $lang === 'en'
                     ? 'Comprehensive environmental procedures and compliance solutions for marine projects, including impact assessments, permits, and monitoring services.'
                     : 'Soluciones integrales de procedimientos ambientales y cumplimiento normativo para proyectos marinos, incluyendo evaluaciones de impacto, permisos y servicios de monitoreo.',
-                'image' => 'https://images.pexels.com/photos/3617457/pexels-photo-3617457.jpeg?auto=compress&cs=tinysrgb&w=1280',
+                'image' => '/images/services/environmental/main-service.jpg',
                 'link'  => $lang === 'en' ? '/environmental-services' : '/tramites-ambientales',
                 'tags'  => [
                     __('home.services.tags.technical_assessment'),
@@ -51,7 +51,7 @@
                 'description' => $lang === 'en'
                     ? 'Specialized marine environment research for safe and efficient development of coastal and offshore projects, including bathymetry, drilling, and hydrodynamic modeling.'
                     : 'Investigaciones especializadas del medio marino para el desarrollo seguro y eficiente de proyectos costeros y offshore, incluyendo batimetrías, sondeos y modelación hidrodinámica.',
-                'image' => 'https://images.pexels.com/photos/3894168/pexels-photo-3894168.jpeg?auto=compress&cs=tinysrgb&w=1280',
+                'image' => '/images/services/oceanographic/main-service.jpg',
                 'link'  => $lang === 'en' ? '/oceanographic-studies' : '/estudios-oceanograficos',
                 'tags'  => [
                     __('home.services.tags.marine_drilling'),
