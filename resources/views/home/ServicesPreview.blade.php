@@ -37,7 +37,7 @@
                 'description' => $lang === 'en'
                     ? 'Comprehensive environmental procedures and compliance solutions for marine projects, including impact assessments, permits, and monitoring services.'
                     : 'Soluciones integrales de procedimientos ambientales y cumplimiento normativo para proyectos marinos, incluyendo evaluaciones de impacto, permisos y servicios de monitoreo.',
-                'image' => '/images/services/environmental/main-service.jpg',
+                'image' => 'images/services/environmental-services/category-banner.jpg',
                 'link'  => $lang === 'en' ? '/environmental-services' : '/tramites-ambientales',
                 'tags'  => [
                     __('home.services.tags.technical_assessment'),
@@ -51,7 +51,7 @@
                 'description' => $lang === 'en'
                     ? 'Specialized marine environment research for safe and efficient development of coastal and offshore projects, including bathymetry, drilling, and hydrodynamic modeling.'
                     : 'Investigaciones especializadas del medio marino para el desarrollo seguro y eficiente de proyectos costeros y offshore, incluyendo batimetrías, sondeos y modelación hidrodinámica.',
-                'image' => '/images/services/oceanographic/main-service.jpg',
+                'image' => 'images/services/oceanographic-studies/category-banner.jpg',
                 'link'  => $lang === 'en' ? '/oceanographic-studies' : '/estudios-oceanograficos',
                 'tags'  => [
                     __('home.services.tags.marine_drilling'),

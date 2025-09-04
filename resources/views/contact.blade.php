@@ -6,7 +6,7 @@
     <section class="relative bg-[#0f2d49] py-24 md:py-32">
         <div 
             class="absolute inset-0 bg-cover bg-center opacity-20"
-            style="background-image: url('https://images.pexels.com/photos/1054397/pexels-photo-1054397.jpeg?auto=compress&cs=tinysrgb&w=1280')"
+            style="background-image: url('https://aquantica.liveblog365.com/public/images/services/coastal/beach-recovery/main-service.jpg')"
         ></div>
         <div class="container mx-auto px-4 relative z-10">
             <div class="max-w-3xl mx-auto text-center">

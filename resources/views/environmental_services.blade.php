@@ -4,7 +4,7 @@
 
     {{-- Hero --}}
     <section class="relative bg-cover bg-center py-32 md:py-48 text-white"
-             style="background-image:url('/images/services/environmental/main-service.jpg')">
+             style="background-image:url('{{ asset('images/services/environmental-services/category-banner.jpg') }}')">
         <div class="absolute inset-0 bg-black opacity-50"></div>
         <div class="container mx-auto px-4 relative z-10 text-center">
             <h1 class="text-4xl md:text-6xl font-bold mb-6">

@@ -35,4 +35,34 @@ return [
     'feature_time_cost_optimization_desc' => 'We optimize time and costs from the planning stage, maximizing resource efficiency.',
     'feature_regulatory_compliance_desc' => 'We guarantee compliance with local and international regulations, adapting solutions to specific site conditions.',
     'feature_interdisciplinary_coordination_desc' => 'We coordinate interdisciplinary teams of marine specialists to develop comprehensive and efficient solutions.',
+
+    // Environmental Services Service (same name as category)
+    'service_environmental_services' => 'Environmental Services',
+    'service_environmental_services_desc' =>
+        'At AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, we prepare essential reports for environmental process management and compliance with current regulations. Our approach focuses on evaluating the ecological impact of coastal and marine projects, such as the construction or modification of docks, platforms, submarine pipelines, among others. Our reports are the result of rigorous analysis that evaluates your project\'s compatibility with the environment.',
+    'service_environmental_services_footer' =>
+        'The main objective of our environmental services is to provide a solid technical tool that guarantees the sustainability and environmental viability of your projects, ensuring that your investment is not only profitable, but also environmentally responsible.',
+
+    // Service Feature Arrays for Environmental Services
+    'service_environmental_services_features' => [
+        'feature_impact_assessment',
+        'feature_permit_management',
+        'feature_compliance_monitoring',
+        'feature_stakeholder_consultation',
+        'feature_sustainable_development',
+    ],
+
+    // Environmental Services Features
+    'feature_impact_assessment' => 'Environmental Impact Assessment',
+    'feature_permit_management' => 'Permit and License Management',
+    'feature_compliance_monitoring' => 'Compliance Monitoring',
+    'feature_stakeholder_consultation' => 'Stakeholder Consultation',
+    'feature_sustainable_development' => 'Sustainable Development',
+
+    // Feature Descriptions for Environmental Services
+    'feature_impact_assessment_desc' => 'We conduct detailed environmental impact studies identifying, evaluating, and mitigating potential effects on the marine ecosystem.',
+    'feature_permit_management_desc' => 'We manage the acquisition of all required environmental permits and licenses before competent authorities.',
+    'feature_compliance_monitoring_desc' => 'We implement continuous monitoring programs to ensure compliance with established environmental conditions.',
+    'feature_stakeholder_consultation_desc' => 'We facilitate consultation and participation processes with local communities and project stakeholders.',
+    'feature_sustainable_development_desc' => 'We develop strategies that balance economic development with marine environment protection.',
 ]; 

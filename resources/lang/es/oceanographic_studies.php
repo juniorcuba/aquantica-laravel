@@ -21,6 +21,13 @@ return [
     'service_hydrodynamic_modeling_desc' =>
         'Aplicamos herramientas computacionales avanzadas para simular corrientes, oleaje y transporte de sedimentos, apoyando el diseño de infraestructuras costeras, puertos y proyectos de mitigación de erosión. En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, aplicamos modelación hidrodinámica avanzada para analizar y predecir el comportamiento de cuerpos de agua, optimizando el diseño y la operación de proyectos marinos y costeros.',
 
+    // Coastal Engineering Service
+    'service_coastal_engineering' => 'Ingeniería Costera',
+    'service_coastal_engineering_desc' =>
+        'En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, somos especialistas en ingeniería costera y marítima. Ofrecemos soluciones integrales y personalizadas para proyectos en zonas litorales y marinas. Nuestro equipo de expertos combina conocimiento técnico con herramientas de vanguardia para asegurar la viabilidad y eficiencia de cada proyecto.',
+    'service_coastal_engineering_footer_desc' =>
+        'Nuestra experiencia abarca una gama amplia de proyectos en zonas costeras y marinas, utilizando tecnología de vanguardia y metodologías probadas para garantizar resultados exitosos y sostenibles.',
+
     // Service Feature Arrays
     'service_mechanical_drilling_features' => [
         'feature_offshore_drilling',
@@ -44,6 +51,14 @@ return [
         'feature_marine_structure_design',
         'feature_risk_management',
         'feature_customized_modeling',
+    ],
+
+    'service_coastal_engineering_features' => [
+        'feature_beach_recovery',
+        'feature_coastal_structures',
+        'feature_marine_installations',
+        'feature_underwater_systems',
+        'feature_marine_inspections',
     ],
 
     // Mechanical Drilling Features
@@ -87,4 +102,18 @@ return [
     'feature_marine_structure_design_desc' => 'Apoyamos el diseño de estructuras marinas mediante análisis detallado de patrones de corrientes y oleaje, garantizando estabilidad y funcionalidad.',
     'feature_risk_management_desc' => 'Pronosticamos fenómenos como inundaciones y erosión costera bajo diversos escenarios climáticos, permitiendo implementación de medidas preventivas.',
     'feature_customized_modeling_desc' => 'Personalizamos cada modelo según las escalas espaciales y temporales del proyecto, utilizando software especializado calibrado con datos reales.',
+
+    // Coastal Engineering Features
+    'feature_beach_recovery' => 'Recuperación y Estabilización de Playas',
+    'feature_coastal_structures' => 'Estructuras Costeras y Protección',
+    'feature_marine_installations' => 'Instalaciones Marinas',
+    'feature_underwater_systems' => 'Sistemas Submarinos',
+    'feature_marine_inspections' => 'Inspecciones Marinas',
+
+    // Feature Descriptions for Coastal Engineering
+    'feature_beach_recovery_desc' => 'Diseño y construcción de dunas costeras, instalación de geotubos para recuperación y estabilización de playas erosionadas.',
+    'feature_coastal_structures_desc' => 'Construcción de escolleras, rompeolas y muros de contención para protección costera y control de erosión marina.',
+    'feature_marine_installations_desc' => 'Diseño, construcción y mantenimiento de muelles, instalación de arrecifes artificiales y sistemas de balizamiento.',
+    'feature_underwater_systems_desc' => 'Instalación de tuberías submarinas, cableado submarino, líneas de boyado y dragados especializados.',
+    'feature_marine_inspections_desc' => 'Inspecciones marinas especializadas para evaluación de estructuras costeras y sistemas submarinos instalados.',
 ]; 
