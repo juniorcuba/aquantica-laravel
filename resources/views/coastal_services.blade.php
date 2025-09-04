@@ -4,7 +4,7 @@
 
     {{-- Hero --}}
     <section class="relative bg-cover bg-center py-32 md:py-48 text-white"
-             style="background-image:url('https://images.pexels.com/photos/1485548/pexels-photo-1485548.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1080&fit=crop')">
+             style="background-image:url('/images/services/coastal/geotubes/main-service.jpg')">
         <div class="absolute inset-0 bg-black opacity-50"></div>
         <div class="container mx-auto px-4 relative z-10 text-center">
             <h1 class="text-4xl md:text-6xl font-bold mb-6">

@@ -6,7 +6,7 @@
             {{-- Imagen --}}
             <div class="relative h-[400px] md:h-[500px] rounded-lg overflow-hidden">
                 <img
-                    src="https://images.pexels.com/photos/1320684/pexels-photo-1320684.jpeg?auto=compress&cs=tinysrgb&w=1280"
+                    src="https://aquantica.liveblog365.com/public/images/services/coastal/docks/gallery/gallery-1.jpg"
                     alt="Marine Operations in Cancun"
                     class="w-full h-full object-cover rounded-lg"
                 />

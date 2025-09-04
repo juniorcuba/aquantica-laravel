@@ -9,7 +9,7 @@ return [
         'gallery_images'  => [
             'https://images.pexels.com/photos/1426718/pexels-photo-1426718.jpeg?auto=compress&cs=tinysrgb&w=1280',
             'https://images.pexels.com/photos/906494/pexels-photo-906494.jpeg?auto=compress&cs=tinysrgb&w=1280',
-            'https://images.pexels.com/photos/2144326/pexels-photo-2144326.jpeg?auto=compress&cs=tinysrgb&w=1280',
+            '/images/services/offshore/platform-maintenance/gallery/gallery-1.jpg?auto=compress&cs=tinysrgb&w=1280',
         ],
         'show_features'   => true,
     ],

@@ -16,7 +16,7 @@ return [
         'description_key' => 'service_platform_maintenance_desc',
         'description_footer_key' => 'service_platform_maintenance_footer',
         'featured'        => false,
-        'image'           => '/images/services/offshore/platform-maintenance/main-service.jpg',
+        'image'           => '/images/services/offshore/platform-maintenance/gallery/gallery-1.jpg',
         'features'        => [
             'Structural protection and coating',
             'Structural maintenance and reinforcement',
@@ -28,6 +28,7 @@ return [
             '/images/services/offshore/platform-maintenance/gallery/gallery-1.jpg',
             '/images/services/offshore/platform-maintenance/gallery/gallery-2.jpg',
             '/images/services/offshore/platform-maintenance/gallery/gallery-3.jpg',
+            '/images/services/offshore/platform-maintenance/main-service.jpg'
         ],
         'stats'           => [
             ['value' => '24/7', 'label_key' => 'stat_operation'],
