@@ -23,7 +23,7 @@
                 'description' => $lang === 'en'
                     ? 'Specialized offshore engineering and maintenance services for oil & gas platforms, wind farms, and underwater structures.'
                     : 'Servicios especializados de ingeniería y mantenimiento costa afuera para plataformas petroleras, parques eólicos y estructuras submarinas.',
-                'image' => 'https://images.pexels.com/photos/2144326/pexels-photo-2144326.jpeg?auto=compress&cs=tinysrgb&w=1280',
+                'image' => '/images/services/offshore/platform-maintenance/gallery/gallery-1.jpg',
                 'link'  => $lang === 'en' ? '/offshore-services' : '/servicios-costa-afuera',
                 'tags'  => [
                     __('home.services.tags.platform_maintenance'),

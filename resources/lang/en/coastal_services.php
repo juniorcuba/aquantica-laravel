@@ -155,6 +155,13 @@ return [
         'feature_advanced_tech',
     ],
     
+    'service_buoy_lines_features' => [
+        'feature_iala_compliance',
+        'feature_navigation_safety',
+        'feature_obstacle_marking',
+        'feature_uv_resistant_materials',
+    ],
+    
     'service_pile_inspection_features' => [
         'feature_technical_evaluation',
         'feature_preventive_maintenance',
@@ -306,6 +313,18 @@ return [
     'feature_channel_beaconing_desc' => 'Beaconing of navigation channels, restricted areas, and underwater obstacles.',
     'feature_specialized_buoys_desc' => 'Specialized buoy systems for marking marine work areas, offshore wind farms, or protected areas.',
     'feature_advanced_tech_desc' => 'Advanced technology and regulatory compliance in materials, colors, and signaling patterns.',
+    
+    // Buoy Lines Features
+    'feature_iala_compliance' => 'IALA/AISM Compliance',
+    'feature_navigation_safety' => 'Navigation Safety',
+    'feature_obstacle_marking' => 'Obstacle Marking',
+    'feature_uv_resistant_materials' => 'UV-Resistant Materials',
+    
+    // Feature Descriptions for Buoy Lines
+    'feature_iala_compliance_desc' => 'We implement IALA/AISM beaconing systems, the global standard for ensuring safe and efficient navigation in international waters.',
+    'feature_navigation_safety_desc' => 'Our maritime signaling solutions allow the identification of hazards and delimitation of strategic navigation channels to optimize maritime routes.',
+    'feature_obstacle_marking_desc' => 'Specialized marking of underwater obstacles and restricted areas to prevent accidents and ensure vessel safety.',
+    'feature_uv_resistant_materials_desc' => 'We use high-visibility and UV-resistant materials to ensure the durability and effectiveness of our buoy systems in adverse marine conditions.',
     
     // Pile Inspection Features
     'feature_technical_evaluation' => 'Comprehensive Technical Evaluation',

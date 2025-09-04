@@ -1,4 +1,4 @@
-<section 
+<!--<section 
     class="relative py-12 border-y-4 border-blue-400 shadow-lg overflow-hidden"
     style="background-image: url('https://images.pexels.com/photos/4254555/pexels-photo-4254555.jpeg?auto=compress&fit=crop&w=1200&q=80'); background-size: cover; background-position: center;"
 >
@@ -26,4 +26,4 @@
             });
         });
     </script>
-</section> 
+</section>--> 

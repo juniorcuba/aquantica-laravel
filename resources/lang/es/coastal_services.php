@@ -126,6 +126,13 @@ return [
         'feature_advanced_tech',
     ],
     
+    'service_buoy_lines_features' => [
+        'feature_iala_compliance',
+        'feature_navigation_safety',
+        'feature_obstacle_marking',
+        'feature_uv_resistant_materials',
+    ],
+    
     'service_pile_inspection_features' => [
         'feature_technical_evaluation',
         'feature_preventive_maintenance',
@@ -277,6 +284,18 @@ return [
     'feature_channel_beaconing_desc' => 'Balizamiento de canales de navegación, áreas restringidas y obstáculos submarinos.',
     'feature_specialized_buoys_desc' => 'Sistemas de boyado especializado para demarcación de zonas de obras marinas, parques eólicos offshore o áreas protegidas.',
     'feature_advanced_tech_desc' => 'Tecnología avanzada y cumplimiento normativo en materiales, colores y patrones de señalización.',
+    
+    // Buoy Lines Features
+    'feature_iala_compliance' => 'Cumplimiento IALA/AISM',
+    'feature_navigation_safety' => 'Seguridad en la Navegación',
+    'feature_obstacle_marking' => 'Marcado de Obstáculos',
+    'feature_uv_resistant_materials' => 'Materiales UV-Resistentes',
+    
+    // Feature Descriptions for Buoy Lines
+    'feature_iala_compliance_desc' => 'Implementamos sistemas de balizamiento IALA/AISM, el estándar global para garantizar una navegación segura y eficiente en aguas internacionales.',
+    'feature_navigation_safety_desc' => 'Nuestras soluciones de señalización marítima permiten identificar peligros y delimitar canales de navegación estratégicos para optimizar rutas marítimas.',
+    'feature_obstacle_marking_desc' => 'Marcado especializado de obstáculos submarinos y zonas restringidas para prevenir accidentes y garantizar la seguridad de embarcaciones.',
+    'feature_uv_resistant_materials_desc' => 'Utilizamos materiales de alta visibilidad y resistencia UV para garantizar la durabilidad y efectividad de nuestros sistemas de boyado en condiciones marinas adversas.',
 
     // Pile Inspection Service
     'service_pile_inspection' => 'Inspección, Mantenimiento y Rehabilitación de Pilotes',
