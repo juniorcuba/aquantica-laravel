@@ -9,6 +9,7 @@ return [
         'gallery_images'         => [
             'images/services/oceanographic-studies/bathymetry/gallery/gallery-1.jpg',
             'images/services/oceanographic-studies/bathymetry/gallery/gallery-2.jpg',
+            'images/services/oceanographic-studies/bathymetry/main-service.jpg',
         ],
         'show_features'          => true,
     ],
@@ -20,6 +21,7 @@ return [
         'gallery_images'         => [
             'images/services/oceanographic-studies/hydrodynamic-modeling/gallery/gallery-1.jpg',
             'images/services/oceanographic-studies/hydrodynamic-modeling/gallery/gallery-2.jpg',
+            'images/services/oceanographic-studies/hydrodynamic-modeling/main-service.jpg',
         ],
         'show_features'          => true,
     ],
@@ -27,11 +29,13 @@ return [
         'title_key'              => 'service_coastal_engineering',
         'description_key'        => 'service_coastal_engineering_desc',
         'description_footer_key' => 'service_coastal_engineering_footer_desc',
-        'image'                  => 'images/services/oceanographic-studies/coastal-engineering/main-service.jpg',
+        'image'                  => 'images/services/coastal/breakwaters/gallery/gallery-6.jpg',
         'gallery_images'         => [
-            'images/services/oceanographic-studies/coastal-engineering/gallery/gallery-1.jpg',
-            'images/services/oceanographic-studies/coastal-engineering/gallery/gallery-2.jpg',
-            'images/services/oceanographic-studies/coastal-engineering/gallery/gallery-3.jpg',
+            'images/services/coastal/breakwaters/gallery/gallery-4.jpg',
+            'images/services/coastal/breakwaters/gallery/gallery-6.jpg',
+            'images/services/coastal/dredging/gallery/gallery-3.jpg',
+            'images/services/coastal/docks/gallery/gallery-1.jpg',
+            'images/services/coastal/beach-recovery/main-service.jpg',
         ],
         'show_features'          => true,
     ],

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'coastal_services_title'       => 'Servicios Costeros e Ingeniería Maritima',
+    'coastal_services_title'       => 'Servicios Costeros e Ingeniería Marítima',
     'coastal_services_subtitle'    => 'Soluciones integrales para playas, puertos e infraestructura costera.',
     'back_to_services' => 'Volver a Servicios',
     'key_features'     => 'Características Principales',
