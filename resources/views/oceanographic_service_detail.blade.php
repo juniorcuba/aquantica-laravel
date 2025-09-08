@@ -9,7 +9,7 @@
 <div class="container mx-auto px-4 py-12 md:py-20">
 
     {{-- Back link --}}
-    <div class="mb-8">
+    <div class="mb-8 mt-8 md:mt-0">
         <a href="{{ url($prefix) }}"
            class="flex items-center text-[#0f2d49] hover:text-[#f5b027] transition-colors duration-200">
             <span class="mr-2">&larr;</span>

@@ -106,8 +106,8 @@ return [
         'gallery_images'  => [
             '/images/services/coastal/beaconing/gallery/gallery-1.jpg',
             '/images/services/coastal/beaconing/gallery/gallery-2.jpg',
+            '/images/services/coastal/beaconing/gallery/gallery-3.jpg',
             '/images/services/coastal/beaconing/main-service.jpg',
-            '/images/services/coastal/breakwaters/gallery/gallery-7.jpg',
         ],
         'show_features'   => true,
     ],
