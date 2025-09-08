@@ -9,6 +9,7 @@ return [
         'gallery_images'         => [
             'images/services/environmental-services/executive-projects/gallery/gallery-1.jpg',
             'images/services/environmental-services/executive-projects/gallery/gallery-2.jpg',
+            'images/services/environmental-services/executive-projects/main-service.jpg',
         ],
         'show_features'          => true,
     ],
@@ -21,6 +22,7 @@ return [
             'images/services/environmental-services/environmental-services/gallery/gallery-1.jpg',
             'images/services/environmental-services/environmental-services/gallery/gallery-2.jpg',
             'images/services/environmental-services/environmental-services/gallery/gallery-3.jpg',
+            'images/services/environmental-services/environmental-services/main-service.jpg',
         ],
         'show_features'          => true,
     ],
