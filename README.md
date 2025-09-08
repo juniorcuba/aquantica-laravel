@@ -1,61 +1,175 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<div align="center">
+  <img src="public/images/logo.png" alt="Aquantica" height="90" />
+  
+  <h1>Aquantica – Sitio corporativo (Laravel 12 + Tailwind + Vite)</h1>
+  <p>Guía completa para retomar el proyecto en minutos – Prod/Dev/Contenido</p>
+</div>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+---
 
-## About Laravel
+## 🚀 Stack y requisitos
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+- PHP ^8.2
+- Laravel ^12.x (Sanctum, Tinker)
+- Node.js + npm (Vite ^6, TailwindCSS ^3.4)
+- SQLite (archivo `database/database.sqlite` ya presente)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 📦 Instalación rápida
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+1) Clonar y preparar dependencias:
 
-## Learning Laravel
+```bash
+composer install
+npm install
+```
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+2) Variables de entorno y clave:
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+```bash
+copy .env.example .env   # Windows
+php artisan key:generate
+```
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+3) Base de datos (SQLite ya configurada):
 
-## Laravel Sponsors
+```bash
+php artisan migrate --graceful
+```
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+4) Desarrollo (servidor + colas + logs + Vite):
 
-### Premium Partners
+```bash
+composer run dev
+```
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+5) Compilar assets para producción:
 
-## Contributing
+```bash
+npm run build
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 🧭 Estructura clave
 
-## Code of Conduct
+- `routes/web.php`: rutas bilingües ES/EN para todas las secciones.
+- `app/Http/Controllers/*Controller.php`: controladores por categoría (costeros, costa afuera, ambientales, estudios, PND).
+- `config/*.php`: catálogo de servicios e imágenes por categoría:
+  - `coastal_services.php`
+  - `offshore_services.php` (si aplica)
+  - `environmental_services.php`
+  - `oceanographic_studies.php`
+  - `non_destructive_testing.php`
+- `resources/lang/{es,en}/*.php`: textos y features por idioma.
+- `resources/views/…`:
+  - `home/*`: secciones de portada.
+  - `*_services.blade.php`: grillas de servicios.
+  - `*_service_detail.blade.php`: vistas detalle con slider y features.
+  - `components/image-slider.blade.php`: carrusel de galería.
+  - `partials/navigation.blade.php`: navbar fijo, `partials/app.blade.php` layout principal.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## 🌐 Rutas y SEO
 
-## Security Vulnerabilities
+Rutas por categoría en ES/EN (ejemplos):
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- Costeros: `/servicios-costeros` | `/coastal-services`
+- Costa afuera: `/servicios-costa-afuera` | `/offshore-services`
+- Trámites ambientales: `/tramites-ambientales` | `/environmental-services`
+- Estudios oceanográficos: `/estudios-oceanograficos` | `/oceanographic-studies`
+- Pruebas no destructivas (PND): `/pruebas-no-destructivas` | `/non-destructive-testing`
 
-## License
+Cada detalle usa slug derivado del título traducido. Los labels se generan desde `AppServiceProvider` y configs por categoría.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## 🖼️ Gestión de imágenes
+
+Ubicación: `public/images/services/<categoria>/<servicio>/...`
+
+Convención de galería:
+
+- Imagen principal: `main-service.jpg`
+- Galería: `gallery/gallery-1.jpg`, `gallery-2.jpg`, `gallery-3.jpg`, …
+
+Para agregar/editar imágenes:
+
+1) Copiar los archivos en su carpeta correspondiente.
+2) Actualizar el arreglo `gallery_images` y `image` en el archivo `config/*.php` de la categoría.
+3) Confirmar que el slider incluya la principal al final si aplica.
+
+Ejemplo (PND submarino) en `config/non_destructive_testing.php`:
+
+```php
+'image' => 'images/services/non-destructive-testing/submarine/main-service.jpg',
+'gallery_images' => [
+  'images/services/non-destructive-testing/submarine/gallery/gallery-1.jpg',
+  'images/services/non-destructive-testing/submarine/gallery/gallery-2.jpg',
+  'images/services/non-destructive-testing/submarine/gallery/gallery-3.jpg',
+  'images/services/non-destructive-testing/submarine/main-service.jpg',
+],
+```
+
+## 🧩 i18n (ES/EN)
+
+- Textos en `resources/lang/es/*.php` y `resources/lang/en/*.php`.
+- Los features de cada servicio se leen como arrays de claves y sus descripciones se resuelven por convención `feature_key` y `feature_key_desc`.
+
+## ✉️ Contacto
+
+- Formulario: `routes/web.php` (`/contacto` y `/contact`).
+- Mailable: `app/Mail/ContactFormMail.php` usando vista `resources/views/emails/contact-form.blade.php`.
+- Endpoint de envío: `POST /contact-send` (`ContactController@store`). Configurar credenciales de correo en `.env`.
+
+## 🛠️ Build y estilos
+
+- Vite (`vite.config.js`) con entradas `resources/css/app.css` y `resources/js/app.js`.
+- Tailwind (`tailwind.config.js`) con scan de `resources/views/**/*.blade.php`.
+- PostCSS (`postcss.config.js`) con Tailwind y Autoprefixer.
+
+Desarrollo:
+
+```bash
+npm run dev
+# o junto al servidor/colas/logs: composer run dev
+```
+
+Producción:
+
+```bash
+npm run build
+```
+
+## 🧪 Pruebas
+
+```bash
+php artisan test
+```
+
+## 🔐 Notas de seguridad
+
+- No commitear `.env` ni credenciales.
+- Revisar `APP_URL`, `APP_ENV`, `APP_KEY` y configuración de correo al desplegar.
+
+## 🚢 Despliegue rápido
+
+1) Subir código y ejecutar `composer install --no-dev` y `npm ci && npm run build`.
+2) Configurar `.env` (cache: `php artisan config:cache`).
+3) Migrar BD: `php artisan migrate --force`.
+4) Apuntar el DocumentRoot a `public/`.
+
+## 🧭 Puntos útiles
+
+- Navbar fijo: `resources/views/partials/navigation.blade.php` (usa Alpine para scroll y mobile toggle).
+- Espaciado del main: `resources/views/partials/app.blade.php` (`<main class="mt-8 pt-16">`).
+- Sliders/galerías: `resources/views/components/image-slider.blade.php`.
+- Elementos en grilla: `resources/views/components/service-item-details.blade.php`.
+
+## 📚 Cómo agregar un nuevo servicio (checklist)
+
+1) Subir imágenes a `public/images/services/<categoria>/<servicio>/...`.
+2) Editar `config/<categoria>.php` y agregar un ítem con:
+   - `title_key`, `description_key`, `description_footer_key` (opcional), `image`, `gallery_images`, `show_features`.
+3) Añadir/ajustar textos en `resources/lang/{es,en}/<categoria>.php`.
+4) Verificar rutas y la vista de detalle correspondiente.
+
+Listo. El controlador convierte la config en un `Collection` traducido y las vistas leen directamente de ahí.
+
+---
+
+Hecho con ❤️ para Aquantica. Mantén este README cerca; retomar el proyecto debería tomar minutos, no horas.
