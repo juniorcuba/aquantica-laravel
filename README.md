@@ -172,4 +172,4 @@ Listo. El controlador convierte la config en un `Collection` traducido y las vis
 
 ---
 
-Hecho con ❤️ para Aquantica. Mantén este README cerca; retomar el proyecto debería tomar minutos, no horas.
+Hecho con ❤️ para Aquantica por Virtessa LLC. Mantén este README cerca; retomar el proyecto debería tomar minutos, no horas.
