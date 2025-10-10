@@ -62,12 +62,12 @@ return [
     'service_beaconing_footer' =>
         'Proporcionamos soluciones integrales de balizamiento marítimo y costero, diseñadas para garantizar la seguridad náutica, la delimitación de áreas críticas y la orientación en canales de navegación. Nuestros sistemas cumplen con los estándares internacionales y se adaptan a las necesidades específicas de cada proyecto, ya sea en puertos, zonas costeras, plataformas offshore o rutas marítimas. Nuestros sistemas de balizamiento ofrecen múltiples beneficios, garantizando mayor seguridad para embarcaciones y operaciones marítimas, así como una significativa reducción de riesgos de colisiones y accidentes. Gracias a su diseño robusto, proporcionan durabilidad y resistencia frente a condiciones marinas adversas, incluyendo oleaje intenso, corrosión y bioincrustaciones. Además, cada solución es personalizable para adaptarse a los requerimientos ambientales, logísticos y operativos específicos de cada proyecto, asegurando un desempeño óptimo en cualquier escenario.',
     
-    // Buoy Lines Service
-    'service_buoy_lines' => 'Instalación de Líneas de Boyado',
-    'service_buoy_lines_desc' =>
-        'Desplegamos sistemas de boyas de demarcación para delimitación de áreas navegables, zonas protegidas o señalización de obstáculos submarinos, con materiales UV-resistentes y de alta visibilidad. En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, implementamos sistemas de balizamiento IALA/AISM (International Association of Lighthouse Authorities/Asociación Internacional de Señalización Marítima), el estándar global para garantizar una navegación segura y eficiente. Nuestras soluciones de señalización marítima permiten identificar peligros y obstáculos en zonas navegables, delimitar canales de navegación estratégicos, optimizar rutas marítimas comerciales y recreativas, así como cumplir con regulaciones internacionales de seguridad.',
-    'service_buoy_lines_footer' =>
-        'En AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, implementamos sistemas de balizamiento IALA/AISM (International Association of Lighthouse Authorities/Asociación Internacional de Señalización Marítima), el estándar global para garantizar una navegación segura y eficiente. Nuestras soluciones de señalización marítima permiten identificar peligros y obstáculos en zonas navegables, delimitar canales de navegación estratégicos, optimizar rutas marítimas comerciales y recreativas, así como cumplir con regulaciones internacionales de seguridad.',
+    // Sargassum Management Service
+    'service_sargassum_management' => 'Consultoría y Capacitación para la Gestión del Sargazo',
+    'service_sargassum_management_desc' =>
+        'El arribo masivo de sargazo representa una amenaza para el turismo, los ecosistemas marinos y la economía costera. En AQUANTICA, entendemos la complejidad de este fenómeno y ofrecemos una respuesta profesional y estratégica. No se trata solo de la recolección, sino de una gestión integral que optimice recursos, minimice el impacto ambiental y garantice la continuidad de sus operaciones.',
+    'service_sargassum_management_footer' =>
+        'Nuestro equipo de profesionales le proporcionará un plan de acción personalizado, diseñado para enfrentar los desafíos específicos de su ubicación y sus operaciones. Un equipo bien capacitado es la columna vertebral de una gestión exitosa. Nuestros programas de formación están diseñados para dotar a su personal de los conocimientos y habilidades necesarias para manejar el sargazo de manera segura y eficiente.',
     
     // Service Feature Arrays
     'service_beach_recovery_features' => [
@@ -126,11 +126,11 @@ return [
         'feature_advanced_tech',
     ],
     
-    'service_buoy_lines_features' => [
-        'feature_iala_compliance',
-        'feature_navigation_safety',
-        'feature_obstacle_marking',
-        'feature_uv_resistant_materials',
+    'service_sargassum_management_features' => [
+        'feature_sargassum_consulting',
+        'feature_customized_plans',
+        'feature_personnel_training',
+        'feature_integral_management',
     ],
     
     'service_pile_inspection_features' => [
@@ -160,7 +160,6 @@ return [
     'service_submarine_cables_features' => [
         'feature_route_selection',
         'feature_regulatory_compliance',
-        'feature_cable_design',
         'feature_deployment_security',
         'feature_final_inspection',
     ],
@@ -285,17 +284,17 @@ return [
     'feature_specialized_buoys_desc' => 'Sistemas de boyado especializado para demarcación de zonas de obras marinas, parques eólicos offshore o áreas protegidas.',
     'feature_advanced_tech_desc' => 'Tecnología avanzada y cumplimiento normativo en materiales, colores y patrones de señalización.',
     
-    // Buoy Lines Features
-    'feature_iala_compliance' => 'Cumplimiento IALA/AISM',
-    'feature_navigation_safety' => 'Seguridad en la Navegación',
-    'feature_obstacle_marking' => 'Marcado de Obstáculos',
-    'feature_uv_resistant_materials' => 'Materiales UV-Resistentes',
+    // Sargassum Management Features
+    'feature_sargassum_consulting' => 'Consultoría Operativa del Sargazo',
+    'feature_customized_plans' => 'Planes de Acción Personalizados',
+    'feature_personnel_training' => 'Capacitación de Personal Especializado',
+    'feature_integral_management' => 'Gestión Integral',
     
-    // Feature Descriptions for Buoy Lines
-    'feature_iala_compliance_desc' => 'Implementamos sistemas de balizamiento IALA/AISM, el estándar global para garantizar una navegación segura y eficiente en aguas internacionales.',
-    'feature_navigation_safety_desc' => 'Nuestras soluciones de señalización marítima permiten identificar peligros y delimitar canales de navegación estratégicos para optimizar rutas marítimas.',
-    'feature_obstacle_marking_desc' => 'Marcado especializado de obstáculos submarinos y zonas restringidas para prevenir accidentes y garantizar la seguridad de embarcaciones.',
-    'feature_uv_resistant_materials_desc' => 'Utilizamos materiales de alta visibilidad y resistencia UV para garantizar la durabilidad y efectividad de nuestros sistemas de boyado en condiciones marinas adversas.',
+    // Feature Descriptions for Sargassum Management
+    'feature_sargassum_consulting_desc' => 'Nuestro equipo de profesionales le proporcionará estrategias operativas especializadas para enfrentar los desafíos del sargazo.',
+    'feature_customized_plans_desc' => 'Diseñamos planes de acción personalizados adaptados a las necesidades específicas de su ubicación y sus operaciones.',
+    'feature_personnel_training_desc' => 'Programas de formación diseñados para dotar a su personal de los conocimientos y habilidades necesarias para manejar el sargazo de manera segura y eficiente.',
+    'feature_integral_management_desc' => 'Gestión integral que optimice recursos, minimice el impacto ambiental y garantice la continuidad de sus operaciones.',
 
     // Pile Inspection Service
     'service_pile_inspection' => 'Inspección, Mantenimiento y Rehabilitación de Pilotes',
@@ -356,10 +355,10 @@ return [
     'feature_quality_testing_desc' => 'Realizamos pruebas hidrostáticas y verificaciones rigurosas de calidad para verificar la integridad de cada instalación.',
     'feature_maintenance_services_desc' => 'Brindamos servicios de mantenimiento post-instalación para garantizar el máximo rendimiento y durabilidad de sus proyectos marinos.',
 
-    // Submarine Cable Installation Service
-    'service_submarine_cables' => 'Instalación de Cableado Submarino',
+    // Submarine Cable Service
+    'service_submarine_cables' => 'Supervisión, Inspección y Mantenimiento de Cableados Submarinos',
     'service_submarine_cables_desc' =>
-        'Desplegamos cables de fibra óptica o energía submarinos con tecnologías de tendido protegido y monitoreo en tiempo real, asegurando conectividad segura entre plataformas offshore y tierra firme.',
+        'Supervisión, inspección y mantenimiento de cables de fibra óptica o energía submarinos con tecnologías de tendido protegido y monitoreo en tiempo real, asegurando conectividad segura entre zonas offshore y tierra firme.',
     'service_submarine_cables_footer' =>
         'La instalación de cables submarinos es una operación altamente especializada que requiere precisión y coordinación. El proceso comienza con el tendido de uno de los extremos del cable hacia una estación costera, donde un equipo de buzos se encarga de enterrarlo a la profundidad adecuada para garantizar su correcta conexión. Una vez asegurado este extremo, un barco cablero, diseñado específicamente para esta labor, procede a desplegar y enterrar el cable a lo largo de la ruta establecida.',
     
