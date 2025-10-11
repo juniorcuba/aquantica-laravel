@@ -60,4 +60,30 @@ return [
         ],
         'show_features'   => true,
     ],
+    [
+        'title_key'       => 'service_tanker_cruise_maintenance',
+        'description_key' => 'service_tanker_cruise_maintenance_desc',
+        'description_footer_key' => 'service_tanker_cruise_maintenance_footer',
+        'featured'        => false,
+        'image'           => '/images/services/offshore/tanker-cruise-maintenance/main-service.jpg',
+        'features'        => [
+            'Inspección detallada con equipos de última generación y técnicas no destructivas',
+            'Inspección del casco y estructuras: evaluación completa del estado del casco, tanques y soldaduras',
+            'Sistemas de propulsión y maquinaria: revisión exhaustiva de motores y sistemas auxiliares',
+            'Programas de mantenimiento a la medida adaptados a las necesidades específicas',
+            'Mantenimiento en puerto y dique seco para atención completa',
+            'Reparación de casco y superestructura: soldadura, reemplazo de placas y tratamiento de corrosión',
+        ],
+        'gallery_images'  => [
+            '/images/services/offshore/tanker-cruise-maintenance/gallery/gallery-1.jpg',
+            '/images/services/offshore/tanker-cruise-maintenance/gallery/gallery-2.jpg',
+            '/images/services/offshore/tanker-cruise-maintenance/main-service.jpg',
+        ],
+        'stats'           => [
+            ['value' => '24/7', 'label_key' => 'stat_operation'],
+            ['value' => '100%', 'label_key' => 'stat_compliance'],
+            ['value' => '15+',  'label_key' => 'stat_experience'],
+        ],
+        'show_features'   => true,
+    ],
 ];

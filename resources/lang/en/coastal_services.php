@@ -62,12 +62,12 @@ return [
     'service_beaconing_footer' =>
         'We provide comprehensive maritime and coastal beaconing solutions, designed to ensure nautical safety, delimitation of critical areas, and guidance in navigation channels. Our systems comply with international standards and are adapted to the specific needs of each project, whether in ports, coastal areas, offshore platforms, or maritime routes. Our beaconing systems offer multiple benefits, ensuring greater safety for vessels and maritime operations, as well as a significant reduction in collision and accident risks. Thanks to their robust design, they provide durability and resistance against adverse marine conditions, including intense waves, corrosion, and biofouling. Additionally, each solution is customizable to adapt to the specific environmental, logistical, and operational requirements of each project, ensuring optimal performance in any scenario.',
     
-    // Buoy Lines Service
-    'service_buoy_lines' => 'Installation of Buoy Lines',
-    'service_buoy_lines_desc' =>
-        'We deploy demarcation buoy systems for delimitation of navigable areas, protected zones, or signaling of underwater obstacles, with UV-resistant and high-visibility materials. At AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, we implement IALA/AISM (International Association of Lighthouse Authorities) beaconing systems, the global standard for ensuring safe and efficient navigation. Our maritime signaling solutions allow the identification of dangers and obstacles in navigable areas, delimitation of strategic navigation channels, optimization of commercial and recreational maritime routes, as well as compliance with international safety regulations.',
-    'service_buoy_lines_footer' =>
-        'At AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, we implement IALA/AISM (International Association of Lighthouse Authorities) beaconing systems, the global standard for ensuring safe and efficient navigation. Our maritime signaling solutions allow the identification of dangers and obstacles in navigable areas, delimitation of strategic navigation channels, optimization of commercial and recreational maritime routes, as well as compliance with international safety regulations.',
+    // Sargassum Management Service
+    'service_sargassum_management' => 'Sargassum Management Consulting and Training',
+    'service_sargassum_management_desc' =>
+        'The massive arrival of sargassum represents a threat to tourism, marine ecosystems, and the coastal economy. At AQUANTICA, we understand the complexity of this phenomenon and offer a professional and strategic response. It is not just about collection, but about comprehensive management that optimizes resources, minimizes environmental impact, and ensures the continuity of your operations.',
+    'service_sargassum_management_footer' =>
+        'Our team of professionals will provide you with a customized action plan, designed to address the specific challenges of your location and operations. A well-trained team is the backbone of successful management. Our training programs are designed to equip your staff with the knowledge and skills necessary to handle sargassum safely and efficiently.',
     
     // Pile Inspection Service
     'service_pile_inspection' => 'Inspection, Maintenance and Rehabilitation of Piles',
@@ -86,10 +86,10 @@ return [
     'service_submarine_pipelines_desc' =>
         'We lead the implementation of submarine pipelines for transportation of hydrocarbons, water, or outfalls, using methods that guarantee precision and minimal environmental disturbance. At AQUANTICA INGENIERÍA Y PROYECTOS MARINOS, we execute submarine pipeline installations for transportation of hydrocarbons and industrial fluids. Our process guarantees safe and efficient projects, meeting the highest industry standards.',
     
-    // Submarine Cable Installation Service
-    'service_submarine_cables' => 'Submarine Cable Installation',
+    // Submarine Cable Service
+    'service_submarine_cables' => 'Supervision, Inspection and Maintenance of Submarine Cables',
     'service_submarine_cables_desc' =>
-        'We deploy fiber optic or submarine power cables with protected laying technologies and real-time monitoring, ensuring secure connectivity between offshore platforms and mainland. The deployment of submarine cables is a task that only a few companies can perform with the highest quality standards. For this, a detailed route analysis is essential to minimize environmental impact and ensure maximum cable protection.',
+        'Supervision, inspection and maintenance of fiber optic or submarine power cables with protected laying technologies and real-time monitoring, ensuring secure connectivity between offshore zones and mainland.',
     'service_submarine_cables_footer' =>
         'Submarine cable installation is a highly specialized operation that requires precision and coordination. The process begins with laying one end of the cable to a coastal station, where a team of divers is responsible for burying it at the appropriate depth to ensure proper connection. Once this end is secured, a cable-laying vessel, specifically designed for this task, proceeds to deploy and bury the cable along the established route.',
     
@@ -155,11 +155,11 @@ return [
         'feature_advanced_tech',
     ],
     
-    'service_buoy_lines_features' => [
-        'feature_iala_compliance',
-        'feature_navigation_safety',
-        'feature_obstacle_marking',
-        'feature_uv_resistant_materials',
+    'service_sargassum_management_features' => [
+        'feature_sargassum_consulting',
+        'feature_customized_plans',
+        'feature_personnel_training',
+        'feature_integral_management',
     ],
     
     'service_pile_inspection_features' => [
@@ -189,7 +189,6 @@ return [
     'service_submarine_cables_features' => [
         'feature_route_selection',
         'feature_regulatory_compliance',
-        'feature_cable_design',
         'feature_deployment_security',
         'feature_final_inspection',
     ],
@@ -314,17 +313,17 @@ return [
     'feature_specialized_buoys_desc' => 'Specialized buoy systems for marking marine work areas, offshore wind farms, or protected areas.',
     'feature_advanced_tech_desc' => 'Advanced technology and regulatory compliance in materials, colors, and signaling patterns.',
     
-    // Buoy Lines Features
-    'feature_iala_compliance' => 'IALA/AISM Compliance',
-    'feature_navigation_safety' => 'Navigation Safety',
-    'feature_obstacle_marking' => 'Obstacle Marking',
-    'feature_uv_resistant_materials' => 'UV-Resistant Materials',
+    // Sargassum Management Features
+    'feature_sargassum_consulting' => 'Sargassum Operational Consulting',
+    'feature_customized_plans' => 'Customized Action Plans',
+    'feature_personnel_training' => 'Specialized Personnel Training',
+    'feature_integral_management' => 'Comprehensive Management',
     
-    // Feature Descriptions for Buoy Lines
-    'feature_iala_compliance_desc' => 'We implement IALA/AISM beaconing systems, the global standard for ensuring safe and efficient navigation in international waters.',
-    'feature_navigation_safety_desc' => 'Our maritime signaling solutions allow the identification of hazards and delimitation of strategic navigation channels to optimize maritime routes.',
-    'feature_obstacle_marking_desc' => 'Specialized marking of underwater obstacles and restricted areas to prevent accidents and ensure vessel safety.',
-    'feature_uv_resistant_materials_desc' => 'We use high-visibility and UV-resistant materials to ensure the durability and effectiveness of our buoy systems in adverse marine conditions.',
+    // Feature Descriptions for Sargassum Management
+    'feature_sargassum_consulting_desc' => 'Our team of professionals will provide you with specialized operational strategies to address sargassum challenges.',
+    'feature_customized_plans_desc' => 'We design customized action plans adapted to the specific needs of your location and operations.',
+    'feature_personnel_training_desc' => 'Training programs designed to equip your staff with the knowledge and skills necessary to handle sargassum safely and efficiently.',
+    'feature_integral_management_desc' => 'Comprehensive management that optimizes resources, minimizes environmental impact, and ensures the continuity of your operations.',
     
     // Pile Inspection Features
     'feature_technical_evaluation' => 'Comprehensive Technical Evaluation',
