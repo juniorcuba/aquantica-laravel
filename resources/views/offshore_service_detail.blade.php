@@ -18,7 +18,7 @@
 
     {{-- Hero / feature image --}}
     <div class="relative w-full h-64 md:h-96 rounded-lg overflow-hidden shadow-xl mb-8">
-        <img src="{{ $service['image'] }}"
+        <img src="{{ $service['hero_image'] }}"
              alt="{{ $service['title'] }}"
              class="object-cover w-full h-full" />
     </div>

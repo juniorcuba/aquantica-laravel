@@ -5,7 +5,7 @@
 {{-- Hero --}}
 <section class="relative bg-[#0f2d49] py-24 md:py-32">
     <div class="absolute inset-0 bg-cover bg-center opacity-20"
-         style="background-image:url('/images/services/offshore/platform-maintenance/gallery/gallery-1.jpg?auto=compress&cs=tinysrgb&w=1280')">
+         style="background-image:url('{{ asset('images/services/offshore/category-banner.jpg') }}')">
     </div>
     <div class="container mx-auto px-4 relative z-10 text-center">
         <h1 class="text-4xl md:text-5xl font-bold mb-6 text-white">

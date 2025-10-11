@@ -87,6 +87,7 @@ class OceanographicStudiesController extends Controller
                 'description' => $description,
                 'description_footer' => $description_footer,
                 'image'       => asset($raw['image']),
+                'hero_image'  => isset($raw['hero_image']) ? asset($raw['hero_image']) : asset($raw['image']),
                 'features'    => $features,
                 'feature_descriptions' => $feature_descriptions,
                 'gallery'     => collect($raw['gallery_images'])->map(fn($img) => asset($img))->toArray(),

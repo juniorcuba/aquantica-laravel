@@ -23,7 +23,7 @@
                 'description' => $lang === 'en'
                     ? 'Specialized offshore engineering and maintenance services for oil & gas platforms, wind farms, and underwater structures.'
                     : 'Servicios especializados de ingeniería y mantenimiento costa afuera para plataformas petroleras, parques eólicos y estructuras submarinas.',
-                'image' => '/images/services/offshore/platform-maintenance/gallery/gallery-1.jpg',
+                'image' => 'images/services/offshore/home-preview.jpg',
                 'link'  => $lang === 'en' ? '/offshore-services' : '/servicios-costa-afuera',
                 'tags'  => [
                     __('home.services.tags.platform_maintenance'),
@@ -37,7 +37,7 @@
                 'description' => $lang === 'en'
                     ? 'Comprehensive environmental procedures and compliance solutions for marine projects, including impact assessments, permits, and monitoring services.'
                     : 'Soluciones integrales de procedimientos ambientales y cumplimiento normativo para proyectos marinos, incluyendo evaluaciones de impacto, permisos y servicios de monitoreo.',
-                'image' => 'images/services/environmental-services/category-banner.jpg',
+                'image' => 'images/services/environmental-services/home-preview.jpg',
                 'link'  => $lang === 'en' ? '/environmental-services' : '/tramites-ambientales',
                 'tags'  => [
                     __('home.services.tags.technical_assessment'),
@@ -51,7 +51,7 @@
                 'description' => $lang === 'en'
                     ? 'Specialized marine environment research for safe and efficient development of coastal and offshore projects, including bathymetry, drilling, and hydrodynamic modeling.'
                     : 'Investigaciones especializadas del medio marino para el desarrollo seguro y eficiente de proyectos costeros y offshore, incluyendo batimetrías, sondeos y modelación hidrodinámica.',
-                'image' => 'images/services/oceanographic-studies/category-banner.jpg',
+                'image' => 'images/services/oceanographic-studies/home-preview.png',
                 'link'  => $lang === 'en' ? '/oceanographic-studies' : '/estudios-oceanograficos',
                 'tags'  => [
                     __('home.services.tags.marine_drilling'),
