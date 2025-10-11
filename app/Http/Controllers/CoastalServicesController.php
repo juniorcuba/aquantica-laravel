@@ -87,6 +87,7 @@ class CoastalServicesController extends Controller
                 'description' => $description,
                 'description_footer' => $description_footer,
                 'image'       => $raw['image'],
+                'hero_image'  => $raw['hero_image'] ?? $raw['image'],
                 'features'    => $features,
                 'feature_descriptions' => $feature_descriptions,
                 'gallery'     => $raw['gallery_images'],

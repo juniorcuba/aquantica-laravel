@@ -6,6 +6,7 @@ return [
         'description_key' => 'service_beach_recovery_desc',
         'description_footer_key' => 'service_beach_recovery_footer',
         'image'           => '/images/services/coastal/beach-recovery/main-service.jpg',
+        'hero_image'      => '/images/services/coastal/beach-recovery/hero-image.jpg',
         'gallery_images'  => [
             '/images/services/coastal/beach-recovery/gallery/gallery-1.jpg',
             '/images/services/coastal/beach-recovery/gallery/gallery-2.jpg',
@@ -23,6 +24,7 @@ return [
         'description_key' => 'service_coastal_dunes_desc',
         'description_footer_key' => 'service_coastal_dunes_footer',
         'image'           => '/images/services/coastal/coastal-dunes/main-service.jpg',
+        'hero_image'      => '/images/services/coastal/coastal-dunes/hero-image.jpg',
         'gallery_images'  => [
             '/images/services/coastal/coastal-dunes/gallery/gallery-1.jpg',
             '/images/services/coastal/coastal-dunes/gallery/gallery-2.jpg',
@@ -36,6 +38,7 @@ return [
         'description_key' => 'service_geotubes_desc',
         'description_footer_key' => 'service_geotubes_footer',
         'image'           => '/images/services/coastal/geotubes/main-service.jpg',
+        'hero_image'      => '/images/services/coastal/geotubes/hero-image.jpg',
         'gallery_images'  => [
             '/images/services/coastal/geotubes/gallery/gallery-1.jpg',
             '/images/services/coastal/geotubes/gallery/gallery-2.jpg',
@@ -48,7 +51,8 @@ return [
         'title_key'       => 'service_breakwaters',
         'description_key' => 'service_breakwaters_desc',
         'description_footer_key' => 'service_breakwaters_footer',
-        'image'           => '/images/services/coastal/breakwaters/gallery/gallery-1.jpg',
+        'image'           => '/images/services/coastal/breakwaters/main-service.jpg',
+        'hero_image'      => '/images/services/coastal/breakwaters/hero-image.jpg',
         'gallery_images'  => [
             '/images/services/coastal/breakwaters/gallery/gallery-1.jpg',
             '/images/services/coastal/breakwaters/gallery/gallery-2.jpg',
@@ -64,7 +68,8 @@ return [
         'title_key'       => 'service_retaining_walls',
         'description_key' => 'service_retaining_walls_desc',
         'description_footer_key' => 'service_retaining_walls_footer',
-        'image'           => '/images/services/coastal/retaining-walls/gallery/gallery-1.jpg',
+        'image'           => '/images/services/coastal/retaining-walls/main-service.jpg',
+        'hero_image'      => '/images/services/coastal/retaining-walls/hero-image.jpg',
         'gallery_images'  => [
             '/images/services/coastal/retaining-walls/gallery/gallery-2.jpg',
             '/images/services/coastal/retaining-walls/gallery/gallery-1.jpg',
@@ -77,6 +82,7 @@ return [
         'description_key' => 'service_artificial_reefs_desc',
         'description_footer_key' => 'service_artificial_reefs_footer',
         'image'           => '/images/services/coastal/artificial-reefs/main-service.jpg',
+        'hero_image'      => '/images/services/coastal/artificial-reefs/hero-image.png',
         'gallery_images'  => [
             '/images/services/coastal/artificial-reefs/gallery/gallery-1.jpg',
             '/images/services/coastal/artificial-reefs/gallery/gallery-2.jpg',
@@ -90,6 +96,7 @@ return [
         'description_key' => 'service_docks_desc',
         'description_footer_key' => 'service_docks_footer',
         'image'           => '/images/services/coastal/docks/main-service.jpg',
+        'hero_image'      => '/images/services/coastal/docks/hero-image.jpeg',
         'gallery_images'  => [
             '/images/services/coastal/docks/gallery/gallery-1.jpg',
             '/images/services/coastal/docks/gallery/gallery-2.jpg',
@@ -103,6 +110,7 @@ return [
         'description_key' => 'service_beaconing_desc',
         'description_footer_key' => 'service_beaconing_footer',
         'image'           => '/images/services/coastal/beaconing/main-service.jpg',
+        'hero_image'      => '/images/services/coastal/beaconing/hero-image.jpg',
         'gallery_images'  => [
             '/images/services/coastal/beaconing/gallery/gallery-1.jpg',
             '/images/services/coastal/beaconing/gallery/gallery-2.jpg',
@@ -116,6 +124,7 @@ return [
         'description_key' => 'service_sargassum_management_desc',
         'description_footer_key' => 'service_sargassum_management_footer',
         'image'           => '/images/services/coastal/sargassum-management/main-service.jpg',
+        'hero_image'      => '/images/services/coastal/sargassum-management/hero-image.jpg',
         'gallery_images'  => [
             '/images/services/coastal/sargassum-management/gallery/gallery-1.jpg',
             '/images/services/coastal/sargassum-management/gallery/gallery-2.jpg',
@@ -128,6 +137,7 @@ return [
         'description_key' => 'service_pile_inspection_desc',
         'description_footer_key' => 'service_pile_inspection_footer',
         'image'           => '/images/services/coastal/pile-inspection/main-service.jpg',
+        'hero_image'      => '/images/services/coastal/pile-inspection/hero-image.jpg',
         'gallery_images'  => [
             '/images/services/coastal/pile-inspection/gallery/gallery-1.jpg',
             '/images/services/coastal/pile-inspection/gallery/gallery-2.jpg',
@@ -140,6 +150,7 @@ return [
         'description_key' => 'service_dredging_desc',
         'description_footer_key' => null,
         'image'           => '/images/services/coastal/dredging/main-service.jpg',
+        'hero_image'      => '/images/services/coastal/dredging/hero-image.jpg',
         'gallery_images'  => [
             '/images/services/coastal/dredging/gallery/gallery-1.jpg',
             '/images/services/coastal/dredging/gallery/gallery-2.jpg',
@@ -153,6 +164,7 @@ return [
         'description_key' => 'service_submarine_pipelines_desc',
         'description_footer_key' => null,
         'image'           => '/images/services/coastal/submarine-pipelines/main-service.jpg',
+        'hero_image'      => '/images/services/coastal/submarine-pipelines/hero-image.jpg',
         'gallery_images'  => [
             '/images/services/coastal/submarine-pipelines/gallery/gallery-1.png',
             '/images/services/coastal/submarine-pipelines/gallery/gallery-2.jpg',
@@ -165,6 +177,7 @@ return [
         'description_key' => 'service_submarine_cables_desc',
         'description_footer_key' => 'service_submarine_cables_footer',
         'image'           => '/images/services/coastal/submarine-cable/main-service.jpg',
+        'hero_image'      => '/images/services/coastal/submarine-cable/hero-image.jpg',
         'gallery_images'  => [
             '/images/services/coastal/submarine-cable/gallery/gallery-1.png',
             '/images/services/coastal/submarine-cable/main-service.jpg',
@@ -176,6 +189,7 @@ return [
         'description_key' => 'service_salvage_desc',
         'description_footer_key' => null,
         'image'           => '/images/services/coastal/salvage/main-service.jpg',
+        'hero_image'      => '/images/services/coastal/salvage/hero-image.jpg',
         'gallery_images'  => [
             '/images/services/coastal/salvage/gallery/gallery-1.jpg',
             '/images/services/coastal/salvage/gallery/gallery-2.jpg',
@@ -188,7 +202,8 @@ return [
         'title_key'       => 'service_underwater_welding',
         'description_key' => 'service_underwater_welding_desc',
         'description_footer_key' => null,
-        'image'           => '/images/services/coastal/underwater-welding/gallery/gallery-3.jpg',
+        'image'           => '/images/services/coastal/underwater-welding/main-service.jpg',
+        'hero_image'      => '/images/services/coastal/underwater-welding/hero-image.jpg',
         'gallery_images'  => [
             '/images/services/coastal/underwater-welding/gallery/gallery-1.jpg',
             '/images/services/coastal/underwater-welding/gallery/gallery-2.jpg',
@@ -202,6 +217,7 @@ return [
         'description_key' => 'service_underwater_inspection_desc',
         'description_footer_key' => 'service_underwater_inspection_footer',
         'image'           => '/images/services/coastal/underwater-inspection/main-service.jpg',
+        'hero_image'      => '/images/services/coastal/underwater-inspection/hero-image.jpeg',
         'gallery_images'  => [
             '/images/services/coastal/underwater-inspection/gallery/gallery-1.jpg',
             '/images/services/coastal/underwater-inspection/gallery/gallery-2.jpg',
@@ -214,6 +230,7 @@ return [
         'description_key' => 'service_technical_assessment_desc',
         'description_footer_key' => null,
         'image'           => '/images/services/coastal/technical-assessment/main-service.jpg',
+        'hero_image'      => '/images/services/coastal/technical-assessment/hero-image.jpg',
         'gallery_images'  => [
             '/images/services/coastal/technical-assessment/main-service.jpg',
         ],

@@ -74,6 +74,7 @@ class OffshoreServicesController extends Controller
                 'description'        => $description,
                 'description_footer' => $description_footer,
                 'image'              => $raw['image'],
+                'hero_image'         => $raw['hero_image'] ?? $raw['image'],
                 'prefix'             => $prefix,
                 'features'           => $raw['features'],
                 'gallery'            => $raw['gallery_images'],

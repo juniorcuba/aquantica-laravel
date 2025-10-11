@@ -16,7 +16,8 @@ return [
         'description_key' => 'service_platform_maintenance_desc',
         'description_footer_key' => 'service_platform_maintenance_footer',
         'featured'        => false,
-        'image'           => '/images/services/offshore/platform-maintenance/gallery/gallery-1.jpg',
+        'image'           => '/images/services/offshore/platform-maintenance/main-service.jpg',
+        'hero_image'      => '/images/services/offshore/platform-maintenance/hero-image.jpg',
         'features'        => [
             'Structural protection and coating',
             'Structural maintenance and reinforcement',
@@ -28,7 +29,8 @@ return [
             '/images/services/offshore/platform-maintenance/gallery/gallery-1.jpg',
             '/images/services/offshore/platform-maintenance/gallery/gallery-2.jpg',
             '/images/services/offshore/platform-maintenance/gallery/gallery-3.jpg',
-            '/images/services/offshore/platform-maintenance/main-service.jpg'
+            '/images/services/offshore/platform-maintenance/gallery/gallery-4.png',
+            '/images/services/offshore/platform-maintenance/hero-image.jpg'
         ],
         'stats'           => [
             ['value' => '24/7', 'label_key' => 'stat_operation'],
@@ -42,6 +44,7 @@ return [
         'description_key' => 'service_sacrificial_anodes_desc',
         'description_footer_key' => 'service_sacrificial_anodes_footer',
         'image'           => '/images/services/offshore/sacrificial-anodes/main-service.jpg',
+        'hero_image'      => '/images/services/offshore/sacrificial-anodes/hero-image.jpg',
         'features'        => [
             'Cathodic protection solutions',
             'Zinc anodes for hot water tanks',
@@ -54,9 +57,7 @@ return [
         ],
         'gallery_images'  => [
             '/images/services/offshore/sacrificial-anodes/gallery/gallery-1.jpg',
-            '/images/services/offshore/sacrificial-anodes/gallery/gallery-2.jpg',
-            '/images/services/offshore/sacrificial-anodes/gallery/gallery-3.jpg',
-            '/images/services/offshore/sacrificial-anodes/main-service.jpg',
+            '/images/services/offshore/sacrificial-anodes/hero-image.jpg',
         ],
         'show_features'   => true,
     ],
@@ -66,6 +67,7 @@ return [
         'description_footer_key' => 'service_tanker_cruise_maintenance_footer',
         'featured'        => false,
         'image'           => '/images/services/offshore/tanker-cruise-maintenance/main-service.jpg',
+        'hero_image'      => '/images/services/offshore/tanker-cruise-maintenance/hero-image.jpg',
         'features'        => [
             'Inspección detallada con equipos de última generación y técnicas no destructivas',
             'Inspección del casco y estructuras: evaluación completa del estado del casco, tanques y soldaduras',
@@ -77,7 +79,7 @@ return [
         'gallery_images'  => [
             '/images/services/offshore/tanker-cruise-maintenance/gallery/gallery-1.jpg',
             '/images/services/offshore/tanker-cruise-maintenance/gallery/gallery-2.jpg',
-            '/images/services/offshore/tanker-cruise-maintenance/main-service.jpg',
+            '/images/services/offshore/tanker-cruise-maintenance/hero-image.jpg',
         ],
         'stats'           => [
             ['value' => '24/7', 'label_key' => 'stat_operation'],
