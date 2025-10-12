@@ -219,7 +219,7 @@ return [
         'description_key' => 'service_underwater_inspection_desc',
         'description_footer_key' => 'service_underwater_inspection_footer',
         'image'           => '/images/services/coastal/underwater-inspection/main-service.jpeg',
-        'hero_image'      => '/images/services/coastal/underwater-inspection/hero-image.jpg',
+        'hero_image'      => '/images/services/coastal/underwater-inspection/hero-image.png',
         'gallery_images'  => [
             '/images/services/coastal/underwater-inspection/gallery/gallery-1.jpg',
             '/images/services/coastal/underwater-inspection/gallery/gallery-2.jpg',
@@ -239,7 +239,7 @@ return [
         'hero_image'      => '/images/services/coastal/technical-assessment/hero-image.jpg',
         'gallery_images'  => [
             '/images/services/coastal/technical-assessment/gallery/gallery-1.jpg',
-            '/images/services/coastal/technical-assessment/main-service.jpg',
+            '/images/services/coastal/technical-assessment/hero-image.jpg',
         ],
         'show_features'   => true,
     ],
@@ -247,7 +247,7 @@ return [
         'title_key'       => 'service_sargassum_management',
         'description_key' => 'service_sargassum_management_desc',
         'description_footer_key' => 'service_sargassum_management_footer',
-        'image'           => '/images/services/coastal/sargassum-management/main-service.JPG',
+        'image'           => '/images/services/coastal/sargassum-management/main-service.jpg',
         'hero_image'      => '/images/services/coastal/sargassum-management/hero-image.jpg',
         'gallery_images'  => [
             '/images/services/coastal/sargassum-management/gallery/gallery-1.jpg',
