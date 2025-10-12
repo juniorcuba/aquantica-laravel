@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Read(//c/Users/ernes/Downloads/00. Fotografías Pagina Web/00. Fotografías Pagina Web/Servicios Costeros/**)",
+      "Bash(for dir in public/images/services/coastal/*/gallery)",
+      "Bash(ls:*)",
+      "Bash(done)",
+      "Read(//c/Users/ernes/Downloads/00. Fotografías Pagina Web/00. Fotografías Pagina Web/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

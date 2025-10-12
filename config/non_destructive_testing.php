@@ -15,7 +15,6 @@ return [
             'images/services/non-destructive-testing/atmospheric/gallery/gallery-4.jpg',
             'images/services/non-destructive-testing/atmospheric/gallery/gallery-5.jpg',
             'images/services/non-destructive-testing/atmospheric/gallery/gallery-6.jpg',
-            'images/services/non-destructive-testing/atmospheric/hero-image.jpeg',
         ],
     ],
     [
@@ -30,7 +29,6 @@ return [
             'images/services/non-destructive-testing/submarine/gallery/gallery-2.jpg',
             'images/services/non-destructive-testing/submarine/gallery/gallery-3.jpg',
             'images/services/non-destructive-testing/submarine/gallery/gallery-4.png',
-            'images/services/non-destructive-testing/submarine/hero-image.jpg',
         ],
     ],
 ];

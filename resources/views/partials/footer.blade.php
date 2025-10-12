@@ -77,6 +77,10 @@
                         </a>
                     </li>
                 </ul>
+                <div class="mt-6 pt-4 border-t border-gray-700">
+                    <p class="text-gray-300 font-semibold mb-2">{{ __('footer.main_office') }}</p>
+                    <p class="text-gray-400 text-sm">{{ __('footer.other_offices') }}</p>
+                </div>
             </div>
         </div>
 

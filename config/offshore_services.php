@@ -30,7 +30,6 @@ return [
             '/images/services/offshore/platform-maintenance/gallery/gallery-2.jpg',
             '/images/services/offshore/platform-maintenance/gallery/gallery-3.jpg',
             '/images/services/offshore/platform-maintenance/gallery/gallery-4.png',
-            '/images/services/offshore/platform-maintenance/hero-image.jpg'
         ],
         'stats'           => [
             ['value' => '24/7', 'label_key' => 'stat_operation'],

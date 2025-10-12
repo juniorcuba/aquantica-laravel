@@ -9,6 +9,8 @@ return [
     'projects' => 'Proyectos',
     'contact' => 'Contáctanos',
     'location' => 'Cancún, Quintana Roo, México',
+    'main_office' => 'Sucursal Principal: Cancún',
+    'other_offices' => 'Otras sucursales: Mérida, Yucatán y Ensenada, BC.',
     'email' => 'comercializacion@aquantica.com.mx',
     'phone' => '+52 998 705 8146',
     'rights' => 'Todos los derechos reservados.',
