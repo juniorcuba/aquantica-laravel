@@ -239,7 +239,7 @@ return [
         'hero_image'      => '/images/services/coastal/technical-assessment/hero-image.jpg',
         'gallery_images'  => [
             '/images/services/coastal/technical-assessment/gallery/gallery-1.jpg',
-            '/images/services/coastal/technical-assessment/main-service.jpg',
+            '/images/services/coastal/technical-assessment/hero-image.jpg',
         ],
         'show_features'   => true,
     ],
