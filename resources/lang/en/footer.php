@@ -9,6 +9,8 @@ return [
     'projects' => 'Projects',
     'contact' => 'Contact Us',
     'location' => 'Cancun, Quintana Roo, Mexico',
+    'main_office' => 'Main Office: Cancun',
+    'other_offices' => 'Other Offices: Merida, Yucatan and Ensenada, BC.',
     'email' => 'comercializacion@aquantica.com.mx',
     'phone' => '+52 998 705 8146',
     'rights' => 'All rights reserved.',
