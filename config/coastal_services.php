@@ -151,7 +151,7 @@ return [
             '/images/services/coastal/dredging/gallery/gallery-2.jpg',
             '/images/services/coastal/dredging/gallery/gallery-3.jpg',
             '/images/services/coastal/dredging/gallery/gallery-4.jpg',
-            '/images/services/coastal/dredging/gallery/gallery-5.jpg',
+            '/images/services/coastal/dredging/hero-image.jpg',
         ],
         'show_features'   => true,
     ],
