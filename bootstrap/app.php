@@ -11,7 +11,9 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware) {
-        //
+        // Behind Render's TLS-terminating proxy: trust it so Laravel honours
+        // X-Forwarded-Proto and generates https:// asset/URLs (no mixed content).
+        $middleware->trustProxies(at: '*');
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //
