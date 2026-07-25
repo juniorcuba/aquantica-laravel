@@ -6,7 +6,7 @@
             {{-- Imagen --}}
             <div class="relative h-[400px] md:h-[500px] rounded-lg overflow-hidden">
                 <img
-                    src="https://aquantica.liveblog365.com/public/images/services/coastal/underwater-welding/gallery/gallery-3.jpg"
+                    src="{{ asset('images/services/coastal/underwater-welding/gallery/gallery-3.jpg') }}"
                     alt="Marine Operations in Cancun"
                     class="w-full h-full object-cover rounded-lg"
                 />

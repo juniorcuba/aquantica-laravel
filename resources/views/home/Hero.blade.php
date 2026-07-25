@@ -2,7 +2,7 @@
     x-data="{
         slides: [
             {
-                image: 'https://aquantica.liveblog365.com/public/images/services/coastal/beach-recovery/main-service.jpg',
+                image: '{{ asset('images/services/coastal/beach-recovery/main-service.jpg') }}',
                 position: 'center 30%',
                 title_en: 'Industrial Marine Solutions',
                 title_es: 'Soluciones Marinas Industriales',
@@ -13,7 +13,7 @@
                 cta_link: '{{ __('navigation.coastal_services') }}'
             },
             {
-                image: 'https://aquantica.liveblog365.com/public/images/services/offshore/platform-maintenance/gallery/gallery-1.jpg',
+                image: '{{ asset('images/services/offshore/platform-maintenance/gallery/gallery-1.jpg') }}',
                 position: 'center center',
                 title_en: 'Deep Sea Operations',
                 title_es: 'Operaciones en Alta Mar',
@@ -24,7 +24,7 @@
                 cta_link: '{{ __('navigation.offshore_services') }}'
             },
             {
-                image: 'https://aquantica.liveblog365.com/public/images/services/offshore/platform-maintenance/gallery/gallery-3.jpg',
+                image: '{{ asset('images/services/offshore/platform-maintenance/gallery/gallery-3.jpg') }}',
                 position: 'center center',
                 title_en: 'Port & Oilfield Support',
                 title_es: 'Soporte Portuario y Petrolero',
