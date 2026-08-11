@@ -12,7 +12,7 @@
                     >
                 </a>
                 <p class="text-gray-300 md:mb-4">
-                    {{ Str::limit(__('footer.about'), 120, '...') }}
+                    {{ __('footer.about') }}
                 </p>
             </div>
 
