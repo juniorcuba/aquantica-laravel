@@ -15,24 +15,24 @@
             {
                 image: '{{ asset('images/services/offshore/platform-maintenance/gallery/gallery-1.jpg') }}',
                 position: 'center center',
-                title_en: 'Deep Sea Operations',
-                title_es: 'Operaciones en Alta Mar',
-                subtitle_en: 'Delivering precision and safety in underwater engineering projects.',
-                subtitle_es: 'Precisión y seguridad en proyectos de ingeniería submarina.',
-                cta_en: 'Learn More',
-                cta_es: 'Aprende Más',
-                cta_link: '{{ __('navigation.offshore_services') }}'
+                title_en: 'Industrial Marine Solutions',
+                title_es: 'Soluciones Marinas Industriales',
+                subtitle_en: 'Expert commercial diving and maritime engineering for marine, port, oil and scientific sectors',
+                subtitle_es: 'Buceo comercial experto e ingeniería marítima para sectores marino, portuario, petrolero y científico',
+                cta_en: 'Discover Our Services',
+                cta_es: 'Descubrir Nuestros Servicios',
+                cta_link: '{{ __('navigation.coastal_services') }}'
             },
             {
                 image: '{{ asset('images/services/offshore/platform-maintenance/gallery/gallery-3.jpg') }}',
                 position: 'center center',
-                title_en: 'Port & Oilfield Support',
-                title_es: 'Soporte Portuario y Petrolero',
-                subtitle_en: 'Comprehensive support for oilfield, scientific, and port operations.',
-                subtitle_es: 'Soporte integral para operaciones científicas, petroleras y portuarias.',
-                cta_en: 'Our Expertise',
-                cta_es: 'Nuestra Experiencia',
-                cta_link: '{{ __('navigation.contact') }}'
+                title_en: 'Industrial Marine Solutions',
+                title_es: 'Soluciones Marinas Industriales',
+                subtitle_en: 'Expert commercial diving and maritime engineering for marine, port, oil and scientific sectors',
+                subtitle_es: 'Buceo comercial experto e ingeniería marítima para sectores marino, portuario, petrolero y científico',
+                cta_en: 'Discover Our Services',
+                cta_es: 'Descubrir Nuestros Servicios',
+                cta_link: '{{ __('navigation.coastal_services') }}'
             }
         ],
         currentSlide: 0,
