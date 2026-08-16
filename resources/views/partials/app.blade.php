@@ -33,6 +33,7 @@
         $seoUrl   = url()->current();
         $seoRobots = ($page['noindex'] ?? false) ? 'noindex, follow' : 'index, follow, max-image-preview:large, max-snippet:-1';
         $ogLocale = app()->getLocale() === 'en' ? 'en_US' : 'es_MX';
+        $isDefaultOg = $seoImg === url($seoCfg['og_image']); // solo la de marca es 1200x630
     @endphp
 
     <title>{{ $seoTitle }}</title>
@@ -48,8 +49,10 @@
     <meta property="og:description" content="{{ $seoDesc }}">
     <meta property="og:url" content="{{ $seoUrl }}">
     <meta property="og:image" content="{{ $seoImg }}">
+    @if($isDefaultOg)
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
+    @endif
 
     {{-- Twitter Card --}}
     <meta name="twitter:card" content="summary_large_image">

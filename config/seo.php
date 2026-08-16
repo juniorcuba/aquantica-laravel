@@ -2,11 +2,11 @@
 
 /*
 |--------------------------------------------------------------------------
-| SEO por página (title + meta description), por nombre de ruta.
+| SEO por página (title + meta description + og_image), por nombre de ruta.
 |--------------------------------------------------------------------------
 | El nombre de ruta ya indica el idioma (ej. *.es / *.en), así que cada
 | entrada lleva su texto en el idioma correcto. Las páginas de detalle de
-| servicio no están acá: toman su meta del propio servicio ($service).
+| servicio no están acá: toman su meta (y su imagen) del propio $service.
 */
 
 return [
@@ -42,50 +42,60 @@ return [
         'coastal.services.es' => [
             'title'       => 'Servicios Costeros e Ingeniería Marítima | Aquantica Cancún',
             'description' => 'Muelles, espigones, rompeolas, recuperación de playas, arrecifes artificiales y más. Servicios costeros e ingeniería marítima en Cancún y el Caribe.',
+            'og_image'    => '/images/services/coastal/category-banner.jpg',
         ],
         'coastal.services.en' => [
             'title'       => 'Coastal Services & Maritime Engineering | Aquantica Cancun',
             'description' => 'Docks, breakwaters, groins, beach recovery, artificial reefs and more. Coastal services and maritime engineering in Cancun and the Caribbean.',
+            'og_image'    => '/images/services/coastal/category-banner.jpg',
         ],
 
         // --- Costa afuera / Offshore ---
         'offshore.services.es' => [
             'title'       => 'Servicios Costa Afuera (Offshore) | Aquantica Cancún',
             'description' => 'Mantenimiento de plataformas, inspección submarina, ánodos de sacrificio e ingeniería offshore para el sector petrolero y portuario en México.',
+            'og_image'    => '/images/services/offshore/category-banner.jpg',
         ],
         'offshore.services.en' => [
             'title'       => 'Offshore Services | Aquantica Cancun',
             'description' => 'Platform maintenance, underwater inspection, sacrificial anodes and offshore engineering for the oil and port sectors in Mexico.',
+            'og_image'    => '/images/services/offshore/category-banner.jpg',
         ],
 
         // --- Trámites ambientales / Environmental ---
         'environmental.services.es' => [
             'title'       => 'Trámites Ambientales y Proyectos Ejecutivos | Aquantica',
             'description' => 'Documentación técnica, proyectos ejecutivos y trámites ambientales para obras marinas y costeras, con cumplimiento normativo en cada fase.',
+            'og_image'    => '/images/services/environmental-services/category-banner.jpg',
         ],
         'environmental.services.en' => [
             'title'       => 'Environmental Services & Executive Projects | Aquantica',
             'description' => 'Technical documentation, executive projects and environmental permits for marine and coastal works, with regulatory compliance at every stage.',
+            'og_image'    => '/images/services/environmental-services/category-banner.jpg',
         ],
 
         // --- Estudios oceanográficos ---
         'oceanographic.studies.es' => [
             'title'       => 'Estudios Oceanográficos | Aquantica Cancún',
             'description' => 'Batimetría, modelado hidrodinámico, ingeniería costera y perforación mecánica. Estudios oceanográficos para proyectos marinos en el Caribe mexicano.',
+            'og_image'    => '/images/services/oceanographic-studies/category-banner.png',
         ],
         'oceanographic.studies.en' => [
             'title'       => 'Oceanographic Studies | Aquantica Cancun',
             'description' => 'Bathymetry, hydrodynamic modeling, coastal engineering and mechanical drilling. Oceanographic studies for marine projects in the Mexican Caribbean.',
+            'og_image'    => '/images/services/oceanographic-studies/category-banner.png',
         ],
 
         // --- Pruebas no destructivas / NDT ---
         'non_destructive_testing.index.es' => [
             'title'       => 'Pruebas No Destructivas (PND) Submarinas | Aquantica',
             'description' => 'Inspección y pruebas no destructivas submarinas y atmosféricas para estructuras marinas y portuarias. Diagnóstico confiable sin dañar la estructura.',
+            'og_image'    => '/images/services/non-destructive-testing/category-banner.png',
         ],
         'non_destructive_testing.index.en' => [
             'title'       => 'Non-Destructive Testing (NDT) | Aquantica',
             'description' => 'Underwater and atmospheric non-destructive testing for marine and port structures. Reliable diagnostics without damaging the structure.',
+            'og_image'    => '/images/services/non-destructive-testing/category-banner.png',
         ],
 
         // --- Legales (indexables, baja prioridad) ---
